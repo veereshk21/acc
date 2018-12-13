@@ -1,0 +1,13 @@
+{
+  "html": {
+    "DT_OD_PAST_DUE_BALANCE_TITLE": "You have a past due balance of $%pastDuePrice% on your account."
+  },
+  "label": {
+    "DT_OD_PAST_DUE_BALANCE_TEXT_ONE": "Your past due balance must be paid first to continue with your transaction.",
+    "DT_OD_PAST_DUE_BALANCE_TEXT_SECOND": "Please click on Pay Balance at My Verizon to pay your past due balance. Once paid, you can continue with your transaction.",
+    "DT_OD_PAST_DUE_BALANCE_TEXT_THIRED": "",
+    "DT_OD_PAST_DUE_BALANCE_CANCEL_CTA": "Return to My Verizon",
+    "DT_OD_PAST_DUE_BALANCE_PROCEED_CTA": "Pay Balance at My Verizon"
+  },
+  "error": {}
+}

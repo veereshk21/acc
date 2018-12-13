@@ -1,0 +1,9 @@
+
+  .feedBackContainer{
+    max-width: 330px;
+  }
+
+  .feedBackContainer span{
+     width:20%;
+      margin: 0 !important;
+  }

@@ -1,0 +1,12 @@
+.plan-size i {
+       position: absolute;
+    top: 64px;
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    background-position: 100% 3px;
+    background-size: auto 140%;
+    background-repeat: no-repeat;
+    content: '';
+    vertical-align: bottom;
+}

@@ -1,0 +1,145 @@
+.progressBar {
+    height: 14px;
+    border-radius: 10px 10px 10px 10px;
+ }
+.addALineCard {
+   border:3px solid #CCC;
+   line-height: 2.0em;
+    height: 110px;
+    width: 60px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.hei310{
+  min-height: 310px;
+}
+
+.gridTiles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: center;
+}
+.gridTile{
+  padding: 1% 0 0 0;
+  flex: 0 1 50%;
+  position: relative;
+  min-height: 300px;
+  justify-content: center;
+}
+
+.gridTile_title{
+  display: flex;
+  padding: 10% 1% 0;
+  flex : 1 98%;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40px;
+}
+.gridTile_price{
+  flex-basis: auto;
+  justify-content: center;
+  padding: 3%;
+  flex: 1 98%;
+}
+.gridTile_promo{
+  flex : 0 100%;
+  align-items: flex-end;
+  justify-content: center;
+}
+.gridTile_image{
+  display: flex;
+  margin: 3% 0;
+  flex : 1 98%;
+  justify-content: center;
+  align-items: flex-start;
+  height: 150px;
+  position: relative;
+}
+.gridTile_image img{
+  height: 130px;
+}
+.gridTile_link{
+  display: flex;
+  margin-bottom: 2%;
+  justify-content: center;
+  align-items: flex-end;
+}
+.tile_addAline{
+    width: 65px;
+    height: 135px;  
+    background: #f5f5f6;
+    border: 2px solid #e6e7e5;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tile_addAline_inner {
+  border: 1px solid #e6e7e5;
+  background: #fff;
+  width: 53px;
+  height: 110px;
+  border-radius: 3px;
+  margin: 0 auto;
+   
+    vertical-align: middle;
+}
+.tile_addAlineplus{
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2%;
+}
+.tile_addAlineplus::before{
+    content: '+';
+    /* color: #cf0d13; */
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.flexContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: center;
+  
+}
+.flexItem{
+  padding: 1% 0 0 0;
+  flex: 0 1 50%;
+  justify-content: center;
+  align-self: flex-end;
+}
+.flexItem_button{
+  padding: 10%;
+  justify-content: center;
+  width: 100%;
+}
+.flexItem_Image{
+  padding: 5%;
+  justify-content: flex-end;
+  width: 100%;
+  height: 160px;
+}
+.flexItem_subTitle{
+  padding: 2%;
+  justify-content: center;
+  width: 100%;
+}
+.flexItem_Title{
+  padding: 2%;
+  font-weight: bold;
+  width: 100%;
+}
+.flex-end{
+  padding: 10% 0;
+}
+

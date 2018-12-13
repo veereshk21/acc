@@ -1,0 +1,47 @@
+{
+  "html": {
+  },
+  "label": {
+    "OD_ACCPDP_SPECS_TITLE":"Here's a look at the specs",
+    "OD_ACCPDP_NEXT_BUTTON_TEXT": "Select",
+    "OD_ACCPDP_BACK_BUTTON_TEXT": "Back",
+    "OD_ACCPDP_PRICE_FROM_TEXT": "From",
+    "OD_ACCPDP_DETAIL_SPECS_TITLE_TEXT": "Here's some more technical detail",
+    "OD_ACCPDP_DETAIL_REVIEWS_TITLE_TEXT": "most helpful reviews",
+    "OD_ACCPDP_PRICE_MODAL_TITLE_TEXT": "How would you like to view prices?",
+    "OD_ACCPDP_PRICE_MODAL_BUTTON_TEXT": "Done",
+    "OD_ACCPDP_RATINGS_TITLE": "The ratings are in.",
+    "OD_ACCPDP_RATINS_RECOMMEND_DEVICE_TITLE": "% of users recommend the device",
+    "OD_ACCPDP_RATINGS_OVER_ALL_RATINGS_REVIEWS_TEXT": "Overall Rating",
+    "OD_ACCPDP_RATINGS_VIEW_TEXT": "Views",
+    "OD_ACCPDP_REVIEWS_READ_MORE_TEXT": "Read more",
+    "OD_ACCPDP_SHIPS_BY_MODAL_TITLE_TEXT": "Estimated to ship on",
+    "OD_ACCPDP_SHIPS_BY_MODAL_ITEM_AVAILABILITY_TEXT": "Item availability",
+    "OD_ACCPDP_SHIPS_BY_MODAL_SHIPPING_DATE_TEXT": "Shipping date",
+    "OD_ACCPDP_SHIPS_BY_MODAL_PAYMENT_TEXT": "Payment",
+    "OD_ACCPDP_SPECS_SEE_DETAILED_SPECS_TEXT": "See Detailed specs",
+    "OD_ACCPDP_SHIP_BY_MODAL_TITLE1_TEXT": "Item availability",
+    "OD_ACCPDP_SHIP_BY_MODAL_DESCRIPTION1_TEXT": "This item is currently out of stock, but if you place your order we will ship it as we have more.",
+    "OD_ACCPDP_SHIP_BY_MODAL_TITLE2_TEXT": "Shipping date",
+    "OD_ACCPDP_SHIP_BY_MODAL_DESCRIPTION2_TEXT": "Our shipping dates are just estimates, but we'll be sure to email you when your order is on the way",
+    "OD_ACCPDP_SHIP_BY_MODAL_TITLE3_TEXT": "Payment",
+    "OD_ACCPDP_SHIP_BY_MODAL_DESCRIPTION3_TEXT": "Don't worry.you won't be charged until your order ships.",
+    "OD_ACCPDP_DOWN_PAYMENT_LINK": "Why a down payment?",
+    "OD_ACCPDP_DOWN_PAYMENT_MODAL_TITLE": "Make a down payment and you'll be all set",
+    "OD_ACCPDP_SPLASH_SCREEN_TITLE": "Upgrade right here, right now.",
+    "OD_ACCPDP_SPLASH_SCREEN_IMG_URL": "https://testman.verizonwireless.com/onedigital/build/images/get-started-w80.png",
+    "OD_ACCPDP_SPLASH_SCREEN_DESCRIPTION": "Trade in a device for up to $200,customize a new one, and we'll help you transfer what's important.",
+    "OD_ACCPDP_SPLASH_SCREEN_BUTTON_CTA": "Let's go",
+    "OD_ACCPDP_CURRENTLY_UNAVAILABLE_TEXT": "Currently Unavailable",
+    "OD_ACCPDP_ANNUAL_UPGRADE_WARNING_TITLE": "Your new device is not eligible for annual upgrade.",
+    "OD_ACCPDP_ANNUAL_UPGRADE_WARNING_SUBTITLE": "You may still upgrade to this device, but you will no longer have the benefits of the annual upgrade program.",
+    "OD_ACCPDP_ANNUAL_UPGRADE_WARNING_ACCEPT_CTA": "Cancel",
+
+    "OD_ACCPDP_COLOR_TITLE": "Perfect. Now pick a color.",
+    "OD_ACCPDP_OPTIONS_PRICE_TEXT": "Retail price",
+    "OD_ACCPDP_SIZE_TITLE":"Looks good. Pick a Size."
+
+  },
+  "error": {
+  }
+}

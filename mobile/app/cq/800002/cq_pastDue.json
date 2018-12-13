@@ -1,0 +1,18 @@
+{
+  "html": {
+    "OD_PAST_DUE_BALANCE_TITLE_1": "You have a past due balance of $%pastDuePrice% on your account.",
+    "OD_PAST_DUE_BALANCE_TITLE_2": "Your Payment is still processing."
+  },
+  "label": {
+    "OD_PAST_DUE_BALANCE_TEXT_ONE_1": "Your past due balance must be paid first in order to continue with your transaction. Please click on 'Pay now' to pay your past due balance. Once paid, you can continue with this transaction.",
+    "OD_PAST_DUE_BALANCE_TEXT_ONE_2": "Your recent payment has not yet been posted to your account. Please try again later.",
+    "OD_PAST_DUE_BALANCE_TEXT_SECOND": "",
+    "OD_PAST_DUE_BALANCE_TEXT_THIRED": "",
+    "OD_PAST_DUE_BALANCE_CANCEL_CTA": "No, thanks",
+    "OD_PAST_DUE_BALANCE_PROCEED_CTA_1": "Pay now",
+    "OD_PAST_DUE_BALANCE_PROCEED_CTA_2": "Go to My Verizon"
+  },
+  "error": {
+
+  }
+}

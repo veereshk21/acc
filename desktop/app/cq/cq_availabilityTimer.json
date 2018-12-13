@@ -1,0 +1,13 @@
+{
+  "html": {
+    "DT_OD_PREORDER_BLOCK_CHECKOUT_DISABLED": "The $DEVICE_NAME$ will be available in:",
+    "DT_OD_PREORDER_BLOCK_CHECKOUT_ENABLED":"The $DEVICE_NAME$ is now available"
+  },
+  "label": {
+    "DT_OD_PREORDER_BLOCK_BACK": "Back to cart",
+    "DT_OD_PREORDER_BLOCK_CHECKOUT":"Checkout"
+  },
+  "error": {
+    "SPINNER_ERROR_MSG": "Your request could not be processed at this time. Please try again later."
+  }
+}

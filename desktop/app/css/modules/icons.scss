@@ -1,0 +1,217 @@
+/** PLEASE READ!!!!
+  * This is for icons only - styles not related to icons do not belong here
+  * Please check the icons below to see if what you need already exists
+    before adding a new one!
+  * Organize styles alphabetically
+  * Keep font and sprite styles separate in their own sections
+  * Format both font and sprite icons like this:
+        font-icon_elementName
+		sprite-icon_elementName
+**/
+
+[class*="font-icon"],
+[class*="sprite-icon"] {
+  display: inline-block;
+  color: inherit;
+}
+
+/**************************************************
+             	 Font Icons
+**************************************************/
+
+[class*="font-icon"] {
+  font-family: 'vzwIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a[class*="font-icon"]:hover {
+  text-decoration: none;
+}
+
+/************************************************
+			Reference icons code from omni_static
+			and add icons that you need
+*************************************************/
+
+.font-icon_arrowDown:before,
+.font-icon_arrowUp:before {
+  content: "\e602";
+}
+
+.font-icon_arrowUp {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+
+.font-icon_star:before {
+  content: "\e075";
+}
+
+.font-icon_cart:before {
+  content: "\e93a";
+  color: #cd040b;
+  font-size: 1.8rem;
+  margin: 0 10px;
+}
+
+.font-icon_cart-v2:before {
+  content: "\e917";
+  /* Cart icon from current mobile vzw as of Feb 2017 */
+  color: #999;
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin-right: 10px;
+}
+
+.font-icon_cart span {
+  background-color: #cd040b;
+  border: 1px solid #cd040b;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  color: #fff;
+  height: 14px;
+  line-height: 12px;
+  min-width: 14px;
+  padding: 0 3px;
+  position: absolute;
+  right: 3px;
+  text-align: center;
+  top: -11px;
+  font-size: 9px;
+}
+
+.font-icon_menu:before {
+  content: "\e9bd";
+  color: #cd040b;
+  font-size: 2rem;
+}
+
+.f-icon_sad {
+  width: 48px;
+  height: 48px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPiAgICAgICAgPHRpdGxlPjA4RjkyRDI4LTgzNUYtNDNDMC1CQkVGLUQxQkJGODAwRkQ3MjwvdGl0bGU+ICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBza2V0Y2h0b29sLjwvZGVzYz4gICAgPGRlZnM+ICAgICAgICA8cG9seWdvbiBpZD0icGF0aC0xIiBwb2ludHM9IjAgNTExLjQ4OCA1MTIgNTExLjQ4OCA1MTIgMCAwIDAiPjwvcG9seWdvbj4gICAgPC9kZWZzPiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4gICAgICAgIDxnIGlkPSI1MTJweF9VaV9FcnJvciI+ICAgICAgICAgICAgPGc+ICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIj4gICAgICAgICAgICAgICAgICAgIDxtYXNrIGlkPSJtYXNrLTIiIGZpbGw9IndoaXRlIj4gICAgICAgICAgICAgICAgICAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNwYXRoLTEiPjwvdXNlPiAgICAgICAgICAgICAgICAgICAgPC9tYXNrPiAgICAgICAgICAgICAgICAgICAgPGcgaWQ9IkNsaXAtMiI+PC9nPiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTUxMiwyNTYgQzUxMiwzOTcuMzg4OCAzOTcuMzg4OCw1MTIgMjU2LDUxMiBDMTE0LjYxOTczMyw1MTIgMCwzOTcuMzg4OCAwLDI1NiBDMCwxMTQuNjE5NzMzIDExNC42MTk3MzMsMCAyNTYsMCBDMzk3LjM4ODgsMCA1MTIsMTE0LjYxOTczMyA1MTIsMjU2IiBpZD0iRmlsbC0xIiBmaWxsPSIjRkJEMzYyIiBtYXNrPSJ1cmwoI21hc2stMikiPjwvcGF0aD4gICAgICAgICAgICAgICAgPC9nPiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNNDE1LjMzNDQsMzYwLjUyNDggQzQxMS4xNjE2LDM1Mi4wODUzMzMgNDAwLjkxMzA2NywzNDguNjI5MzMzIDM5Mi40NzM2LDM1Mi43OTM2IEwzOTEuMjQ0OCwzNTMuMzk5NDY3IEwzOTAuMzA2MTMzLDM1MS43NTI1MzMgQzM2My4xOTU3MzMsMzA0LjM0MTMzMyAzMTEuNzM5NzMzLDI3NC44OTI4IDI1Ni4wMzQxMzMsMjc0Ljg5MjggQzIwMC4zMzcwNjcsMjc0Ljg5MjggMTQ4Ljg4MTA2NywzMDQuMzQxMzMzIDEyMS43NjIxMzMsMzUxLjc1MjUzMyBMMTIwLjgwNjQsMzUzLjQyNTA2NyBMMTE5LjUzNDkzMywzNTIuNzkzNiBDMTExLjA4NjkzMywzNDguNjAzNzMzIDEwMC44NTU0NjcsMzUyLjA2ODI2NyA5Ni42NjU2LDM2MC41MDc3MzMgQzkyLjQ4NDI2NjcsMzY4Ljk1NTczMyA5NS45NDAyNjY3LDM3OS4yMDQyNjcgMTA0LjM4ODI2NywzODMuMzc3MDY3IEwxMzYuNTQxODY3LDM5OS4yOTE3MzMgQzEzOC45NzM4NjcsNDAwLjUwMzQ2NyAxNDEuNTUwOTMzLDQwMS4wNjY2NjcgMTQ0LjEwMjQsNDAxLjA2NjY2NyBDMTUwLjM4MjkzMyw0MDEuMDY2NjY3IDE1Ni40MjQ1MzMsMzk3LjU4NTA2NyAxNTkuNDExMiwzOTEuNTc3NiBDMTYzLjU4NCwzODMuMTI5NiAxNjAuMTM2NTMzLDM3Mi44ODEwNjcgMTUxLjY4LDM2OC43MDgyNjcgTDE1MS40NjY2NjcsMzY4LjU5NzMzMyBDMTcyLjUyNjkzMywzMzEuODUyOCAyMTIuNTkwOTMzLDMwOS4wMjYxMzMgMjU2LjAzNDEzMywzMDkuMDI2MTMzIEMyOTkuNDc3MzMzLDMwOS4wMjYxMzMgMzM5LjUxNTczMywzMzEuODM1NzMzIDM2MC41OTMwNjcsMzY4LjU2MzIgTDM2MC4zMTE0NjcsMzY4LjY5OTczMyBDMzUxLjg2MzQ2NywzNzIuODgxMDY3IDM0OC40MDc0NjcsMzgzLjEyMTA2NyAzNTIuNTgwMjY3LDM5MS41NjkwNjcgQzM1NS41NTg0LDM5Ny41ODUwNjcgMzYxLjYsNDAxLjA2NjY2NyAzNjcuODg5MDY3LDQwMS4wNjY2NjcgQzM3MC40MzIsNDAxLjA2NjY2NyAzNzMuMDE3Niw0MDAuNTAzNDY3IDM3NS40NDk2LDM5OS4zMDAyNjcgTDQwNy42MDMyLDM4My4zOTQxMzMgQzQxNi4wNTEyLDM3OS4yMDQyNjcgNDE5LjUxNTczMywzNjguOTcyOCA0MTUuMzM0NCwzNjAuNTI0OCIgaWQ9IkZpbGwtNCIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPiAgICAgICAgICAgIDwvZz4gICAgICAgIDwvZz4gICAgPC9nPjwvc3ZnPg==);
+  display: inline-block;
+  background-size: 48px 48px;
+  margin: 0 auto;
+}
+
+.font-icon_error:before {
+  content: "\e901";
+  color: #cd040b;
+  font-size: 4.8rem;
+  margin: 10px;
+}
+
+.font-icon_plus:before {
+  content: '+';
+}
+
+.font-icon_plus:focus::before {
+  outline: #000 dashed 1px;
+}
+
+.font-icon_minus:before {
+  content: '-';
+}
+
+.font-icon_minus:focus::before {
+  outline: #000 dashed 1px;
+}
+
+.promo_icon_triangle {
+  width: 0;
+  height: 0;
+  background: none;
+  border-width: 18px;
+  border-style: solid;
+  border-bottom-color: #cd040b;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: #cd040b;
+  color: #fff;
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.promo_icon_triangle::after {
+  content: "\2605";
+  position: relative;
+  top: -6px;
+}
+
+.icon_norton {
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.icon_norton img,
+.icon_norton svg {
+  width: 80px;
+  height: 40px;
+}
+
+.font-icon_tag:before {
+  content: '\e0a0';
+  position: absolute;
+  left: 6px;
+  top: 2px;
+}
+
+.font-icon_info:before {
+  content: '\e02d';
+  position: absolute;
+  color: #ED7000;
+  font-size: 30px;
+  font-size: 3rem;
+  left: 0px;
+  top: 3px;
+}
+
+.font-icon_tooltip:before {
+  content: "\e0b5";
+  /*position: absolute;*/
+  color: #959595;
+}
+
+.font-icon_right_arrow:before {
+  content: "\e918";
+}
+
+.font-icon_trade:before {
+  content: "\e907";
+  position: absolute;
+}
+
+.font-icon_truck:before {
+  content: "\e058";
+  position: absolute;
+}
+
+.font-icon_package:before {
+  content: "\e042";
+  position: absolute;
+}
+
+.font-icon_print:before {
+  content: "\e044";
+  position: absolute;
+}
+.font-icon_alert:before {
+  content: "\e901";
+  position: absolute;
+}
+

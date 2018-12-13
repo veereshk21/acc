@@ -1,0 +1,13 @@
+{
+  "html": {},
+  "label": {
+    "DT_OD_RECO_ACCESSORY_GW_TITLE_TEXT": "Adding any accessories with your ",
+    "DT_OD_ACCESSORIES_PAGE_DESC_PREFIX_TEXT": "Here's what's popular for the",
+    "DT_OD_RECO_ACCESSORY_GW_ADD_TO_CART_CTA": "Add to cart",
+    "DT_OD_RECO_ACCESSORY_GW_CUSTOMIZE_CTA": "Customize",
+    "DT_OD_RECO_ACCESSORY_GW_NEXT_CTA": "Continue",
+    "DT_OD_RECO_ACCESSORY_GW_NO_THANKS_CTA": "No thanks",
+    "DT_OD_ACCESSORIES_CHOOSE_SIZE_CTA_TEXT": "Choose Size"
+  },
+  "DT_OD_CONFIRMATION_ORDER_TEXT": "Order #"
+}

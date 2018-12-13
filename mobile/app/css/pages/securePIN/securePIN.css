@@ -1,0 +1,38 @@
+/**
+ * Flex box layout
+ * we'll probably want this in layout.css
+ **/
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center-v {
+  justify-content: center;
+}
+
+.flex-center-h {
+  align-items: center;
+}
+
+.flex-content-100 {
+  flex: 1;
+}
+
+.flex-content-90 {
+  flex: .90;
+}
+
+.flex-bottom {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-fixed {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 16px;
+}

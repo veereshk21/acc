@@ -1,0 +1,24 @@
+{
+  "html": {
+    
+  },
+  "label": {
+    "OD_GW_BUTTON_TEXT": "view",
+    "OD_GW_PRICE_MODAL_TITLE": "How would you like to view prices?",
+    "OD_GW_PRICE_MODAL_BUTTON_TEXT": "Done",
+    "OD_GW_BACK_TEXT": "Back",
+    "OD_GW_ACCESSORY_DEVICE": "Find the perfect accessory for your device",
+    "OD_CHOOSE_DEVICE": "Which device are you shopping for today?",
+    "OD_CHOOSE_DEVICEL_BUTTON_DEVICE": "Different device",
+    "OD_CHOOSE_DEVICE_BUTTON_SELECT": "Select",
+    "OD_CHOOSE_BRAND_MODEL": "Which brand and model are you shopping for?",
+    "OD_GW_NEXT_TEXT": "Next",
+    "OD_NO_PRODUCTS": "Looks like no products match your search.",
+    "OD_TRY_DIFFERENT_DEVICE": "Try selecting a different device.",
+    "OD_CHOOSE_BRAND_TXT": "Choose a brand",
+    "OD_CHOOSE_DEVICE_TXT": "Choose a device"
+  },
+  "error": {
+    
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "html": {
+    "DT_OD_NS_GLOBAL_READY": "This device has limited roaming capability. We recommend purchasing a <a  class='bold textDecUnderline' href='https://www.verizonwireless.com/devices/global-ready/'>global ready device</a> if you plan to travel internationally.",
+    "DT_OD_NS_NO_LIMIT": "All of your compatible devices have reached their sharing limit. To share this device with one of your lines at a later times, visit <a  class='bold textDecUnderline' href='https://www.verizonwireless.com/ui/acct/secure/numbershare#/'> My Verizon</a>",
+    "DT_OD_NS_OWN_NO_CONFIRMED": "This device will have its own number. To share it on another line, at a later time, visit <a  class='bold textDecUnderline color_FFF' href='https://myvpostpay.verizonwireless.com/ui/acct/secure/numbershare#/'> My Verizon</a>"
+
+  },
+  "label": {
+    "DT_OD_NS_SELECT_LINE_CTA":"Select this line",
+    "DT_OD_NS_LINE_CHOOSE":"Which line would you like to NumberShare with?",
+    "DT_OD_NS_DESCRIPTION":"NumberShare is a service that lets you use your mobile number on up to 5 connected devices. Send and receive calls and messages on whatever device is at hand, even if you're away from your phone.",
+    "DT_OD_NS_LINE_ACCESS": "Line access fee:",
+    "DT_OD_NS_COMPATIBLE": "This device can share a number with another compatible device on your account.",
+    "DT_OD_NS_CHOOSE_NO_TITLE": "Choose a number to share",
+    "DT_OD_NS_SHARE_EXISTING": "I want this device to share one of my numbers.",
+    "DT_OD_NS_OWN_NUMBER": "I want this device to have its own number",
+    "DT_OD_NS_PROMPT_NEXT_CTA": "Continue",
+    "DT_OD_NS_OWN_NO_TITLE": "Give this device its own number",
+    "DT_OD_NS_OWN_NO_DESC": "This device can use its own phone number or continue to use an existing number if you're upgrading.",
+    "DT_OD_NS_OWN_NO_ACCEPT": "Continue",
+    "DT_OD_NS_OWN_NO_DECLINE": "Go back &amp; share a number",
+    "DT_OD_ENE_ZIPCODE": "ZIP code*",
+    "DT_OD_ENE_STATE": "State*",
+    "DT_OD_ENE_STATE_OPTION": "State",
+    "DT_OD_ENE_CITY": "City*",
+    "DT_OD_ENE_ADDRESS2": "Address 2",
+    "DT_OD_ENE_ADDRESS1": "Address 1*",
+    "DT_OD_ENE_NEXT_BTN": "Next",
+    "DT_OD_ENE_PAGE_SUB_TITLE": "This allows response teams to quickly and accurately locate you in the event of an emergency.",
+    "DT_OD_ENE_PAGE_TITLE": "Add your emergency 911 address.",
+    "DT_OD_ENE_PAGE_UPDATE_TITLE": "Update your emergency 911 address.",
+    "DT_OD_ENE_INVALID": "Please add your emergency 911 address.",
+    "DT_OD_ENE_FIELD_REQUIRED": "*Required fields",
+    "DT_OD_ENE_FIELD_CHANGE_LINK": "Change",
+    "DT_OD_NUMBER_SHARE_EXTENSION_LBL": "Number Share Extension",
+    "DT_OD_NUMBER_SHARE_EXTENSION_LBL_EXCEEDED": "This device has reached its number share limit",
+    "DT_OD_ENABLE_VOLTE": "Enable Volte on this device to use NumberShare",
+    "DT_OD_ENE_ALTERNATIVE_ADDRESS_HEADER": "Your E911 address needs to be updated.",
+    "DT_OD_ENE_ALTERNATIVE_ADDRESS_CUST": "Emergency 911 address",
+    "DT_OD_ENE_ALTERNATIVE_ADDRESS_LIST": "Verify your address for Emergency 911 response by selecting the best match below.",
+    "DT_OD_ENE_CONTINUE_CTA": "Continue",
+    "DT_OD_ENE_UPDATE_CTA": "Update"
+  },
+  "error": {
+    "DT_OD_ENE_FIELD_REQUIRED_TEXT": "Required",
+    "DT_OD_ENE_ERROR_FIRSTNAME": "Please enter a valid first name.",
+    "DT_OD_ENE_ERROR_LASTNAME": "Please enter a valid last name.",
+    "DT_OD_ENE_ERROR_ADDRESS1": "Please enter a valid address.",
+    "DT_OD_ENE_ERROR_CITY": "Please enter a valid city.",
+    "DT_OD_ENE_ERROR_ZIPCODE": "Please enter a valid zip code."
+  }
+}

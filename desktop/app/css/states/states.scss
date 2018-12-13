@@ -1,0 +1,25 @@
+.is-hidden { display: none; }
+.is-visuallyHidden {
+    display: block;
+    width: 1px;
+    height: 1px;
+    text-indent: 1px;
+    overflow: hidden
+}
+.is-errorWrap input{
+  border:1px solid #ED7000 !important;
+}
+.is-errorWrap .textFieldWrap:before{
+  font-family: 'vzwIcons';
+  content: '\E02D';
+  color: #ED7000;
+  font-size: 30px;
+  font-size: 3rem;
+  position: absolute;
+  right: 7px;
+  top: 16px;
+  font-size: 2.4rem;
+}
+.is-errorWrap .textFieldWrap hr{
+  display:none;
+}

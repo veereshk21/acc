@@ -1,0 +1,16 @@
+.rating.fullStar::after {
+	font-family: 'vzwIcons';
+	content: "\e075";
+}
+.rating.halfStar::after {
+	font-family: 'vzwIcons';
+	content: "\e076";
+}
+.rating::after {
+	font-family: 'vzwIcons';
+	content: "\e074";
+}
+.rating.large {
+	font-size: 20px;
+	font-size: 2.0 rem;
+}

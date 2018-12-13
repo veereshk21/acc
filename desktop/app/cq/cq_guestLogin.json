@@ -1,0 +1,23 @@
+{
+  "html": {
+    "DT_OD_GUEST_LOGIN_GUEST_IN_TITLE": "If you <span class='bold'>have a MyVerizon login</span>, sign in for access to saved shipping and billing information.",
+    "DT_OD_GUEST_LOGIN_GUEST_CHECKOUT_SUBTITLE": "If you <span class='bold'>don't have a MyVerizon login</span>, you can checkout without signing in."
+  },
+  "label": {
+    "DT_OD_GUEST_LOGIN_SIGN_IN_TITLE": "Sign in",
+    "DT_OD_GUEST_LOGIN_BEGIN_TITLE": "Begin Checkout",
+    "DT_OD_GUEST_LOGIN_GUEST_IN_TITLE": "Guest login",
+    "DT_OD_GUEST_LOGIN_USER_ID_TITLE": "User ID or Phone Number",
+    "DT_OD_GUEST_LOGIN_USER_ID_FORGET_LINK": "Forget Your User ID?",
+    "DT_OD_GUEST_LOGIN_PASSWORD_TITLE": "Password",
+    "DT_OD_GUEST_LOGIN_PASSWORD_FORGET_LINK": "Forget Your Password?",
+    "DT_OD_GUEST_LOGIN_REMEMBER_ME": "Remember Me",
+    "DT_OD_GUEST_LOGIN_PRIVACY_POLICY_LINK": "Privacy Policy",
+    "DT_OD_GUEST_LOGIN_GUEST_CHECKOUT_TITLE": "Guest Checkout",
+    "DT_OD_GUEST_LOGIN_GUEST_CHECKOUT_BUTTON": "Checkout as Guest"
+  },
+  "error": {
+    "DT_OD_GUEST_LOGIN_USERNAME_FIELD_REQUIRED_TEXT": "Need username",
+    "DT_OD_GUEST_LOGIN_PASSWORD_FIELD_REQUIRED_TEXT": "Need password"
+  }
+}

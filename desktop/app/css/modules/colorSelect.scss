@@ -1,0 +1,136 @@
+/**************************************************
+	  			Color Selectors
+**************************************************/
+
+ul.colorList{
+  padding: 0;
+  margin:0;
+}
+ul.colorList .colorSelectListItem {
+  display: inline-block;
+  position: relative;
+  padding-left: 0;
+  width:85px;
+}
+ul.colorList .colorSelectListItem.m-autoWidth {
+  width: auto;
+}
+
+ul.colorList .colorList-input {
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  border: 0;
+  position: absolute
+}
+
+.colorList-label {
+  padding: 12px 0 0;
+  width: 50px;
+  height: 25px;
+  top: 0;
+  white-space: nowrap;
+  display: block;
+  color: #000;
+  font-size: 13px;
+  font-size: 1.3rem;
+  cursor: pointer;
+
+}
+
+ul.colorList .colorList-label {
+  font-size: 13px;
+  font-size: 1.3rem;
+  width: 65px;
+  text-align: center;
+}
+
+ul.colorList .colorList-label.m-autoWidth {
+  width: auto;
+  padding: 0 6px;
+}
+ul.colorList.m-large .colorList-label {
+  padding: 50px 0 0;
+  height: 40px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  left: 50%;
+  width: 60px;
+  margin-left: -32px;
+  text-align: center;
+}
+
+ul.colorList .colorList-dot {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  /*border: 1px solid #FFF;*/
+  position: relative;
+}
+input.colorList-input:checked+div.colorList-dot{
+  height: 30px;
+  width: 30px;
+}
+ul.colorList .colorList-dot::before {
+  content: "";
+  height: 34px;
+  width: 34px;
+  border-radius: 38px;
+  border: 2px solid #040404;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  display: none
+}
+
+ul.colorList.m-large .colorList-dot {
+  height: 36px;
+  width: 36px;
+}
+
+ul.colorList.m-large .colorList-dot::before {
+  content: "";
+  height: 42px;
+  width: 42px;
+  border: 1px solid purple
+}
+
+input.colorList-input:checked+div.colorList-dot::before {
+  display: block
+}
+
+input.colorList-input.device_backorder+div.colorList-dot+label.colorList-label,
+input.colorList-input.device_preorder+div.colorList-dot+label.colorList-label,
+input.colorList-input.show-label+div.colorList-dot+label.colorList-label,
+input.colorList-input:checked+div.colorList-dot+label.colorList-label {
+  text-indent: 0
+}
+
+input.colorList-input:checked+div.colorList-dot+label.colorList-label {
+  color: #371949
+}
+
+input.colorList-input.inventory-label+div.colorList-dot+label.colorList-label::after {
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  width: 150px;
+  text-align: center;
+  margin-left: -75px
+}
+
+input.colorList-input.device_oos+div.colorList-dot::after {
+  content: "\2044";
+  font-size: 55px;
+  font-size: 5.5rem;
+  color: #371949;
+  position: absolute;
+  top: -12px;
+  left: 3px
+}
+
+input.colorList-input.device_oos+div.colorList-dot+label.colorList-label {
+  color: #998ba4
+}

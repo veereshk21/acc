@@ -1,0 +1,46 @@
+.colorRadio {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin: 0 auto !important;
+  opacity: 0;
+  left: calc(50% - 12px);
+}
+
+.colorRadioCircle {
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid #979797;
+}
+
+.colorRadio:checked~label .colorRadioCircle,
+.colorRadio:disabled~label .colorRadioCircle {
+  border: 1px solid #000000;
+  background-color: transparent !important;
+}
+
+.colorRadio~label .colorRadioCircle>div {
+  display: none;
+}
+
+.colorRadio:checked~label .colorRadioCircle>div,
+.colorRadio:disabled~label .colorRadioCircle>div {
+  display: block;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.colorRadio:disabled~label .colorRadioCircle>div:after {
+  content: "";
+  position: absolute;
+  border-top: 1px solid #000;
+  width: 25px;
+  transform: rotate(135deg);
+  transform-origin: 5px 3px;
+  -ms-transform-origin: 9px 4px;
+}

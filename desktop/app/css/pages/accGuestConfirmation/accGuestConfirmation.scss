@@ -1,0 +1,44 @@
+// fonts
+$font_0: vzwIcons;
+
+.creditCards {
+	width: 100px;
+	height: 80px;
+	text-indent: -9999px;
+	background-size: cover !important;
+	&.m_visa {
+		background-position: 0 -285px !important;
+	}
+	&.m_masterCard {
+		background-position: 0 -140px !important;
+	}
+	&.m_amex {
+		background-position: 0 0 !important;
+	}
+	&.m_discover {
+		background-position: 0 -570px !important;
+	}
+}
+#accessoriesGuestConfirmation .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.salesTag:before {
+font-family: $font_0;
+content: "\e0a0";
+display: inline;
+color: #000;
+font-size: 14px;
+font-size: 1.4rem;
+vertical-align: top;
+-moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+}
+
+.noChatAndCall {
+	display: none;
+}

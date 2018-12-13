@@ -1,0 +1,35 @@
+@mixin arrow-font() {
+    content: "\e609";
+    font-family: 'vzwIcons';
+    color: #000;
+    position: relative;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.m-back:before {
+    float: left;
+    padding-left: 6px;
+    margin: 0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.secondaryCTA:before {
+    @include arrow-font();
+    margin-left: 15px;
+    top: 2px;
+}
+.arrowCTA:after {
+    @include arrow-font();
+    margin-left: 12px;
+    top: 1px;
+}
+.expanded .arrowCTA:after {
+    content: "\e608";
+    font-size: 0.7em;
+}

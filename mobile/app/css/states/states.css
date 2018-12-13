@@ -1,0 +1,14 @@
+.is-hidden { display: none; }
+.is-visuallyHidden {
+    display: block;
+    width: 1px;
+    height: 1px;
+    text-indent: 1px;
+    overflow: hidden
+}
+
+.is-disabled{
+    color: #e5e6e4;
+    text-decoration: none;
+    cursor: default;
+}

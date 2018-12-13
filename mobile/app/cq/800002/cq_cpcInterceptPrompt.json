@@ -1,0 +1,27 @@
+{
+  "html": {},
+  "label": {
+    "OD_CPC_INTERCEPT_PROMPT_HEADER": "Imagine your new device on Unlimited data.",
+    "OD_CPC_INTERCEPT_PROMPT_RES_HEADER": "Imagine your new device on better data plan.",
+    "OD_CPC_INTERCEPT_IMG_URL": "images/get-started-w80.png",
+    "OD_CPC_INTERCEPT_DESC": "Your new device is only as good as the network it's on.  Upgrade to our new Unlimited data plan and experience life without limits.",
+    "OD_CPC_INTERCEPT_ACCEPT_BTN": "Explore plans",
+    "OD_CPC_INTERCEPT_DECLINE_BTN": "Not now",
+    "OD_CPC_PLANDEC_TITLE": "This is the plan you're currently on.",
+    "OD_CPC_PLANDEC_EXPLORE": "Explore",
+    "OD_CPC_PLANDEC_KEEP_CURRENT_PLAN": "Keep current plan",
+    "OD_CPC_PLANDEC_SHOW_UNLIMITED_PLANS": "Show me the new Unlimited options.",
+    "OD_CPC_PLANDEC_SHOW_UNLIMITED_PLAN_SUBLINE": "You'll pick Unlimited plans for each line.",
+    "OD_CPC_PLANDEC_SHOW_NO_UNLIMITED": "My account doesn't need Unlimited data",
+    "OD_CPC_PLANDEC_SHOW_NO_UNLIMITED_SUBLINE": "Get 2GB or 4GB for the whole account.",
+    "OD_CPC_PLANDEC_SHOW_FELIX_PLAN_SUBLINE": "You'll pick Unlimited plans for each line.",
+    "OD_CPC_PLANDEC_NEXT": "Next",
+    "OD_CPC_PLANDEC_OPTIONS_TITLE": "First up, what kind of data are you looking for?",
+    "OD_CPC_PLANDEC_DISCOUNT_CHANGE_TITLE": "You’ll get to pick a new unlimited plan for each line.",
+    "CPC_INTERCEPT_PROMPT_CURRENT_PLAN_TEXT": "You’re currently on ",
+    "OD_CPC_PLANDEC_DISCOUNT_CHANGE_MESSAGE": ". When you switch, you can mix and match the plans that fit each line best. Once you pick your new plans, you won't be able to switch back to your current plan and your current discount may not apply.",
+    "OD_CPC_PLANDEC_NO_DISCOUNT_CHANGE_MESSAGE": ". When you switch, you can mix and match the plans that fit each line best. Once you pick your new plans, you won't be able to switch back to your current plan.",
+    "OD_CPC_PLANDEC_DISCOUNT_CHANGE_SUB_MESSAGE": "You’ll still get any applicable discounts off accessories, activation and upgrade fees, however."
+  },
+  "error": {}
+}

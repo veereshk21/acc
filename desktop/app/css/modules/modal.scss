@@ -1,0 +1,52 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjM5QzI1NTJGRDQxMTFFMzhFQTFFMjFBRTZDNzRFMDYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjM5QzI1NTNGRDQxMTFFMzhFQTFFMjFBRTZDNzRFMDYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGMzlDMjU1MEZENDExMUUzOEVBMUUyMUFFNkM3NEUwNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGMzlDMjU1MUZENDExMUUzOEVBMUUyMUFFNkM3NEUwNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnQq41IAAAAPSURBVHjaYmBgYNgPEGAAAMQAwFKt0gcAAAAASUVORK5CYII=)!important;
+  z-index:101;
+}
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  overflow-y: auto;
+  background: #FFF;
+  padding: 20px;
+  max-height:80%;
+  z-index:100;
+}
+
+.modalCloseIcon {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 2.5rem;
+  font-size: 30px;
+  color:#333333;
+  outline: none;
+}
+.modalCloseIcon::after {
+  font-family: 'vzwIcons';
+  content: "\00d7";
+
+}
+.modalContent{
+  max-height: 90vh;
+}
+
+@media only screen and (min-width: 90em){
+  .modal{
+    width: 60vw;
+  }
+}

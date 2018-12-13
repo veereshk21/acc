@@ -1,0 +1,513 @@
+/**
+ CART STYLES
+ Styles specific to Cart pages belong here
+ -- Use multiples of 6 for any spacing and dimensions
+ -- try reusing classes from SMACSS files
+ */
+ .tooltip {
+  background-position: -4px -4px;
+}
+.cart_PromoCodeInput {
+  width: 95%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart_PromoStar {
+  width: 0;
+  height: 0;
+  background: none;
+  border-width: 18px;
+  border-style: solid;
+  border-bottom-color: #cd040b;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: #cd040b;
+  color: #fff;
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 0;
+  right: 6px;
+}
+
+.cart_PromoStar::after {
+  content: "\2605";
+  position: relative;
+  top: -6px;
+}
+.emptyCartImage{
+  margin: 10% auto;
+}
+.background_lightOrange {
+	background-color: #f9b295;
+}
+.displayFlex{
+  display: flex;
+}
+.expanded .fontTextBold{
+ color: #cd040b;
+}
+/*@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .cartpage .max-width940{
+    max-width: 984px;
+  }
+  .cartpage{
+    padding: 0 22px;
+  }
+  }
+*/
+.priceBreakDownArrow .arrowCTA:after{
+    content: "\e607";
+    font-size: 0.7em;
+  }
+.expanded .priceBreakDownArrow .arrowCTA:after {
+    content: "\e608";
+    font-size: 0.7em;
+  }
+.min-width600 {
+    min-width: 600px;
+}
+.height250 {
+	height: 250px;
+}
+a {
+	text-decoration: underline;
+	color: #000;
+  cursor: pointer;
+}
+.cartList {
+	margin: 0 0 20px 0;
+  list-style-type: none;
+}
+.cartList li {
+	padding-top: 10px;
+}
+.cartpage .font-icon_tooltip:before {
+  top: -1px;
+}
+.cartpage input[type="submit"]{
+  cursor:pointer;
+}
+.cart_protectionEdit{
+  top: -16px;
+  left: 49px;
+
+}
+
+/*Right Side*/
+.paypal-button {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: 0;
+    border: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    text-transform: none;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.paypal-button.paypal-style-checkout.paypal-size-medium.paypal-shape-rect .paypal-button-content , .paypal-button.paypal-style-checkout.paypal-size-medium.paypal-shape-rect .paypal-button-content:before {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+/*Right Side*/
+
+.paypalCheckoutTopFrm {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.paypal-button {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: 0;
+    border: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    text-transform: none;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.paypal-button.paypal-style-checkout.paypal-size-medium .paypal-button-content {
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    width: 100%;
+    display: inline-block;
+    overflow: visible;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    font-size: 12px !important;
+    line-height: 34px !important;
+    vertical-align: middle;
+}
+
+.paypal-button.paypal-style-checkout.paypal-color-silver .paypal-button-content {
+    background: #eee;
+    color: #000;
+    text-shadow: 0px -1px 0 #ccc;
+}
+
+.paypal-button.paypal-style-checkout .paypal-button-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.paypal-button.paypal-style-checkout.paypal-size-medium.paypal-shape-rect .paypal-button-content , .paypal-button.paypal-style-checkout.paypal-size-medium.paypal-shape-rect .paypal-button-content:before {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.paypal-button.paypal-style-checkout.paypal-size-medium .paypal-button-content img {
+    height: 24px;
+    line-height: 34px;
+    margin-top: -4px;
+    margin-right: 4px;
+    padding-right: 0;
+}
+
+.paypal-button.paypal-size-medium .paypal-button-content img {
+    width: 71px;
+    height: 19px;
+    margin: 2px 0 0 1px;
+}
+
+.paypal-button-content img {
+    vertical-align: middle;
+    padding: 0 !important;
+    display: inline !important;
+    background: none !important;
+    border: none !important;
+    box-sizing: content-box !important;
+}
+
+.shipping-offer.icon-package:before, .shipping-offer.icon-truck:before {
+    content: "\e91f";
+    display: inline-block;
+    font-family: vzwicons;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    height: 40px;
+    line-height: 38px;
+    speak: none;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.shipping-offer.icon-package:before {
+    content: "\e042";
+}
+
+
+.shipping-offerRow:last-child {
+    border-bottom: 4px solid #000;
+    margin-bottom: 12px;
+}
+
+.shipping-offer.icon-return-policy:before {
+  content: "\e91c";
+  display: inline-block;
+  font-family: vzwicons;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  height: 40px;
+  line-height: 38px;
+  margin: 0 12px 0 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.shipping-offer.icon-content-transfer:before {
+    content: "\e921";
+    display: inline-block;
+    font-family: vzwicons;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    height: 40px;
+    line-height: 38px;
+    margin: 0 12px 0 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.shipping-offer.icon-transfer:before {
+    background: url(https://ss7.vzw.com/is/image/VerizonWireless/content-transfer-icon-cart1-d-2x?&wid=76&bgc=ffffff) no-repeat top center;
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 12px 0 0;
+    speak: none;
+    text-align: center;
+    text-transform: none;
+    vertical-align: middle;
+    width: 38px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.costSummary_section.totalSummaryWrapper {
+    margin-bottom: 10px;
+}
+
+.costSummary_section {
+    margin: 0 0 18px;
+}
+
+/*.accordion-header.m-mathIcon:after {
+    content: '\e078';
+    color: #333;
+    font-family: vzwIcons;
+    background: 0 0;
+    font-size: 14px;
+    font-size: 1.4rem;
+    left: 0;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.accordion-header.m-mathIcon.is-active:after {
+    content: '\e077';
+}*/
+
+.accordion-header.m-downArrow .arrowCTA:after{
+    font-family: 'vzwIcons';
+    content: "\e078";
+    font-size: 0.7em;
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+
+.expanded .accordion-header.m-downArrow .arrowCTA:after {
+    font-family: 'vzwIcons';
+    content: "\e077";
+    font-size: 0.7em;
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+
+.longForm_input input {
+    background: #fff;
+    border: 1px solid #959595;
+    color: #333;
+    display: inline-block;
+    font-family: NeueHaasGroteskTextBold,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 42px;
+    line-height: 55px;
+    padding: 11px;
+    width: 100%;
+}
+
+.longForm_input {
+    display: inline-block;
+    position: relative;
+    width: auto;
+}
+
+.tradeInPrompt{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tradeInPrompt_hRule{
+  height:1px;
+  background-color: #959595;
+}
+
+.tradeInPrompt_icon:before{
+  font-family: 'vzwIcons';
+  content: "\e91b";
+}
+.continueShop_link:before{
+  font-family: 'vzwIcons';
+  content: "\e60a";
+  font-size:10px;
+  margin-right: 6px;
+}
+.tradeInItem_removeIcon{
+  cursor: pointer;
+}
+.tradeInItem_removeIcon:after{
+  font-family: 'vzwIcons';
+  content: '\e062';
+  font-size:10px;
+  font-size: 12px;
+}
+.tradeInItem_removeIcon:hover{
+  color:#cd040b;
+}
+
+.masterpassWrapper{
+  text-align: center;
+}
+.masterpassWrapper .masterpassButton{
+  width: 100%;
+  height: 32px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cartAutopayTooltip {
+  right: 5px;
+  top: -1px;
+}
+
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .addModalBtn {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+
+    .cartModalButtons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+  }
+
+@media only screen and (min-device-width: 769px){
+	.recAccessoryPanel  h2{
+		font-size:32px;
+	  font-size:3.2rem;
+	}
+
+  .deviceIMG img{
+    height: 200px;
+  }
+}
+.chatAndCall {
+  position: absolute;
+  z-index: 10;
+  top: 7px;
+  right: 10px;
+}
+
+.accordion__title button{
+	background: none;
+	border: none;
+}
+[aria-expanded="false"].accordion__title button:after ,
+[aria-selected="false"].accordion__title button:after {
+	content: '\002b';
+	font-size: 24px;
+	color: #000;
+	display: flex;
+	justify-content: flex-end;
+	width: 15px;
+	text-align: center;
+}
+[aria-expanded="true"].accordion__title button:after,
+[aria-selected="true"].accordion__title button:after {
+	content: '\2013';
+	font-size: 24px;
+	color: #000;
+	display: flex;
+	justify-content: flex-end;
+	width: 15px;
+	text-align: center;
+}
+
+.top50{
+  top: 50%;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.wordWrap{
+  word-wrap: break-word;
+}
+
+.accordion__title:focus {
+  outline: #000 dashed 1px !important;
+  outline-offset: 4px;
+}
+.accordion__title[aria-expanded="true"] [aria-hidden]:after {
+  font-family: 'vzwIcons';
+  content: "\E077";
+  font-size: 0.7em;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+.accordion__title[aria-expanded="false"] [aria-hidden]:after {
+  font-family: 'vzwIcons';
+  content: "\E078";
+  font-size: 0.7em;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+.right-0 {
+  right:0;
+}
+
+a.accordionPromo.color_000:hover, {
+	color: #000;
+}
+
+.notification.notificationInfo  a.color_white:hover{
+  color: #fff;
+}
+
+.modal.cart_seeDetailsModal{
+  height: 100%;
+}
+.grid{
+  position: relative;
+}
+
+.invalidCase{
+  border: 1px solid #ffbc3d;
+  border-bottom: 3px;
+}
+.frpTooltip {
+  top: -1px;
+  left: 6px;
+}

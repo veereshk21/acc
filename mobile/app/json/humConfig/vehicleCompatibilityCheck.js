@@ -1,0 +1,4 @@
+
+exports.vehicleCompatibilityCheck =
+{"success":true};
+

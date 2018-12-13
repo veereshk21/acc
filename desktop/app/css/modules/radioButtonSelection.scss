@@ -1,0 +1,96 @@
+input[type="radio"] {
+  margin: 0px;
+}
+
+.keyBoardUser input[type="radio"]:focus {
+  outline: 1px dashed;
+  margin: 0px;
+  outline-offset: 2px;
+}
+
+.selectionBox {
+  position: relative;
+  cursor: pointer;
+}
+.swatch {
+  position: relative;
+}
+.swatch input[type="radio"] { 
+  height: 25px;
+  width: 25px;
+  position: absolute;
+}
+.swatch input[type="radio"] + div { 
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #000;
+  position: relative;
+}
+.swatch input[type="radio"] + div::before { 
+  content: "";
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  display: none;
+}
+.swatch input[type="radio"]:checked + div::before { 
+  display: block;
+}
+
+.selectionBox input[type="radio"] + div {
+  border: 1px solid #d8dada;
+  background-color: #FFF;
+  min-height: 38px;
+  width: 100%;
+  position: relative;
+  padding-left: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 13px;
+}
+
+.selectionBox input[type="radio"]:checked + div { 
+  border-top: 4px solid #D52B1E !important;
+  border-bottom: 1px solid #000 !important; 
+  border-right: 1px solid #000 !important;
+  border-left: 1px solid #000 !important; 
+}
+
+.capacity .selectionBox, .payment .selectionBox {
+  margin-right: 10px;
+}
+.capacity .selectionBox .headerText {
+  font-size: 12px;
+  font-family: 'NeueHaasGroteskRegular';
+}
+.capacity .selectionBox input[type="radio"] + div { 
+  height: 48px;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.capacity .selectionBox input[type="radio"]:checked + div .bodyText, .payment .selectionBox input[type="radio"]:checked + div .bodyText { 
+  position: relative;
+  top: -4px;
+}
+
+.payment .selectionBox input[type="radio"] + div { 
+  height: 58px;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.payment .selectionBox .headerText {
+  font-size: 16px;
+}
+.payment .selectionBox .captionText {
+  font-size: 10px;
+  line-height: 1 !important;
+}

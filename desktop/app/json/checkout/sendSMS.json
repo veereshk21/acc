@@ -1,0 +1,12 @@
+{
+    "output": {
+      "success": true,
+      "orderID": "T40622f9ef9d0cf8de2c4bdda9b49b49c{ss3}",
+      "selectedMtn": "1235096112",
+      "numberOfSMSRequestsIn24Hours": 1
+    },
+    "errorMap": null,
+    "statusMessage": null,
+    "statusCode": "00"
+  }
+  /* https://www.verizonwireless.com/od/cust/auth/checkout/sendSMS?sendSMSTo=1235096112 */

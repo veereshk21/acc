@@ -1,0 +1,23 @@
+{
+  "html": {
+  },
+  "label": {
+    "DT_OD_CHECKOUT_SUMMARY_TITLE": "Order summary",
+    "DT_OD_CHECKOUT_SUMMARY_UPGRADE_FEE": "Upgrade Fee",
+    "DT_OD_CHECKOUT_SUMMARY_UPGRADE_FEE_TOOLTIP": "This one-time charge will be included in your \"Due today\" amount at checkout. This helps us cover support costs that come with powering America's largest and fastest 4G LTE network. After all, the best devices are only as good as the network that supports them.",
+
+    "DT_OD_CHECKOUT_SUMMARY_ACTIVATION_FEE": "One Time Activation Fee : $$AMOUNT$",
+    "DT_OD_CHECKOUT_SUMMARY_ACTIVATION_FEE_TOOLTIP": "This one-time charge will be included on your first monthly bill. This helps us cover support costs that come with powering America's largest and fastest 4G LTE network. After all, the best devices are only as good as the network that supports them.",
+
+    "DT_OD_CHECKOUT_SUMMARY_DUE_MONTHLY_DISCLAIMER": "This amount will appear on your recurring bill. Monthly amount does not reflect any taxes or surcharges which will appear on your recurring bill. Includes price plan and the features and services you have selected. Does not include other charges, taxes or surcharges.",
+    "DT_OD_CHECKOUT_PAYMENT_BTA": "Bill to account",
+    "DT_OD_CHECKOUT_PAYMENT_BTA_DESCRIPTION": "This purchase will be billed to your Verizon Wireless account and will appear on your next billing statement. Transaction limits may apply.",
+    "DT_OD_CHECKOUT_PAYMENT_BTA_DESCRIPTION_LINK": "WHAT'S THIS?",
+    "DT_OD_CHECKOUT_PAYMENT_COMPLETED_SECTION_TITLE": "Payment method",
+    "DT_OD_CHECKOUT_SHIPPING_ADDRESS_SECTION_TITLE": "Shipping address"
+  },
+  "error": {
+    "SPINNER_ERROR_MSG": "Your request could not be processed at this time. Please try again later.",
+    "DT_OD_CHECKOUT_GENERIC_ERROR": "Check the highlighted areas below to make sure they are complete and/or correct."
+  }
+}

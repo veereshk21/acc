@@ -1,0 +1,225 @@
+.sample_credit_image{
+  width: 275px;
+  height: 275px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #ABE0F9;
+}
+.mdnOrLastActiveDetails{
+  height: 15px;
+}
+
+.buttonAlign{
+  bottom: 20%;
+  left:35%;
+}
+.findDeviceIdInfo h3 {
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+}
+
+
+
+
+.progressBar {
+    height: 14px;
+    border-radius: 10px 10px 10px 10px;
+ }
+
+ .circle-container{
+    width:50%;
+    clear:both;
+    margin:25px auto;
+}
+
+
+.orCircle {
+    overflow: hidden;
+    text-align: center;
+    height: 55px;
+}
+.orCircle:before,
+.orCircle:after {
+    background-color: #959595;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    width: 50%;
+}
+.orCircle:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.orCircle:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.innerCir{
+    width:55px;
+    height:55px;
+    border-radius: 50%;
+    border:2px solid #959595;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+    font-size:18px;
+    font-weight: bold;
+    color: #959595;
+  }
+
+.circleContainer{ height:2px; border-bottom:1px solid #e3e3e3; }
+
+.orText{width:40px; height:40px; border-radius: 50%; border:2px solid #e3e3e3; margin:0 auto; line-height:35px;}
+
+.marginTop200 { margin-top: 50% }
+
+.tradein-gw-gridTile{padding: 1% 0 0 0;
+    flex: 0 1 50%;
+    position: relative;
+    min-height: 300px;
+    justify-content: center;
+}
+.tradein-gridTile{
+    padding: 1% 0 0 0;
+    width:31.33%;
+    float:left;
+    min-height:130px;
+    justify-content: center;
+    margin: 0 1%;
+    box-sizing: border-box;
+}
+.tradein-gridTile_title{
+
+    padding: 10% 1% 0;
+
+    justify-content: center;
+    align-items: flex-end;
+    height: 30px;
+}
+.tradein-gridTile_image{
+
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+    position: relative;
+}
+
+.tradein-img {
+    max-width: 100%;
+    height: auto;
+    }
+.red-color {
+  color:#cd040b;
+}
+
+
+/* Landing page images for multi tradein*/
+.landingPage-Image-container{
+  height:200px;
+  padding:20px 0px 15px 0px;
+}
+
+.landingPage-images {
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    float: right;
+    padding-left: 10px;
+}
+
+.tradeIn-confirmation-image-container{
+  width:250px;
+  height:250px;
+  text-align: center;
+  margin:15px auto;
+}
+.tradeIn-confirmation-images {
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+
+}
+
+.rememberTodo-Image-container{
+   width:50px;
+  height:50px;
+}
+
+.rememberTodo-Image {
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+}
+
+
+.tradein-bestoffers-gridTile{
+     padding: 1% 0 1% 0;
+    width:50%;
+    float:left;
+    min-height:140px;
+    justify-content: center;
+
+    box-sizing: border-box;
+}
+.tradein-bestoffers-title{
+  padding-top: 10px;
+  text-align: center;
+  height: 30px;
+}
+
+.slide-daryGrayBG{
+  background-color: #393939;
+
+  height: 100%;
+}
+
+.slide-footerLightGrayBG{
+  background-color: #4B4B4B;
+  padding:20px 10px;
+  margin-top: 50px;
+}
+.height100{
+  height:100%;
+}
+
+
+.howItWorksSwiper .swiper-wrapper{height: 650px !important}
+
+
+ .estimatedPrice-dollarSign:before {
+    content: '$';
+    font-size: 20px;
+    vertical-align: top;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    color:#000;
+    background-color:#ADE0F9;
+    display: inline-block;
+    text-align: center;
+
+    padding:4px;
+
+    font-family: NeueHaasGroteskDisplayMedium, Arial, Helvetica, sans-serif
+}
+.estimatedPrice-Amount{font-size:46px;  font-family: NeueHaasGroteskDisplayBold, Arial, Helvetica, sans-serif }
+
+.estimatedPrice-Cotnainer{
+  height:60px; margin:10px 0px;
+}
+
+.pad8 {
+  padding: 8px;
+}
+
+.customerInfoForm input{margin-top: 8px !important;   }
+
+.accordion {
+  -webkit-transition: max-height 4s; /* For Safari 3.1 to 6.0 */
+  transition: max-height 2s;
+}
+
+.color_4d4d4d {color: #4d4d4d;}

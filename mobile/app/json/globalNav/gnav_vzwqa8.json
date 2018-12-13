@@ -1,0 +1,73 @@
+{
+  "pageTitle": "SmartPhones",
+  "icons": [{
+    "name": "cart",
+    "url": "/od/cust/auth/cart/getCartDetails",
+    "isShown": true
+  }, {
+    "name": "test search",
+    "url": "/search",
+    "isShown": false
+  }],
+  "menuItems": [{
+    "name": "Shop",
+    "url": "/od/cust/auth/shoplanding/",
+    "isSelected": true,
+    "isShown": true
+  }, {
+    "name": "Shop Smartphones",
+    "url": "/od/cust/auth/smartphones/",
+    "isSelected": false,
+    "isShown": true
+  }, {
+    "name": "Shop Tablets",
+    "url": "/od/cust/auth/tablets/",
+    "isSelected": false,
+    "isShown": true
+  }, {
+    "name": "Support",
+    "url": "/support",
+    "isSelected": false,
+    "isShown": true
+  }, {
+    "name": "Bring Your Own Device",
+    "url": "/bring-your-own-device",
+    "isSelected": false,
+    "isShown": true
+  }, {
+    "name": "Store Locator",
+    "url": "/stores",
+    "isSelected": false,
+    "isShown": true
+  }, {
+    "name": "My Verizon",
+    "url": "https://qa8myvpostpay.verizonwireless.com/ui/hub/secure/overview",
+    "isSelected": false,
+    "isShown": true,
+    "subItems": null
+  }],
+  "signout": {
+    "text": "Signout",
+    "url": "/od/cust/auth/logout",
+    "isShown": true
+  },
+  "feedback": {
+    "text": "Feedback",
+    "url": "/feedback",
+    "isShown": true
+  },
+  "espanol": {
+    "text": "Español",
+    "url": "https://espanol.vzw.com/enes/b2c/index.html",
+    "isShown": false
+  },
+  "showBusinessAndResidential": false,
+  "business": {
+    "text": "Business",
+    "url": "http://www.verizon.com/home/verizonglobalhome/ghp_business.aspx"
+  },
+  "residential": {
+    "text": "Residential",
+    "url": "http://www.verizon.com/?lid=//global//residential"
+  }
+}

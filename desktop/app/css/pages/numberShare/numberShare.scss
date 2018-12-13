@@ -1,0 +1,10 @@
+.chatAndCall {
+  height: 0;
+}
+.selectionBox.disabled{
+  color: #d8dada;
+  cursor: initial;
+}
+.selectionBox.disabled:focus{
+  outline: none;
+}

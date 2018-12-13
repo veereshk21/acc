@@ -1,0 +1,227 @@
+@import '../preprocess/brand';
+
+@mixin css-transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition
+};
+/**************************************************
+	  		     Global Buttons
+**************************************************/
+
+.button {
+  display: inline-block;
+  padding: 0px 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  font-family: $verizon-font-bold;
+  font-weight: bold;
+  font-size: 14px;
+  font-size: 1.4rem;
+  width: auto;
+  min-width: 84px;
+  border-radius: 100px;
+  outline: none;
+  border: 1px solid #000;
+  height: 42px;
+}
+
+
+/**************************************************
+	  		Primary Button (Black)
+**************************************************/
+
+.button.primary {
+  color: #fff;
+  background-color: #000;
+}
+
+
+/**************************************************
+	  		Secondary Button
+**************************************************/
+
+.button.secondary {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+/**************************************************
+	  		Transparent Button (White font & border)
+**************************************************/
+
+.button.transparent:hover,
+.button.transparent {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+
+/**************************************************
+	  		     Teritiary Button
+				Primary with check
+**************************************************/
+
+/**************************************************
+             Teritiary Button
+**************************************************/
+
+.tertiary {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-family: $verizon-font-display;
+  padding: 0;
+  min-width: auto;
+  display: inline-block;
+  font-weight: normal;
+  color: #333333;
+  @include css-transition(padding .2s ease-out 0s);
+}
+
+.tertiary.is-button-disabled:active,
+.tertiary.is-button-disabled:hover,
+.tertiary.is-button-disabled {
+  color: #949494;
+  background-position: right -631px;
+  @include css-transition(none);
+}
+a.button {
+    height: auto;
+    padding: 10px 12px;
+    line-height: 13px;
+    text-decoration: none
+}
+a.button:hover,
+a.tertiary:hover {
+  text-decoration: none
+}
+
+.tertiary:after {
+  font-family: 'vzwIcons';
+  content: "\e91e";
+  margin-left: 12px;
+  top: 35%;
+  font-size: 160%;
+  vertical-align: middle;
+}
+
+
+/**************************************************
+             Plain Button
+        Simple outline
+**************************************************/
+
+/* .border_grayThree */
+.button.plain {
+  background: none;
+  border-radius: 0;
+  border: 1px solid #D8DADA;
+  color: #000;
+  font: inherit;
+  line-height: normal;
+  min-height: 55px;
+  overflow: visible;
+  padding: 8px;
+  text-align: left;
+  width: 100%;
+}
+
+.button.plain.selected,
+.button.plain.hover:hover {
+  border: 1px solid #000;
+}
+
+.button.plain.radio input[type="radio"] {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  width: 0;
+}
+
+/**************************************************
+             Plain Button
+            No outline
+**************************************************/
+
+.button.no-style {
+  background: none;
+  border: none;
+  color: #000;
+}
+
+/**************************************************
+		Disabled button
+**************************************************/
+
+.button.disabled,
+.button[disable="true"],
+.button[disabled] {
+  background-color: #fff;
+  color: #aeaeae;
+  border: 1px solid #aeaeae;
+  cursor: default;
+}
+
+.button.primary[disabled]:hover,
+.button.secondary[disabled]:hover {
+  color: #aeaeae;
+  border: 1px solid #aeaeae;
+}
+
+.button.large {
+  min-width: 150px;
+}
+/**************************************************
+		Edit button
+**************************************************/
+
+.editButton {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.editButton.text:hover {
+	color: #0088CE;
+}
+.editButton.text {
+  height: auto;
+  width: auto;
+  background: none !important;
+  font-size: 14px;
+  text-decoration: underline;
+  padding: 0;
+}
+/**************************************************
+    Accessibility - Visible Focus
+***************************************************/
+a:focus,
+button:focus,
+.button:focus,
+input[type=submit]:focus,
+select:focus,
+.accordion__title:focus,
+.checkbox:focus~label:before,
+.radioBtn:focus+label:before {
+    /* outline: #333 dotted 1px; */
+    outline: #000 dashed 1px;
+    outline-offset: 4px;
+}
+
+.button.box {
+  border-radius: unset;
+  font-family: NeueHaasGroteskDisplay, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  background: #fff;
+  color: #000;
+  border: 1px solid #D8DADA;
+}

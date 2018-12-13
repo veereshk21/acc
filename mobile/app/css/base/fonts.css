@@ -1,0 +1,147 @@
+/*** FONTS ***/
+@font-face{ font-family:'vzwIcons';
+	src:url('../../fonts/vzw-iconfont.eot');
+	src:url('../../fonts/vzw-iconfont.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/vzw-iconfont.woff') format('woff'),
+		url('../../fonts/vzw-iconfont.ttf') format('truetype'),
+		url('../../fonts/vzw-iconfont.svg#vzwIcons') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+
+/* Neue Haas Grotesk */
+@font-face {
+	font-family: "NeueHaasGroteskDisplay";
+	src:url("../../fonts/NeueHaasGroteskDisplay.eot?#iefix") format("embedded-opentype"),
+		url("../../fonts/NeueHaasGroteskDisplay.woff2") format("woff2"),
+		url("../../fonts/NeueHaasGroteskDisplay.woff") format("woff"),
+		url("../../fonts/NeueHaasGroteskDisplay.ttf") format("truetype");
+}
+@font-face {
+	font-family: "NeueHaasGroteskDisplayBold";
+	src:url("../../fonts/NeueHaasGroteskDisplayBold.eot?#iefix") format("embedded-opentype"),
+		url("../../fonts/NeueHaasGroteskDisplayBold.woff2") format("woff2"),
+		url("../../fonts/NeueHaasGroteskDisplayBold.woff") format("woff"),
+		url("../../fonts/NeueHaasGroteskDisplayBold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "NeueHaasGroteskDisplayMedium";
+	src:url("../../fonts/NeueHaasGroteskDisplayMedium.eot?#iefix") format("embedded-opentype"),
+		url("../../fonts/NeueHaasGroteskDisplayMedium.woff2") format("woff2"),
+		url("../../fonts/NeueHaasGroteskDisplayMedium.woff") format("woff"),
+		url("../../fonts/NeueHaasGroteskDisplayMedium.ttf") format("truetype");
+}
+@font-face {
+	font-family: "NeueHaasGroteskText";
+	src:url("../../fonts/NeueHaasGroteskText.eot?#iefix") format("embedded-opentype"),
+		url("../../fonts/NeueHaasGroteskText.woff2") format("woff2"),
+		url("../../fonts/NeueHaasGroteskText.woff") format("woff"),
+		url("../../fonts/NeueHaasGroteskText.ttf") format("truetype");
+}
+@font-face {
+	font-family: "NeueHaasGroteskTextBold";
+	src:url("../../fonts/NeueHaasGroteskTextBold.eot?#iefix") format("embedded-opentype"),
+		url("../../fonts/NeueHaasGroteskTextBold.woff2") format("woff2"),
+		url("../../fonts/NeueHaasGroteskTextBold.woff") format("woff"),
+		url("../../fonts/NeueHaasGroteskTextBold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "NeueHaasGroteskTextMedium";
+	src:url("../../fonts/NeueHaasGroteskTextMedium.eot?#iefix") format("embedded-opentype"),
+		url("../../fonts/NeueHaasGroteskTextMedium.woff2") format("woff2"),
+		url("../../fonts/NeueHaasGroteskTextMedium.woff") format("woff"),
+		url("../../fonts/NeueHaasGroteskTextMedium.ttf") format("truetype");
+}
+
+
+
+/*font Sizes*/
+.fontSize_13 {
+  font-size: 90px;
+  font-size: 9.0rem;
+}
+.fontSize_12 {
+  font-size: 80px;
+  font-size: 8.0rem;
+}
+.fontSize_11 {
+  font-size: 72px;
+  font-size: 7.2rem;
+}
+.fontSize_10 {
+	font-size: 72px;
+	font-size: 7rem;
+}
+.fontSize_9 {
+	font-size: 60px;
+	font-size: 6rem;
+}
+.fontSize_8 {
+	font-size: 48px;
+	font-size: 4.8rem;
+}
+.fontSize_7 {
+	font-size:36px;
+	font-size:3.6rem;
+}
+.fontSize_2-8 {
+  font-size: 28px;
+  font-size: 2.8rem;
+}
+.fontSize_2_5 {
+  font-size: 25px;
+  font-size: 2.5rem;
+	line-height: 1;
+}
+.fontSize_6 {
+	font-size:24px;
+	font-size:2.4rem;
+}
+.fontSize_5-1{
+	font-size:20px;
+	font-size:2rem;
+}
+.fontSize_5{
+	font-size:18px;
+	font-size:1.8rem;
+}
+.fontSize_4 {
+	font-size:16px;
+	font-size:1.6rem;
+}
+.fontSize_3 {
+	font-size:14px;
+	font-size:1.4rem;
+}
+.fontSize_2_2 {
+  font-size:22px;
+  font-size: 2.2rem;
+}
+
+.fontSize_1_3 {
+	font-size:13px;
+	font-size:1.3rem;
+}
+.fontSize_2 {
+	font-size:12px;
+	font-size:1.2rem;
+}
+.fontSize_1 {
+	font-size:10px;
+	font-size:1.0rem;
+}
+.legalFinePrint{
+	color:#4b4b4b;
+	font-size:10px;
+	font-size:1.0rem;
+}
+
+.fontText{font-family: "NeueHaasGroteskText", Verdana, Arial, sans-serif;}
+.fontTextMedium{font-family: "NeueHaasGroteskTextMedium", Verdana, Arial, sans-serif;}
+.fontTextBold{font-family: "NeueHaasGroteskTextBold", Verdana, Arial, sans-serif;}
+
+.fontDisplay{font-family: "NeueHaasGroteskDisplay", Verdana, Arial, sans-serif;}
+.fontDisplayMedium{font-family: "NeueHaasGroteskDisplayMedium", Verdana, Arial, sans-serif;}
+.fontDisplayBold{font-family: "NeueHaasGroteskDisplayBold", Verdana, Arial, sans-serif;}
+.red{color:#cb040b;}
+.blue{color:#0645AD }

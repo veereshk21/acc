@@ -1,0 +1,115 @@
+
+.tooltip {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  background: url("data:image/svg+xml,  %3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0A%09%20viewBox%3D%220%200%2018%2018%22%20style%3D%22enable-background%3Anew%200%200%2018%2018%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cpath%20d%3D%22M9%2C3.4C5.9%2C3.4%2C3.4%2C5.9%2C3.4%2C9s2.5%2C5.6%2C5.6%2C5.6s5.6-2.5%2C5.6-5.6S12.1%2C3.4%2C9%2C3.4z%20M9.7%2C12.8H8.3V8.3h1.4V12.8L9.7%2C12.8z%0A%09%20M9.7%2C6.9H8.3V5.6h1.4V6.9L9.7%2C6.9z%22%2F%3E%0A%3C%2Fsvg%3E%0A") no-repeat;
+  background-size: 24px;
+  background-position: -4px -4px;
+}
+.tooltip.white{
+  background: url("data:image/svg+xml,  %3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0A%09%20viewBox%3D%220%200%2018%2018%22%20style%3D%22enable-background%3Anew%200%200%2018%2018%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cpath%20fill%3D%22white%22%20d%3D%22M9%2C3.4C5.9%2C3.4%2C3.4%2C5.9%2C3.4%2C9s2.5%2C5.6%2C5.6%2C5.6s5.6-2.5%2C5.6-5.6S12.1%2C3.4%2C9%2C3.4z%20M9.7%2C12.8H8.3V8.3h1.4V12.8L9.7%2C12.8z%0A%09%20M9.7%2C6.9H8.3V5.6h1.4V6.9L9.7%2C6.9z%22%2F%3E%0A%3C%2Fsvg%3E") no-repeat;
+  background-size: 24px;
+  background-position: -4px -4px;
+}
+.font-icon_tooltip {
+  position: relative;
+  display: inline;
+  padding: 2px;
+  background-size: contain;
+  background-color: transparent;
+}
+
+.tooltip ~ .tooltip--container {
+  visibility: hidden;
+  background-color: #fff;
+  color: #000;
+  padding: 5px 0;
+  left: 42%;
+  margin-left: -60px;
+  border: solid 1px #d8dada;
+  font-size: 12px;
+  font-family: NeueHaasGroteskDisplay;
+  position: absolute;
+  z-index: 3;
+  padding: 15px;
+  box-shadow: rgba(3,3,3,.2) 0 0 5px;
+  width: 300px; /* taken from atg */
+  margin-top: 6px;
+}
+.tooltip--container.top {
+  margin-bottom: 10px;
+  bottom: 100%;
+}
+
+.tooltip--container.bottom {
+  margin-top: 14px;
+  top: 100%;
+}
+.tooltip--container.left {
+  margin-top: 8px;
+  margin-bottom: -30px;
+  bottom: 0;
+  margin-left: -306px;
+}
+.tooltip--container.right {
+  margin-top: 8px;
+  margin-bottom: -30px;
+  bottom: 0;
+  margin-left: 24px;
+}
+
+.tooltip ~ .tooltip--container.topLeft::after{
+  left:auto!important;
+  right: 34px;
+}
+.tooltip ~ .tooltip--container.topLeft{
+  left:auto!important;
+  right: -37px;
+}
+
+.tooltip--container.top::after {
+  border-width: 0 2px 2px 0;
+  margin-top: -4px;
+}
+
+.tooltip--container.left::after {
+  border-width: 2px 0 0 2px;
+  margin-top: -41px;
+}
+.tooltip--container.right::after {
+  border-width: 0 0 2px 2px;
+  margin-top: -41px;
+  left: 1%;
+}
+.tooltip--container.bottom::after {
+  border-width: 2px 0 0 2px;
+  margin-top: -73px;
+}
+
+.tooltip:hover ~ .tooltip--container,
+.tooltip.click.active ~ .tooltip--container {
+  visibility: visible;
+}
+
+
+
+.tooltip--body {
+  padding-bottom: 5px;
+}
+
+.tooltip--close {
+    display:none;
+}
+.m-noTooltipHdr .tooltip ~ .tooltip--container .tooltip--header{
+  border-top: none;
+  padding: 0;
+}
+a.tooltip{
+  text-decoration: none;
+}
+.font-icon_tooltip.m-tipVAlgin{
+  top:4px;
+}

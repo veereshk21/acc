@@ -1,0 +1,10 @@
+{
+  "html": {},
+  "label": {
+    "OD_ERROR_TITLE": "Oops. Looks like something went wrong on our end.",
+    "OD_ERROR_DESCRIPTION": "We can’t process your request right now. Check back with us in a bit as we work this out. Sorry for the inconvenience.",
+    "OD_ERROR_BACK": "Back",
+    "OD_ERROR_CART": "Go to cart"
+  },
+  "error": {}
+}

@@ -1,0 +1,26 @@
+{
+  "modelLabel": "Choose model",
+  "colorLabel": "Choose color",
+  "priceLabel": "Choose price",
+  "expressOnly": {
+    "title": "Choose your new device.",
+    "offerText": "",
+    "leaglText": ""
+  },
+  "params": {
+    "rioDevice": true,
+    "e911Required": true
+  },
+  "test": "data",
+  "offerOnly": {
+    "title": "Nice choice.",
+    "offerContent": "Smartwatch is engineered to be rugged and versatile, for the smart adventurer. ",
+    "legalText": "You have to pair this device to a compatible Apple iPhone already on your account or in your cart.",
+    "primaryButton": {
+      "label": "Get me this offer"
+    },
+    "secondaryButton": {
+      "label": "Skip this offer"
+    }
+  }
+}

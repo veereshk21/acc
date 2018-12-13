@@ -1,0 +1,10 @@
+export const RESET_STATE = 'RESET_STATE';
+
+export const ASYNC_FETCH = 'ASYNC_FETCH';
+export const ASYNC_FETCH_SUCCESS = 'ASYNC_FETCH_SUCCESS';
+export const ASYNC_FETCH_FAILURE = 'ASYNC_FETCH_FAILURE';
+export const ASYNC_FETCH_INVALIDATE = 'ASYNC_FETCH_INVALIDATE';
+
+export const API_SUCCESS_CODE = '00';
+export const API_FAILURE_CODE = '01';
+

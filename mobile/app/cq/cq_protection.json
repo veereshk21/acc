@@ -1,0 +1,34 @@
+{
+  "html": {
+    "OD_DEVICE_PROTECTION_MODAL_HTML": "<div><p class='pad12 noSidePad'>Cost per Month and Individual Service Availability. Total Mobile Protection (TMP) Single Device and Total Mobile Protection Multi-Device are a combination of multiple products, each of which is available separately per device: Wireless Phone Protection (WPP) $3.00/Basic Devices &amp; Tablets or for $6.75/Smartphones , iPhone &amp; Watches; Verizon Wireless Extended Warranty (EW) $3.00; and Verizon Tech Coach $7.00.</p><p class='pad12 noSidePad'> Applicability and Amount of Deductible.  For lost, stolen and damaged device claims, deductibles are $49 for basic devices and, depending on device, $49-$199 for smartphones, tablets and watches. Cracked screen repairs have a $29 deductibles. Cracked screen repair available for select devices and subject to parts availability. Visit phoneclaim.com/verizon to check eligibility and the repair option available in your area. For a full list of deductibles click here <a class='link' href='http://phoneclaim.com/verizon/deductible' target='_blank'>http://phoneclaim.com/verizon/deductible.</a> </p><p class='pad12 noSidePad'>Claim Limits for loss, stolen and damaged devices. Equipment claim maximum is $400 or $2,000, depending on device, and limited to three claims per 12-month period for TMP Single Device and up to nine claims per 12-month period for TMP Multi-Device. Additional Coverage is available for an additional $9/month/line (max of 7 additional lines per account for a total of 10 covered lines). Receive 3 more shared claims for your account per Additional Coverage added.</p><p class='pad12 noSidePad'>Covered and Replacement Equipment. If your device is lost, stolen or damaged, your accessories are covered too . one each of the following: standard battery, standard car charger, standard case, standard home charger and standard earbud; For Netbooks tablets one of each of the following:  standard power cord and one standard battery; For Tablets one of each of the following:  standard wall/USB charger, 16GB memory card and standard earbud; and For Apple Watches one of each of the following:  standard wrist band of like l kind and quality to the band received at time of purchase (not to include bands purchased separate from the watch), an adapter and standard charging cable. It is our goal to provide you with a replacement device that is the same color and has the same features, but this cannot be guaranteed. If the same make and model you claim is not available, a similar make and model will be substituted. Your replacement device could be new or refurbished. You may also receive generic accessories with lost, stolen or damaged claims.</p><p class='pad12 noSidePad'>Cancellation Policy. Change your mind? You can cancel your coverage at any time and receive a pro-rated refund of your monthly fee.</p><div><p class='bold'>Terms of Service by Option:</p><p><a class='link' href='https://www.phoneclaim.com/verizon/terms_tmp_webready/' target='_blank'>Total Mobile Protection</a></p><p><a class='link' href='https://www.phoneclaim.com/verizon/terms_tmp_webready/' target='_blank'>Total Equipment Coverage</a></p><p><a class='link' href='https://www.phoneclaim.com/verizon/terms_tmp_webready/' target='_blank'>Wireless Phone Protection</a></p><p><a class='link' href='https://www.verizonwireless.com/support/equipment-protection-legal/' target='_blank'>Extended Warranty</a></p></div>",
+    "OD_PROTECTION_CRACKED_SCREEN_DISCLOSURE": "<p>1- Cracked-screen repair available for select devices and subject to parts availability. Visit <a href='https://www.phoneclaim.com/verizon/' class='link' target='_blank'>phoneclaim.com/verizon</a> to check eligibility and the repair option available in your area.</p><p>2- Fulfillment options vary based upon location and availability.</p>"
+  },
+  "label": {
+    "OD_DEVICE_AC_TITLE": "AppleCare+ extends your coverage to two years.",
+    "OD_DEVICE_AC_DESCRIPTION": "Enjoy round-the-clock technical support, repair and replacement coverage, and expert software support. ",
+    "OD_DEVICE_AC_ADD": "Add",
+    "OD_DEVICE_AC_EXTEND_TWO_YEAR": "Extend you Apple device coverage to two years.",
+    "OD_DEVICE_AC_NOT_NOW": "Not now",
+    "OD_DEVICE_AC_SIXTY_DAY": "You can still add it within the next 60 days.",
+    "OD_DEVICE_PROTECTION_TITLE": "Current device protection",
+    "OD_DEVICE_PROTECTION_HEADER": "And do you want to add a protection plan today?",
+    "OD_DEVICE_PROTECTION_SUBTITLE": "You'll have 30 days to change your mind.",
+    "OD_DEVICE_PROTECTION_SEE_ALL_PLANS_BTN_TXT": "See all plans",
+    "OD_DEVICE_PROTECTION_SAVE_BTN_TXT": "Next",
+    "OD_TMPD_DISCLOSURE_TXT": "You can add Total Mobile Protection Multi-Device on our website within 30 days of purchase.",
+    "OD_DEVICE_PROTECTION_MORE_DETAILS_HEADER": "Five things you need to know about Equipment Protection",
+    "OD_DEVICE_PROTECTION_BACK_BTN": "Back",
+    "OD_PROTECTION_TPMD_HEADER": "Good news, this device is already covered.",
+    "OD_PROTECTION_TPMD_TEXT": "Total Mobile Protection Multi-Device covers devices on your account. You can change your protection plan within 30 days of purchase.",
+    "OD_PROTECTION_TPMD_BTN": "Next",
+    "OD_PROTECTION_TMPMD_HEADER": "Great News",
+    "OD_PROTECTION_TMPMD_CONTENT": "Total Mobile Protection Multi-Device covers devices on your account. You can change your protection plan within 30 days of purchase",
+    "OD_PROTECTION_NEXT_CTA": "Next",
+    "OD_PROTECTION_MOREINFO_LINK": "device protection details.",
+    "OD_PROTECTION_MOREINFO_TEXT": "For more information , see the",
+    "OD_PROTECTION_TMP_REFRESH_AVAILABLE": "For customers who enrolled in protection before December 26th, we mailed a letter to notify you that changes to your equipment protection program will take effect on March 6, 2018. If you are keeping your existing equipment protection program and the transaction you are about to complete results in the new pricing applying before March 6th, we will credit the difference back to your account, if applicable, within two bill cycles.",
+    "OD_PROTECTION_DECLINE_TMP": "By removing Total Mobile Protection Multi-Device, you are choosing to decline equipment protection and you will have no device protection plan on your devices. If your device(s) is lost, stolen, damaged (including liquid damage), or experiences a post-warranty defect, the replacement cost may be as high as the full retail price.",
+    "OD_PROTECTION_REMOVE_TMP": "By removing Total Mobile Protection Multi-Device, you are choosing not to protect all eligible lines on your account. If your device(s) is lost, stolen, damaged (including liquid damage), or experiences a post-warranty defect, the replacement cost may be as high as the full retail price. ",
+    "OD_PROTECTION_NOT_SELECTED": "Please select your device protection to continue."
+  }
+}

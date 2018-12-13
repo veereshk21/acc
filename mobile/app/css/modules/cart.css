@@ -1,0 +1,74 @@
+/**
+ CART STYLES
+ Styles specific to Cart pages belong here
+ -- Use multiples of 6 for any spacing and dimensions
+ -- try reusing classes from SMACSS files
+ */
+
+.cart_PromoCodeInput {
+  width: 95%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart_PromoStar {
+  width: 0;
+  height: 0;
+  background: none;
+  border-width: 18px;
+  border-style: solid;
+  border-bottom-color: #cd040b;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: #cd040b;
+  color: #fff;
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 0;
+  right: 6px;
+}
+
+.cart_PromoStar::after {
+  content: "\2605";
+  position: relative;
+  top: -6px;
+}
+
+.cart_tmpmdImage{
+  width:275px;
+  height:275px;
+  background-image:url('/build/images/tpmd.svg');
+  background-repeat:no-repeat;
+  background-color:transparent;
+
+}
+.emptyCartImage{
+  margin: 20% auto;
+}
+
+.cart_PlanInfo{
+  margin-top:18px;
+}
+
+.cart_PlanInfo b{
+  font-family:NeueHaasGroteskDisplayBold, Arial, Helvetica, sans-serif
+}
+.cart_PlanInfo p{
+  margin:6px 0;
+}
+.centerAlign{
+  margin: 0 auto;
+}
+.promo .swiper-slide{
+  background: none;
+}
+.promo a:not(.link_white){
+  color: #fff;
+  text-decoration: underline
+}
+.swiper-button-prev.custom-btn-prev{
+  width: 40px;
+}

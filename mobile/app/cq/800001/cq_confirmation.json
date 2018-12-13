@@ -1,0 +1,27 @@
+{
+  "html": {
+    "OD_CONFIRMATION_SHIPPING_SDD_WINDOW": "Estimated to arrive $DATE$</br>between $TIME$"
+  },
+  "label": {
+    "OD_CONFIRMATION_ADD_PROTECTION_TEXT": "Add device protection",
+    "OD_CONFIRMATION_TOTAL_MOBILE_PROTECTION_HEADER": "Total Mobile Protection",
+    "OD_CONFIRMATION_TOTAL_MOBILE_PROTECTION_DESCRIPTION_TEXT": "Get a device protection plan for your new phone.",
+    "OD_CONFIRMATION_VIEW_CTA_LABEL": "View",
+    "OD_CONFIRMATION_ACCESSORIES_HEADER": "Accessories",
+    "OD_CONFIRMATION_ACCESSORIES_DESCRIPTION_TEXT": "Generic message that has not been delivered to dev",
+    "OD_CONFIRMATION_ORDER_TEXT":"Order #",
+    "OD_CONFIRMATION_DONE_URL": "/od/devices/",
+    "OD_CONFIRMATION_AAL_ORDER_TEXT": "Device Added Order#",
+    "OD_CONFIRMATION_NSO_ORDER_TEXT": "Device Added Order#",
+    "OD_CONFIRMATION_EUP_ORDER_TEXT": "Device Upgraded Order#",
+    "OD_CONFIRMATION_RECOMMENDED_ACCESSORIES_TITLE": "My compatible accessories.",
+    "OD_CONFIRMATION_RECOMMENDED_ACCESSORIES_SUBTITLE": "inspired by your Devices",
+    "DT_OD_CONFIRMATION_MILITARY_DISCOUNT_READ_MORE": "Read more",
+    "AGENT_ORDER_CONFIRMATION_TRADEIN_PROMO_TITLE_TEXT": "Trading in your device is easier than ever.",
+    "AGENT_ORDER_CONFIRMATION_TRADEIN_PROMO_SUBTITLE_TEXT": "To redeem any eligible trade-in credit including promotions requiring trade, please follow the instructions below:",
+    "AGENT_ORDER_CONFIRMATION_TRADEIN_PROMO_DESCRIPTION_TEXT" : "Once your new device is delivered activate the device by following the activation instructions included in the box When your new device is activated successfully please trade-in your device with Verizon Wireless by clicking <a style='text-decoration: underline;' href='https://www.verizonwireless.com/od/trade-in/#/'>here</a>"
+  
+  },
+  "error": {
+  }
+}

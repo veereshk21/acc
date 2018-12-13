@@ -1,0 +1,30 @@
+
+.compatibleOfferSlider {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	z-index: 1;
+	position:relative;
+}
+.compatibleOfferSlider .swiper-slide {
+		width: 205px;
+		cursor: pointer;
+        height: auto;
+	}
+.compatibleOfferSlider .swiper-wrapper {
+		width: 100%;
+        height: auto;
+	}
+
+.icon-checkmarkComplete {
+    background-image: url(https://ss7.vzw.com/is/image/VerizonWireless/Check%20mark_Green);
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+	margin-right: 8px;
+}
+.offersSlide {
+  height:auto;
+  overflow:scroll;
+}
+

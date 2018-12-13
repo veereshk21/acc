@@ -1,0 +1,335 @@
+.dropdownFullBorder{
+  border: 1px solid #D8DADA;
+  border-bottom-color: #000;
+}
+
+/* for checkbox/radio fields */
+input:focus + div > div {
+    outline:#000 dashed 1px;
+    outline-offset: 4px;
+}
+
+@media reader, speech, aural {
+    input + div > hr {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.password input {
+    text-security: disc;
+    -webkit-text-security:disc;
+    -mox-text-security:disc;
+}
+
+.screenreader {
+    position: absolute !important; /* Outside the DOM flow */
+    height: 1px; width: 1px; /* Nearly collapsed */
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE 7+ only support clip without commas */
+    clip: rect(1px, 1px, 1px, 1px); /* All other browsers */
+}
+.errorLabel{
+  color:#ED7000;
+}
+.is-errorWrap .textFieldWrap{
+  position: relative;
+  display: block;
+}
+.ispuGMapWrap .gMapWrap{
+  border: 1px solid #D8DADA;
+}
+.promoTagWrap a{
+  color: #000;
+  border-bottom: 1px solid #000;
+  margin-left: 5px;
+  display: none;
+}
+.errorPromo input {
+	border: 1px solid rgb(237, 112, 0) !important;
+}
+.errorPromo hr {
+	display: none;
+}
+.errorPromo::after {
+	font-family: 'vzwIcons';
+	content: '\e02d';
+	position: absolute;
+	color: #ED7000;
+	font-size: 30px;
+	font-size: 3 rem;
+  	right: 6px;
+  	top: 9px;
+}
+span.prxCheckMark {
+	font-size: 2.2rem;
+	font-weight: 900;
+	position: relative;
+	line-height: 1rem;
+}
+span.prxCheckMark:after {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 15px;
+	line-height: 1.5rem;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	text-align: left;
+	content: '\2713';
+	color: #cd040b;
+	font-size: 16px;
+	position: absolute;
+	font-weight: 900;
+	top: -5px;
+	margin-left: -2px;
+}
+.tooltip ~ .tooltip--container .tooltip--header {
+	text-align: left;
+	font-family: NeueHaasGroteskDisplayBold, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+	border-top: 2px solid #000;
+	padding-top: 3px;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.portInFields {
+	height: 40px !important;
+}
+.defaultCursor {
+    cursor: default;
+}
+.m-alignTooltipText .tooltip ~ .tooltip--container.topLeft{
+	right: -45px;
+}
+
+.ie9 .displayFlex {
+  display: table;
+}
+
+.ie10 .gridTile_image {
+  width: 100%;
+}
+
+.ie9 .row,.ie9 .configuratorTab.display-flex {
+  display: table;
+  width: 100%;
+}
+
+.ie9 .checkoutSectionWrap {
+  width: 100%;
+}
+
+.ie9 .checkoutSide {
+  float: left;
+}
+
+.ie9  .dropdownChevron {
+  display: none;;
+}
+
+.ie9 .row div[class^="col-xs"], .ie9 .row div[class^="col-sm"], .ie9 .row div[class^="col-md"], .ie9 header .primaryMenuItem, .ie9 .flexTableCell,.ie9 .configuratorTabItem  {
+  display: table-cell;
+  vertical-align: top;
+}
+.ie9 .row .devicesFilterCol{
+  vertical-align: bottom!important;
+}
+.ie9 .grid{
+  width:984px;
+}
+
+.ie9 .navLinksWrap .flexTableCell {
+  padding-left: 30px;
+}
+
+.ie9 header .col-xs-3, .ie9  .col-xs-3 {
+  width: 25%;
+}
+.ie9 .devicesRowWrap .deviceColItem{
+  float: left;
+}
+.ie9 .col-xs-4{
+  width: 33.33%;
+}
+.ie9 header .col-xs-7 {
+  width: 58.33%;
+}
+
+.ie9 .gridwall_img, .ie10 .gridwall_img, .ie11 .gridwall_img {
+  width: 100%;
+  display: block;
+}
+
+.ie9 .accessories_btnWrapper .tertiary {
+  float: left;
+}
+
+.ie9 .accessories_btnWrapper:before, .ie9 .ieCf:before,
+.ie9 .accessories_btnWrapper:after,.ie9 .ieCf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.ie9 .accessories_btnWrapper:after
+,.ie9 .ieCf:after{
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.ie9 .accessories_btnWrapper {
+  *zoom: 1;
+}
+
+@media only screen and (min-width: 75em) {
+  .ie9 .col-lg-6 {
+    width: 50%;
+  }
+}
+.cpcDownArrow .arrowCTA:after{
+    content: "\e607";
+    font-size: 0.7em;
+  }
+.expanded .cpcDownArrow .arrowCTA:after {
+    content: "\e608";
+    font-size: 0.7em;
+  }
+
+/*  To fix footer alignment */
+
+@media (min-width: 992px) {
+  #vzw-gf .col-md-3 {
+    width: 25%;
+  }
+}
+@media (min-width: 992px) {
+  #vzw-gf .col-md-3, #vzw-gf .col-md-9 {
+   
+  }
+}
+
+.protectionChoice {
+  border: 1px solid #CCC; //background-color: #fff;
+}
+
+.topBorder {
+  border-top: 1px #ccc solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.radioCustom_label1:before {
+  border: 2px solid #fff !important;
+  background: #fff !important;
+}
+
+.borderColor {
+  border-top: 6px solid rgb(213, 43, 30);
+  border-left: 2px solid #333;
+  border-right: 2px solid #333;
+  border-bottom: 2px solid #333;
+}
+
+.borderWhite{
+  border-top: 6px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  /*border-bottom: 2px solid #fff;*/
+}
+
+@media (max-width: 1154px) {
+  .height110 {
+    height: auto;
+  }
+  .button.large.protection {
+    padding: 15px 20px !important;
+    min-width: 0px !important;
+  }
+  .height350 {
+    max-height: 350px;
+  }
+}
+/*protection page*/
+.borderGray {
+  border: 1px #ccc solid;
+}
+
+.borderGrayPlan {
+  border-right: 1px #ccc solid;
+  border-top: 1px #ccc solid;
+}
+
+.bottomBorder {
+  border-bottom: 1px #ccc solid;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.height350 {
+  max-height: 250px;
+}
+
+.button.large.protection {
+  min-width: 200px;
+}
+.borderTop{
+    border-top: 1px #ccc solid;
+
+}
+.radioBtnAlign{
+  margin-left: 30px;
+  margin-top: -22px !important;
+
+}
+.noArrow:after{
+  content: '' !important;
+}
+.borderLeft{
+ border-left: 1px #ccc solid;
+}
+.leftPadStrictly{
+  padding-left:40px !important;
+  padding-right:0 !important;
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+}
+.adjustHeader{
+  position: relative;
+  top: -55px;
+}
+.adjustLinks{
+  position: relative;
+  top: -30px;
+}
+/*protection page ends*/
+
+/* apple musiq icon */
+[class*=font-icon] {
+    font-family: vzwIcons;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class*=font-icon], [class*=sprite-icon] {
+    display: inline-block;
+    color: inherit;
+}
+
+.icon-apple:before {
+    content: "\E097";
+}
+
+/* MOD Screen */
+.modSubDetails span {
+  display: inline-block;
+  padding-bottom: 10px;
+}

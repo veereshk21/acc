@@ -1,0 +1,173 @@
+.fadeOutText {
+  background: -webkit-linear-gradient(top, #000 70%, #ececec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 90px;
+  overflow: hidden;
+}
+
+.fadeOutTextAccessories {
+  background: -webkit-linear-gradient(top, #000 40%, #ececec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 100px;
+  overflow: hidden;
+}
+
+.pdpSlide {
+  min-height: 320px;
+  height:70vh;
+  overflow:scroll;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+  .pdpSlide {
+    height: 85vh;
+  }
+
+  .pageContent {
+    /* height: 108vh; */
+  }
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+  .pdpSlide {
+    height: 65vh;
+  }
+
+  .pageContent {
+    /* height: 105vh; */
+  }
+}
+
+.m-pdp {
+  padding: 5px 0;
+  margin: 3px 0 -6px;
+  display: inline-block;
+}
+
+.pricePane:after {
+  color: #cd040b;
+  font-weight: bold;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  font-size: 2.2rem;
+  position: relative;
+  margin-left: 8px;
+  top: 4px;
+  display: inline-block;
+  content: "\203A";
+}
+
+.tabs_wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.featuredBadgeAnimation, .promoDescription {
+  -webkit-transition: bottom 1s, border 1s; /* For Safari 3.1 to 6.0 */
+  transition: bottom 1s, border 1s;
+}
+
+.featureText {
+  position: relative;
+  z-index: 2;
+  overflow: scroll;
+  white-space: pre-wrap;
+  max-height: 39vh;
+}
+
+.featureImage_container {
+  overflow: hidden;
+  height: 315px;
+  max-width: 320px;
+  max-height: 320px;
+}
+
+.featureImageWrap {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+}
+
+.featureImage {
+  z-index: 1;
+}
+
+.featuredBadgeSmall {
+  width: 12px;
+  height: 0;
+  border-bottom: 12px solid #000000;
+  border-left: 12px solid transparent;
+  color: #000000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: bottom 1s, border 1s;
+  transition: bottom 1s, border 1s;
+  z-index: 1;
+  color:#fff;
+}
+.pdp_reviewTxtWrap{
+  height: 23vh;
+  overflow: scroll;
+}
+.accPDP_specsWrap .details-list{
+  list-style: none;
+  padding: 22px 0 10px 0;
+}
+.accPDP_specsWrap .details-list>li{
+  padding-bottom: 20px;
+}
+.accPDP_description li{
+  padding-left: 0;
+  list-style: none;
+}
+.customSwiperPagination {
+  bottom: 40px !important;
+}
+
+.productImage {
+  overflow: hidden;
+}
+
+.pdp_promoReadMore:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;  
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 1)78%); /*Fix for Safari on iPhone 6S, gradient showed weird gray transparent*/
+}
+
+.pdp_promoStar {
+  width: 0;
+  height: 0;
+  background: none;
+  border-width: 18px;
+  border-style: solid;
+  border-bottom-color: #cd040b;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: #cd040b;
+  color: #fff;
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.pdp_promoStar::after {
+  content: "\2605";
+  position: relative;
+  top: -6px;
+}

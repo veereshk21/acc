@@ -1,0 +1,192 @@
+/* PLEASE READ!!!
+ * Simple Modules
+ * Only a single class
+ * re-useable styles.
+ * If the module requires more than 1 class, put in modules.css.
+ * Organize by category to the best of your ability.
+ * Name singles with that describe a single property in the same order as that property is read:
+ * 		i.e. .textAlignRight { text-align:right; }
+ * Shorthand names can be used if the property value is unique to that property
+ *		i.e. .bold {font-weight:bold;}
+ * DO NOT create duplicates with the same or a different name! Check the file FIRST!
+ */
+ @import '../preprocess/brand';
+
+/* classes to change display type. */
+.displayInline{display:inline;}
+.displayBlock{display:block;}
+.displayInlineBlock{display:inline-block;}
+.displayNone{display:none}
+
+
+/* Alignment and Centering */
+.floatLeft {float:left;}
+.floatRight {float:right;}
+.floatNone{float:none;}
+
+.textAlignLeft {text-align:left;}
+.textAlignRight {text-align:right;}
+.textAlignJustify {text-align:justify;}
+.textAlignCenter {text-align:center;}
+
+.colorInherit{color:inherit;}
+
+.centerBlock {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.verticalCenter {
+	display: inline-block;
+	vertical-align: middle;
+}
+.verticalAlignMiddle {vertical-align: middle;}
+.verticalBottom {vertical-align:bottom;}
+.verticalTop {vertical-align: top;}
+.debug {border: 1px solid red;}
+
+
+/****************************************/
+/* Text color Palette - No new colors
+   should be added, use the closest color
+   below!                               */
+/****************************************/
+/*LETS REMOVE THESE*/
+.color_000 {color:#000;} /* Black */
+.color_959595 {color:#959595;} /* Light Gray */
+.color_747676 {color:#747676;}
+.color_4B4B4B {color:#4b4b4b;} /* Gray */
+.color_333 {color:#333333;}
+.color_666 {color:#666666;}
+.color_FFF {color: #FFF}
+.color_red {color:$verizon_red} /* Red - Verizon Red*/
+.color_blue_two {color: #06C}
+.color-green {color:#489A48;}
+
+/*LETS REMOVE THIS*/
+
+/*Primary Colors*/
+
+.color_black {color: #000;}
+.color_white {color: #FFF;}
+.color_red, .red {color: #D52B1E;}
+
+/*Secondary Colors*/
+
+.color_gray_one {color: #F6F6F6;}
+.color_gray_three {color: #D8DADA;}
+.color_gray_six {color: #747676;}
+.color_gray_ten {color: #333;}
+.color_yellow {color: #FFBC3D;}
+.color_orange {color: #ED7000;}
+.color_green {color: #00AC3E;}
+.color_blue {color: #0088CE;}
+
+
+/****************************************
+			Font Styles
+****************************************/
+.normal {font-weight:normal;font-family:NeueHaasGroteskDisplay, Arial, Helvetica, sans-serif;}
+.bold {font-family:NeueHaasGroteskDisplayBold, Arial, Helvetica, sans-serif;font-weight:bold;}
+.fontStyleNormal {font-style:normal;}
+.italic {font-style:italic;}
+.hideText {
+	overflow:hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+.textDecLineThrough {text-decoration:line-through;}
+.textDecUnderline,  {text-decoration:underline;}
+.textDecNone{text-decoration:none;}
+.cursorPointer {cursor:pointer;}
+.cursorNoDrop {cursor:no-drop;}
+.cursorDefault {cursor: default;}
+.noPointer {pointer-events: none;}
+
+.noSelect{
+	cursor:default;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.link{
+	text-decoration:underline;
+	cursor:pointer;
+}
+/****************************************
+			Line Heights
+****************************************/
+
+
+.lineHeight8  {line-height:0.8rem;}
+.lineHeight10 {line-height:1.0rem;}
+.lineHeight12 {line-height:1.2rem;}
+.lineHeight18 {line-height:1.8rem;}
+.lineHeight24 {line-height:2.4rem;}
+.lineHeight30 {line-height:3.0rem;}
+.lineHeight36 {line-height:3.6rem;}
+.lineHeight42 {line-height:4.2rem;}
+
+/****************************************
+			Font Families
+****************************************/
+.iconFont {
+	font-family:vzwIcons, Arial, Helvetica, sans-serif;
+}
+.listStyleDisc li{
+	list-style:disc;
+}
+.listStyleDecimal li{
+	list-style:decimal;
+}
+
+/* classes to change font capitalization. */
+.textTransCapitalize {text-transform:capitalize;}
+.textTransUppercase {text-transform:uppercase; }
+.textTransLowercase {text-transform:lowercase;}
+
+/*Toggle position as required*/
+.positionRelative{position: relative;}
+.positionAbsolute{position: absolute;}
+.positionFixed{position: fixed;}
+
+
+/*Percentage width*/
+.width5  {width: 05%;}
+.width10 {width: 10%;}
+.width15 {width: 15%;}
+.width20 {width: 20%;}
+.width25 {width: 25%;}
+.width30 {width: 30%;}
+.width35 {width: 35%;}
+.width40 {width: 40%;}
+.width45 {width: 45%;}
+.width50 {width: 50%;}
+.width55 {width: 55%;}
+.width60 {width: 60%;}
+.width65 {width: 65%;}
+.width70 {width: 70%;}
+.width75 {width: 75%;}
+.width80 {width: 80%;}
+.width85 {width: 85%;}
+.width90 {width: 90%;}
+.width95 {width: 95%;}
+.width100{width:100%;}
+.widthAuto{width:auto;}
+
+/* Clearing */ /* These should be in layout.css and camel cased */
+.clearBoth{clear:both;}
+.clearLeft{clear:left;}
+.clearRight{clear:right;}
+
+.overflowAuto{overflow: auto;}
+.overflowScroll{overflow: scroll;}
+.overflowYScroll{overflow-y: scroll;}
+.overflowXAuto{overflow-x: auto;}
+.overflowHidden{overflow: hidden;}
+
+.whiteSpaceNoWrap{white-space: nowrap;}

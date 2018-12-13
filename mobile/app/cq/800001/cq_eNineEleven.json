@@ -1,0 +1,25 @@
+{
+  "html": {},
+  "label": {
+    "OD_ENE_ZIPCODE": "Zipcode",
+    "OD_ENE_STATE": "State",
+    "OD_ENE_CITY": "City",
+    "OD_ENE_ADDRESS2": "Address 2 (optional)",
+    "OD_ENE_ADDRESS1": "Address 1",
+    "OD_ENE_MULTI_ADDRESS_TITLE": "Your address has multiple results. Which one is yours?",
+    "OD_ENE_NEXT_BTN": "Next",
+    "OD_ENE_PAGE_SUB_TITLE": "Your e911 address allows response teams to quickly and accurately locate you in the event of an emergency.",
+    "OD_ENE_PAGE_TITLE": "Set up your e911 address.",
+    "OD_CHECKOUT_FORM_FIELD_REQUIRED_TEXT": "Required",
+    "OD_ENE_FIRSTNAME": "First name",
+    "OD_ENE_LASTNAME": "Last name"
+  },
+  "error": {
+    "OD_ENE_ERROR_CITY": "Please enter a valid city.",
+    "OD_ENE_ERROR_ADDRESS1": "Please enter a valid address.",
+    "OD_ENE_ERROR_STATE": "Please choose a state that matches your ZIP.",
+    "OD_ENE_ERROR_ZIPCODE": "Please enter a valid ZIP code.",
+    "OD_ENE_ERROR_FIRSTNAME": "Please enter a valid first name.",
+    "OD_ENE_ERROR_LASTNAME": "Please enter a valid last name."
+  }
+}

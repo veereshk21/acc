@@ -1,0 +1,21 @@
+<svg role="img" aria-label="Back of credit card" width="88" height="56" viewBox="0 0 88 56" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Back of credit card</title>
+  <defs>
+    <ellipse id="a" cx="18.195" cy="17.816" rx="18.195" ry="17.816" />
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(0 11)" stroke="#000" stroke-width="1.045">
+      <rect x=".522" y=".912" width="71.222" height="42.685" rx="1" />
+      <path d="M.62 8.216h70.526M.62 16.864h70.526M52.822 28.975h13.34" />
+    </g>
+    <g transform="translate(51.551)">
+      <mask id="b" fill="#fff"><use xlink:href="#a"/></mask>
+      <use fill="#FFF" xlink:href="#a"/>
+      <path d="M2.365 9.523h26.342c.261 0 .47.207.47.467v20.97L2.365" stroke="#000" stroke-width="1.045" mask="url(#b)" />
+    </g>
+    <path d="M58.833 34.915l-.214-3.445-.014-.228-.177-.145c-4-3.266-6.354-8.086-6.354-13.281 0-9.549 7.91-17.293 17.672-17.293s17.672 7.744 17.672 17.293c0 9.548-7.91 17.293-17.672 17.293-2.645 0-5.207-.569-7.545-1.65l-.228-.106-.224.112-2.916 1.45z" stroke="#000" stroke-width="1.045" />
+    <text font-family="NHaasGroteskDSStd-75Bd, Neue Haas Grotesk Display Std" font-size="8.55" font-weight="bold" fill="#000">
+      <tspan x="60.649" y="23">123</tspan>
+    </text>
+  </g>
+</svg>

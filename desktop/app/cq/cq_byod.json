@@ -1,0 +1,76 @@
+{
+  "html": {
+    "DT_OD_BYOD_SECUREPIN_INSTRUCTIONS": "<ol><li>Select the number where we can text you the Online Authorization Code.</li><li>Click <strong class='fontSize_4'>text me the code</strong> (this message is free and you will not be billed for this text message)<ul class='fontSize_3 margin20 onlyLeftMargin'><li>You should receive your code in less than a minute.</li></ul></li><li>On the next page you will need to enter your Online Authorization Code and click <strong>Confirm</strong>.</li></ol>"
+  },
+  "label": {
+    "DT_OD_BYOD_TITLE": "Bring your own device",
+    "DT_OD_BYOD_GET_STARTED" : "Let's get started by checking your device.",
+    "DT_OD_BYOD_DEVICE_ID_DESCRIPTION" : "We'll need your device ID to see if it's compatible with the Verizon network.",
+    "DT_OD_BYOD_DEVICE_ID_TITLE": "Check your device",
+    "DT_OD_BYOD_CHECK_DEVICE_DESCRIPTION": "It'll just take a moment.",
+    "DT_OD_BYOD_DONT_FIND_DEVICE_TITLE": "if you couldn't find your device above, just give us your device id.",
+    "DT_OD_BYOD_NEED_HELP": "Need help finding your device ID?",
+    "DT_OD_BYOD_PERSONALIZED_INSTRUCTION": "Click one of the device types below for personalized instructions.",
+    "DT_OD_BYOD_CHECKED_DEVICE_TITLE": "Your checked devices",
+    "DT_OD_BYOD_CHECKED_DEVICE_DESCRIPTION": "Devices you wanted to bring will show up here.",
+    "DT_OD_BYOD_CHECKED_DEVICE_ERROR": "The device ID you entered is not valid. Please try again and ensure that there are no spaces or specified characters.",
+    "DT_OD_BYOD_CHECKED_DEVICE_ID": "Device ID",
+    "DT_OD_BYOD_CHECKED_SIM_ID": "Sim ID",
+    "DT_OD_BYOD_CHECKED_REMOVE_DEVICE": "Remove Device",
+    "DT_OD_BYOD_DEVICE_SUCCESS_TEXT": "Congratulations! Your device works on the Verizon Wireless network.",
+    "DT_OD_BYOD_SIM_REQUIRED_DESCRIPTION": "Your device also requires a SIM card. We would be happy to send you a new SIM card for free, or you can check if your current card already works with our network.",
+    "DT_OD_BYOD_HAVE_SIM_TITLE": "I have a SIM card",
+    "DT_OD_BYOD_HAVE_SIM_DESCRIPTION": "Check your SIM card ID below to see if it's compatible with our network.",
+    "DT_OD_BYOD_SUBMIT_IMEI": "Check my device",
+    "DT_OD_BYOD_GET_SIM_TEXT": "I need a SIM card",
+    "DT_OD_BYOD_ORDER_NEW_SIM": "If you don't have a SIM card, or it isn't compatible, just order a free one here.",
+    "DT_OD_BYOD_ADD_SIM_CTA_TEXT": "Add SIM to cart",
+    "DT_OD_BYOD_SIM_TITLE": "Awesome, your $DEVICENAME$ is a perfect match for our network.",
+    "DT_OD_BYOD_FIND_SIM_TEXT": "Finding your SIM ID",
+    "DT_OD_FIND_SIM_INSTRUCTION_TOP": "To find your SIM ID, please follow the instructions below.",
+    "DT_OD_BYOD_CONTINUE_CTA_TEXT": "Continue",
+    "DT_OD_BYOD_CHECK_SIM_CTA_TEXT": "Check my SIM",
+    "DT_OD_BYOD_SIM_ID_ADDED_TITLE": "A SIM card has been added to your order.",
+    "DT_OD_BYOD_SIM_ID_ADDED_DESCRIPTION": "You'll now be able to use your current device on Verizon's network.",
+    "DT_OD_BYOD_IMEI_1_ACTIVATION_DESCRIPTION":"To activate your device using IMEI 2 with eSIM, give us a call at 800-256-4646.",
+     "DT_OD_BYOD_ACTIVATE_TODAY": "Activate IMEI 1",
+    "DT_OD_BYOD_SHOP_DEVICES": "Shop Devices",
+    "DT_OD_BYOD_CHECK_ANOTHER_DEVICE": "Check another device",
+    "DT_OD_BYOD_FAQS": "FAQs - Learn about dual sims",
+    "DT_OD_BYOD_REDIRECT_URL": "/support/dual-sim-with-esim-faqs/",
+    "DT_OD_BYOD_SHOP_DEVICES_URL": "/devices",
+    "DT_OD_BYOD_WHY_TWO_IMEIS": "Why does my device have two IMEI's?",
+    "DT_OD_BYOD_IMEI1_VS_IMEI2": "What is IMEI 1 VS IMEI 2",
+
+    "DT_OD_BYOD_WHAT_NEXT_TEXT": "What would you like to to do next?",
+    "DT_OD_BYOD_ADD_TO_CART_DESCRIPTION": "You can add your current devices to cart and checkout, add more devices to your order or shop for new devices below.",
+    "DT_OD_BYOD_ADD_TO_CART_CTA": "Add to cart & continue",
+    "DT_OD_BYOD_ADD_ANOTHER_CTA": "Bring another device",
+    "DT_OD_BYOD_CANCEL_CTA": "Shop Devices",
+
+    "DT_OD_BYOD_PLAN_DATA_LABEL": "Data",
+    "DT_OD_BYOD_PLAN_MINUTES_LABEL": "Minutes",
+    "DT_OD_BYOD_PLAN_MESSAGES_LABEL": "Messages",
+    "DT_OD_BYOD_PLAN_DEVICES_LABEL": "Devices",
+    "DT_OD_BYOD_PLAN_RETURN_LABEL": "Return to plans overview",
+
+    "DT_OD_BYOD_SECUREPIN_TITLE": "Customer Verification",
+    "DT_OD_BYOD_SECUREPIN_DESCRIPTION": "For the security of your Verizon account, we ask that you complete the Online Authorization process, before proceeding with your transaction:",
+    "DT_OD_BYOD_SECUREPIN_CANCEL_TITLE": "(Free text message)",
+    "DT_OD_BYOD_SECUREPIN_CTA": "Text Me the Code",
+    "DT_OD_BYOD_SECUREPIN_ENTER_CODE_TEXT": "Please enter the Online Authorization Code that was sent to your line",
+    "DT_OD_BYOD_SECUREPIN_ENTER_CODE_LABEL": "Online Authorization Code",
+    "DT_OD_BYOD_SECUREPIN_ENTER_CODE_CTA": "Confirm",
+    "DT_OD_BYOD_ENTER_SIM_ID": "Enter your SIM ID",
+
+    "DT_OD_CHECKOUT_SECURE_PIN_NOT_MATCHING_ERROR": "Unfortunately, the Online Authorization code and the confirmation doesn't match",
+    "DT_OD_CHECKOUT_SECURE_PIN_CONFIRM_REQUIRED_ERROR": "Please confirm your Online Authorization Code",
+    "DT_OD_CHECKOUT_SECURE_PIN_REQUIRED_ERROR": "Please enter your Online Authorization Code",
+    "DT_OD_CHECKOUT_SECURE_PIN_INCORRECT_ERROR": "The authorization code you entered is incorrect. Please try again",
+    "DT_OD_DEVICE_CHECK_TEXT": "Enter your device ID"
+
+  },
+  "error": {
+    "DT_OD_BYOD_SECUREPIN_INELIGIBLE": "You can't edit your address info right now. You can call us at 800.922.0204."
+  }
+}

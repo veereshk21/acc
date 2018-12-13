@@ -1,0 +1,15 @@
+{
+  "html": {},
+  "label": {
+    "DT_OD_TRADEIN_PROMPT_GET_UPTO_TEXT": "Get up to",
+    "DT_OD_TRADEIN_PROMPT_TITLE": "Are you trading in a device?",
+    "DT_OD_TRADEIN_IPHONE_TURNOFF_TITLE": "You need to turn off  'Find My iPhone' on your old device.",
+    "DT_OD_TRADEIN_IPHONE_TURNOFF_DESC": "Instructions on how to turn off Find My iPhone will be in the trade-in box. If you don't turn it off, then your trade in value will be $0.",
+    "DT_OD_TRADEIN_IPHONE_TURNOFF_NEXT_CTA": "Next",
+    "DT_OD_TRADEIN_DEVICES_GET_UPTO_TEXT": "Get up to",
+    "DT_OD_TRADEIN_PROMPT_BACK_CTA": "Back",
+    "DT_OD_TRADEIN_PROMPT_NEXT_CTA": "Next"
+  },
+  "error": {},
+  "data": {"output":{"options":[{"optionText":"Yes, trade in a device.","gotoUrl":"/od/trade-in/auth?fromPage=/od/cust/auth/cart/getCartDetails"},{"optionText":"No, I won't be trading in a device.","gotoUrl":"/od/cust/auth/cart/getCartDetails"}]}}
+}

@@ -1,0 +1,58 @@
+/**
+ * Created by santhra  on 6/15/2017.
+ */
+exports.preOrderReviewPlanJSON ={
+  "ResponseInfo": {
+    "locale": "EN",
+    "type": "Success",
+    "server": "WNJ10002LDVSMPX-Local",
+    "requestId": "7a13a476-261f-4260-8049-d47a2733c2a6",
+    "mdn": "7163341394",
+    "code": "00000",
+    "message": "0",
+    "userMessage": "0"
+  },
+  "Page": {
+    "pageType": "preOrderExpressConfigPage",
+    "ButtonMap": {
+      "PrimaryButton": {
+        "presentationStyle": "push",
+        "tryToReplaceFirst": false,
+        "disableAction": false,
+        "selected": false,
+        "pageType": "feedCheckEligibleLines",
+        "appContext": "mobileFirstSS",
+        "actionType": "openPage",
+        "title": "Confirm",
+        "isSelected": false,
+        "actionURL": ""
+      }
+    },
+    "title": "G0t it, here's what's about to change.",
+    "pageStatNames": [
+      "/mf/am/login/with/mobilesso",
+      "unknown",
+      "unknown",
+      "/mf/cntrlr/authsgnin"
+    ],
+    "plans": [{
+        "plan_letter": "8",
+        "plan_size": "",
+        "plan_amount": "",
+        "line_amount": "$85",
+        "line_access": "8GB",
+        "line_data": "Network sense after 1 byte",
+      },
+      {
+        "plan_letter": "U",
+        "plan_size": "Unlimited",
+        "plan_amount": "PREMIUM",
+        "line_amount": "$65",
+        "line_access": "Unlimited data",
+        "line_data": "Network sense after 30gb",
+      }
+
+    ],
+    "screenHeading": "Shop"
+  }
+}

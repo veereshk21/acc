@@ -1,0 +1,9 @@
+{
+      "html": {},
+      "label": {
+            "OD_SHARED_CART_CLEAR_CART_BUTTON_TEXT": "Clear and continue",
+            "OD_SHARED_CART_VIEW_CART_BUTTON_TEXT": "Go to cart",
+            "OD_SHARED_CART_DEVICE_ADDED_TEXT": "Device added on "
+      },
+      "error": {}
+}

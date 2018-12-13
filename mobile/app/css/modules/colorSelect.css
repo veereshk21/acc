@@ -1,0 +1,201 @@
+/**************************************************
+	  			Color Selectors
+**************************************************/
+
+.colorSelector {
+    clip: rect(0,0,0,0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    border: 0;
+    position: absolute
+}
+
+.colorSelector_label {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 6px 6px 0;
+    border: 1px solid #f7f7f7;
+    border-radius: 50%;
+    position: relative;
+
+}
+.colorSelector_label.m_acc{
+  width: 31px;
+  height:31px;
+  padding: 2px;
+}
+
+.colorSelector_name {
+    display: block;
+    text-indent: -3000px
+}
+.colorSelector_label.is-selected {
+    border: 1px solid #000000;
+    background: #ffffff;
+    color: #fff;
+    font-family: vzwIcons;
+}
+.colorSelector_label.is-selected.m_acc{
+    border:1px solid #000;
+}
+.colorSelector_label.m_acc span{
+    width: 25px;
+    height: 25px;
+    border-radius: 50% 
+}
+
+.colorSelector:checked + .colorSelector_label > .colorSelector_check:before {
+    font-family: vzwIcons;
+    font-size: 18px;
+    speak: none;
+    text-transform: none;
+    line-height: 1;
+    content: "\e0a6";
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    text-shadow: -1px 0 #000,0 1px #000,1px 0 #000,0 -1px #000;
+}
+.colorSelector:checked + .colorSelector_label.m_acc > .colorSelector_check:before {
+  top: 12px;
+  left: 12px;
+  font-size: 14px;
+}
+
+/**************************************************
+	  		Accesory Modal Color Selectors
+**************************************************/
+
+.accColorSelector {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.accColorSelector_label {
+    height: 36px;
+    width: 36px;
+    display: block;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin: 0 6px 6px 0;
+    text-indent: -3000px;
+    border: solid 1px #959595;
+}
+
+.accColorSelector_label.m-small {
+    height: 30px;
+    width: 30px;
+    margin: 6px 6px 6px 0;
+}
+
+.accColorSelector_label.accColorSelector_checkShadow.isSelected {
+    background: url('/omni/dt/i/iconSprite.png') no-repeat 7px -16px;
+}
+
+.accColorSelector_label.isSelected {
+    background: url('/omni/dt/i/iconSprite.png') no-repeat 7px -16px;
+}
+
+.accColorSelector_label.m-small.accColorSelector_checkShadow.isSelected {
+    background-position: 4px -20px;
+}
+
+.accColorSelector_label.showOutOfStock:after {
+    content: "out of stock";
+    position: absolute;
+    text-indent: 0;
+    font-size: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 100%;
+    padding-top: 6px;
+    color: #fff;
+}
+
+
+
+/* New Color Select Swathes */
+
+.colorSelectRadioBtn {
+    position: absolute;
+    left: -1000px;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    border: 0;
+}
+
+.colorSelectRadioBtn+label{
+    border-radius: 50%;
+    padding: 15px;
+    border:1px solid #CCC;
+    width: 50px;
+    height: 50px;
+}
+
+.colorSelectRadioBtn:checked+label{
+    border: 2px solid #cd040b;
+    background: #cd040b;
+    color: #fff;
+    font-family: vzwIcons;
+    padding:15px;
+}
+
+.colorSelectRadioBtn:checked+label:after{
+    content: "\e0a6";
+    margin-left: 0;
+
+}
+
+.colorSelectRadioBtn+label:after{
+    content: "";
+
+}
+
+.sizeSelector {
+    clip: rect(0,0,0,0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    border: 0;
+    position: absolute
+}
+
+.sizeSelector_label {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 6px 6px 0;
+    border: 1px solid #CCC;
+    border-radius: 50%;
+    font-size: 14px;
+    position: relative;
+    line-height: 45px;
+    text-align: center;
+}
+
+.sizeSelector_name {
+    display: block;
+    text-indent: -3000px
+}
+.sizeSelector_label.is-selected {
+    border: 2px solid #cd040b;
+    font-family: vzwIcons;
+}

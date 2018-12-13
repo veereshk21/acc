@@ -1,0 +1,38 @@
+{
+  "html": {
+    "OD_BYOD_DEVICE_INSTRUCTIONS_IOS": "<div> <div class='fontDisplayBold'>Find It Within Your Device on iOS (Apple)</div> <section class='pad12 noSidePad'> <div class='clearfix pad6 noSidePad'> <span class='col span_1_of_5 textAlignCenter'> <img src='https://scache.vzw.com/omni/common/helpoverlay/i/apple.png' alt='ios'> </span> <span class='col span_4_of_5'> <ul class='plainList'> <li>1. Dial *#06# from your device.</li> <li>2. The device ID (MEID, IMSI or IMEI) should display on your screen.</li> </ul> </span> </div> <div class='pad12 textAlignCenter'>(Or)</div> <div class='clearfix pad6 noSidePad'> <span class='col span_1_of_5 textAlignCenter'> <img src='https://scache.vzw.com/omni/common/helpoverlay/i/settings.png' alt='ios settings'> </span> <span class='col span_4_of_5'> <ul class='plainList'> <li>1. From your home screen, select &#34;Settings&#34;.</li> <li>2. Select &#34;General&#34;.</li> <li>3. Select &#34;About&#34;.</li> <li>4. Scroll down to the IMEI, ESN or MEID number.</li> </ul> </span> </div> </section></div>",
+    "OD_BYOD_DEVICE_INSTRUCTIONS_ANDROID": "<div><div class='fontDisplayBold'>Find your device ID on Android</div><section class='pad12 noSidePad'><div class='clearfix pad6 noSidePad'><p class='fontDisplayMedium'>Option 1 - Find It Within Your Device</p><span><ul class='plainList'><li>1. Dial *#06# from your device.</li><li>2. The device ID number should display on your screen.</li></ul></span></div><div class='pad12'>(Or)</div><div class='clearfix pad6 noSidePad'><span><ul class='plainList'><li>1. From your home screen, select &#34;Menu&#34;.</li><li>2. Select &#34;Settings&#34;.</li><li>3. Select &#34;About Phone&#34;.</li><li>4. Select &#34;Status&#34;.</li><li>5. Scroll down to the IMEI, ESN or MEID number.</li></ul></span></div><div class='clearfix pad6 noSidePad'><p class='fontDisplayMedium'>Option 2 - Find It on the Outside of Your Device</p><span><ul class='plainList'><li>1. Remove the battery from your device.</li><li>2. Locate the IMEI, ESN or MEID number on the inside of your device. See the image for reference.</li><li><img src='https://scache.vzw.com/omni/dt/i/nso/device-id.jpg' alt='IMEI, ESN or MEID Bar code'></li></ul></span></div></section></div>",
+    "OD_BYOD_DEVICE_INSTRUCTIONS_WINDOWS": "<div><section class='pad12 noSidePad'><div class='clearfix pad6 noSidePad'><p class='fontDisplayMedium'>Option 1 - Find It Within Your Device</p><span><ul class='plainList'><li>1. From Start screen, select the right arrow (located in the upper-right).</li><li>2. Select &#34;Settings&#34;.</li><li>3. Select &#34;About&#34;.</li><li>3. Select &#34;More Info&#34; and the MEID number will appear.</li></ul></span></div><div class='clearfix pad6 noSidePad'><p class='fontDisplayMedium'>Option 2 - Find It on the Outside of Your Device</p><span><ul class='plainList'><li>1. Remove the battery from your device.</li><li>2. Locate the IMEI, ESN or MEID number on the inside of your device. See the image for reference.</li><li><img src='https://scache.vzw.com/omni/dt/i/nso/device-id.jpg' alt='IMEI, ESN or MEID Bar code'></li></ul></span></div></section></div>",
+    "OD_BYOD_DEVICE_INSTRUCTIONS_GENERIC": "<div><section class='pad12 noSidePad'><div class='clearfix pad6 noSidePad'><p class='fontDisplayMedium'>Option 1 - Find It on the Outside of Your Device</p><span><ul class='plainList'><li>1. Remove the battery from your device.</li><li>2. Locate the IMEI, ESN, or MEID number on the inside of your device. See image for reference.</li></ul></span></div><div class='clearfix pad6 noSidePad'><p class='fontDisplayMedium'>Option 2 - Find It On Your Device's Packaging</p><span><ul class='plainList'><li>1. Check the inside and outside of the box your device came in for the MEID, ESN or IMEI.</li></ul></span></div><div class='clearfix pad6 noSidePad'><p class='fontDisplayMedium'>Option 3 - Find It On Your Device's Receipt</p><span><ul class='plainList'><li>1. Review the device's purchase receipt for a number labeled MEID, ESN or IMEI.</li><li><img src='https://scache.vzw.com/omni/dt/i/nso/device-id.jpg' alt='IMEI, ESN or MEID Bar code'></li></ul></span></div></section></div>",
+    "OD_BYOD_DEVICE_INSTRUCTIONS_WEARABLE": "<div><section class='pad12 noSidePad'><div class='clearfix pad6 noSidePad'><p class='fontDisplayMedium'>Option 1 - Find It on the Outside of Your Device</p><span><ul class='plainList'><li>1. Remove the battery from your device.</li><li>2. Locate the IMEI, ESN, or MEID number on the inside of your device. See image for reference.</li></ul></span></div><div class='clearfix pad6 noSidePad'><p class='fontDisplayMedium'>Option 2 - Find It On Your Device's Packaging</p><span><ul class='plainList'><li>1. Check the inside and outside of the box your device came in for the MEID, ESN or IMEI.</li></ul></span></div><div class='clearfix pad6 noSidePad'><p class='fontDisplayMedium'>Option 3 - Find It On Your Device's Receipt</p><span><ul class='plainList'><li>1. Review the device's purchase receipt for a number labeled MEID, ESN or IMEI.</li><li><img src='https://scache.vzw.com/omni/dt/i/nso/device-id.jpg' alt='IMEI, ESN or MEID Bar code'></li></ul></span></div></section></div>",
+    "OD_BYOD_SIM_INSTRUCTIONS": "<div><p class='fontDisplayBold'>To find your SIM ID, please follow the below instructions.</p><p class='pad6 noSidePad'>Find It Within Your Device</p><div class='pad18 onlyLeftPad'><ol class='noSideMargin noSidePad'><li>From your home screen, select Settings.</li><li>Select General.</li><li>Select About.</li><li>Scroll down to the ICCID number.</li></ol></div></div>"
+  },
+  "label": {
+    "OD_BYOD_NEXT_CTA_TEXT": "Next",
+    "OD_BYOD_NEXT_SELECT_TEXT": "Select",
+    "OD_BYOD_DEVICES_OPTION_TITLE": "What kind of device are you bringing in today?",
+    "OD_BYOD_DEVICE_SEARCH_TITIE": "What kind of device do you have?",
+    "OD_BYOD_NAME_SUBTITILE": "Please type the name of your",
+    "OD_BYOD_TYPE_MODEL": "Type model",
+    "OD_BYOD_OR": "(Or)",
+    "OD_BYOD_SELECT_FROM_LIST": "Select from the list of ",
+    "OD_BYOD_WHAT_DEVICE_BRAND": "What kind of device do you have?",
+    "OD_BYOD_WHAT_DEVICE_MODEL": "Ok, which one?",
+    "OD_BYOD_IMEI_PAGE_TITLE": "Almost there... <br/> We just need your device ID.",
+    "OD_BYOD_DEVICE_ID_IMEI_LABEL": "Enter your device ID/IMEI",
+    "OD_BYOD_DEVICE_ID_LABEL": "Enter Device ID",
+    "OD_BYOD_SIM_PROMPT_TITLE": "SIM Card",
+    "OD_BYOD_SIM_PROMPT_DESCRIPTION": "Your device also requires a SIM card. We'd be happy to send you a new SIM card for free, or you can check if your current card already works with our network.",
+    "OD_BYOD_SIM_PROMPT_OPTION1": "I'd like a free SIM card",
+    "OD_BYOD_SIM_PROMPT_OPTION2": "I'd like to use a SIM card I already have",
+    "OD_BYOD_SIM_YOUR_ID": "Your SIM ID",
+    "OD_BYOD_FIELD_REQUIRED": "Required",
+    "OD_BYOD_FIELD_INVALID_IMEI_ERROR": "Device Id length has to be either 11, 14, 15 or 18 for Digital number.",
+    "OD_BYOD_SELECT_DEVICE": "Select a device",
+    "OD_BYOD_OSTYPE_TITLE": "Finding your device ID on ",
+    "OD_BYOD_MY_DEVICES": "My devices",
+    "OD_BYOD_STATUS_GOODNEWS": "Good news! Your ",
+    "OD_BYOD_STATUS_VZ_NETWORK": " works on the Verizon Network."
+  },
+  "error": {}
+}

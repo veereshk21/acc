@@ -1,0 +1,128 @@
+/**************************************************
+	  		     Global Buttons
+**************************************************/
+.button {
+	display: inline-block;
+	padding: 12px;
+	text-align: center;
+	color: #fff;
+	background-color:#000000;
+	border: 0;
+	cursor:pointer;
+	font-family: NeueHaasGroteskDisplay, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-size:1.28rem;
+	width: auto;
+	min-width: auto;
+	border-radius: 24px;
+	border: 1px solid #000000;
+}
+
+
+
+/**************************************************
+	  		Primary Button (Red)
+**************************************************/
+.button.primary {color:#fff; background-color:#000000;}
+
+/**************************************************
+	  		Secondary Button (Gray)
+**************************************************/
+.button.secondary {color:#000000; background-color:white; border: 1px solid #000000;font-weight: bold; }
+
+/**************************************************
+	  		     Teritiary Button
+(To support older buttons, DO NOT USE going forward,
+				USE SECONDARY BUTTON)
+**************************************************/
+.button.tertiary {
+	padding: 6px 12px;
+	min-width: 85px;
+}
+
+/**************************************************
+	  		primary Button (white)
+**************************************************/
+.button.white {color:#000; background-color:white; border: 1px solid #000;}
+
+/**************************************************
+	  		secondary Button (white)
+**************************************************/
+.button.black {color:#fff; background-color:#000; border: 1px solid #fff;}
+
+
+/**************************************************
+		Modification Button
+**************************************************/
+
+.button.large {
+	padding: 12px 18px;
+	min-width: 114px;
+}
+.button.small {
+	padding: 4px 8px;
+	min-width: 50px;
+	font-size: 11px;
+	font-size: 1.1rem;	
+	font-family: NeueHaasGroteskDisplayBold;
+}
+
+
+.button:focus{
+	outline: none;
+	box-shadow: 0 0 1pt 1pt orange;
+}
+
+.button_menu{ /**** ????? ****/
+	color:#fff;
+	text-decoration: underline;
+	border:1px solid #fff;
+	background: transparent;
+}
+
+/**************************************************
+		Disabled button
+**************************************************/
+.button.disabled,
+.button[disable="true"],
+.button[disabled]
+{background-color: #d8dada; color: #ffffff; border: 1px solid #d8dada; font-family: NeueHaasGroteskDisplayMedium, Arial, Helvetica, sans-serif; }
+
+.button.disabled.m-bglight,
+.button[disable="true"].m-bglight,
+.button[disabled].m-bglight
+{background-color: #f5f5f5; color: #a3a3a3; border: 1px solid #e5e6e4 }
+
+/*Disabled styles for secondary buttons*/
+.button.secondary[disabled]
+{background-color: transparent; color:#e5e6e4}
+
+/*footer fixed state*/
+.footerFixed{
+	position: fixed;
+	width: 100%;
+	padding: 12px;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+	text-align: center;
+	background: #FFFFFF;
+}
+.footerFixed.noBorder{
+	border: none;
+}
+.link{
+    color: #000;
+		border: none;
+		
+    border-bottom: 1px solid #000 !important; 
+}
+.link_white{
+    color: #FFF;
+		border: none;
+		
+    border-bottom: 1px solid #FFF !important; 
+}
+input.link{
+	padding: 0 0 2px 0;
+}

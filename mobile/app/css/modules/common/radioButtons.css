@@ -1,0 +1,137 @@
+/***********************************
+	How to implement:z
+		<input type="radio" id="deviceCapacity_1" class="radioCustom" name="capacitySelection" value="128GB" role="radiogroup">
+		<label for="deviceCapacity_1" class="radioCustom_label" id="a11y-1805">
+		  <span class="fontSize_5" id="a11y-1804">128GB</span>
+		</label>
+***********************************/
+
+.radioCustom, .radioBtn {
+  opacity: 0;
+  position: absolute;
+}
+
+.radioCustom, .radioCustom_label {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  outline: none;
+}
+
+.radioCustom.m-horizonCenter, .radioCustom_label.m-horizonCenter {
+  display: flex;
+  justify-content: space-around;
+  flex-direction:row;
+  align-items: center;
+}
+
+.radioCustom:checked + .radioCustom_label:before,
+.radioCustom:checked + input[type=hidden] + .radioCustom_label:before,
+.radioBtn:checked + label:before,
+.radioBtn:checked + input[type=hidden] + .label:before,
+.radioBtn[aria-checked=true] + label:before,
+.radioBtn[aria-checked=true] + input[type=hidden] + .label:before,
+.radioCustom[aria-checked=true] + .radioCustom_label:before,
+.radioCustom[aria-checked=true] + input[type=hidden] + .radioCustom_label:before {
+  content: '';
+  background: #040404;
+  border: 2px solid;
+  box-shadow: inset 0 0 0 8px #ffffff;
+}
+
+.radioCustom_label:before,
+.radioBtn+label:before
+ {
+  content: '';
+  background: #fff;
+  border: 2px solid #040404;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.radioCustom_label.m-horizonCenter:before,
+.radioBtn+label.m-horizonCenter:before {
+  flex-basis: 34px;
+}
+.radioCustom_label.radioLeft:before{
+  float:left;
+}
+.radioCustom_label.m-priceLabel:before {
+  content: '';
+  display: inline-block;
+}
+
+.radioCustom_label > span {
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin-top: 6px;
+  display: block;
+  color: #333333;
+}
+
+.priceLabel {
+  width: 85%;
+  float: right;
+  margin-right: 24px;
+}
+.flexRadio{
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.boxSelector {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-height: 85px;
+	background-color: #fff;
+}
+.boxSelector.m-active{
+	background-color: #f6f6f6
+}
+.boxSelector::before{
+  content: '';
+  height: 5px;
+  background: none;
+  width:100%;
+  display: block
+}
+
+.boxSelector.m-active::before {
+	content: '';
+  height: 5px;
+  background: #cd040b;
+}
+.boxSelector .boxContianer {
+  display: block;
+  width: 100%;
+	height: 5px;
+	stroke-width: 2;
+	stroke: none;
+	stroke-miterlimit: 10;
+	fill: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;;
+
+}
+.boxSelector.m-active .boxContianer{
+  display:block;
+  width: 100%;
+	height: 5px;
+	stroke: #cd040b;
+	stroke-miterlimit: 10;
+	box-shadow: inset 0px 0px 0px #cd040b;
+	animation: fill .001s ease-in-out .001s forwards;
+
+}

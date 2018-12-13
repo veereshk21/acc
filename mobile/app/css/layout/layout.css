@@ -1,0 +1,332 @@
+/* backgrounds */
+.background_FF{background:#FFF;}
+.background_CC{background:#CCC;}
+.background_00 {background:#000;}
+.background_lightblue{background:#abe0f9;}
+.background_33 {background:#333;}
+.background_blue_one {background:#0088ce;}
+
+.background_primary {background-color:#e4e5e3;}
+.background_supporting {background-color:#f7f7f7;}
+.background_promotion {background-color:#c9fdc7;}
+.background_tertiary {background-color:#ffffff;}
+.background_lightGray {background-color:#959595;}
+.background_promo {background-color:#c9fdc7;}
+.background_lightGreen{background-color:#62d1a8;}
+.background_lightOrange{background-color:#f9b295;}
+.background_Orange{background-color:#ed7000;}
+.background_transparent {background-color:transparent;}
+.background_gray_six{ background-color: #747676}
+
+/* borders */
+.border_CC {border:1px solid #CCC;}
+.border_33 {border:1px solid #333;}
+.border_00 {border:1px solid #000;}
+.border_95 {border:1px solid #959595;}
+.border_EB {border:1px solid #EBEBEB;}
+.border_FA {border:1px solid #FAFAFA;}
+.border_active{border: 3px solid #cd040b;}
+.border_grey {border:1px solid #D8DADA;}
+
+.border_74{border: 1px solid #747676;}
+
+.noTopBorder {border-top:none;}
+.noBottomBorder {border-bottom:none;}
+.noLeftBorder {border-left:none;}
+.noRightBorder {border-right:none;}
+.noBorder {border:none}
+
+.onlyTopBorder {border-bottom:none; border-left:none; border-right:none;}
+.onlyBottomBorder {border-top:none; border-left:none; border-right:none;}
+.onlyLeftBorder {border-top:none; border-bottom:none; border-right:none;}
+.onlyRightBorder {border-top:none; border-bottom:none; border-left:none;}
+
+.noSideBorder {border-left:none;border-right:none;}
+.onlySideBorder {border-top:none;border-bottom:none;}
+
+/* Clear Floated Elements */
+/* https://sonspring.com/journal/clearing-floats */
+.clear, .clear6, .clear12, .clear18, .clear24, .clear30, .clear36, .clear42, .clear54, .clear60, .clear72, .clear102 {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.clear6, .clear12, .clear18, .clear24, .clear30, .clear36, .clear42, .clear54, .clear72, .clear102 {
+	width:auto;
+}
+.clear6 {height:6px;}
+.clear12 {height:12px;}
+.clear18 {height:18px;}
+.clear24 {height:24px;}
+.clear30 {height:30px;}
+.clear36 {height:36px;}
+.clear42 {height:42px;}
+.clear54 {height:54px;}
+.clear60 {height:60px;}
+.clear72 {height:72px;}
+.clear102 {height:102px;}
+
+/* https://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.clearfix:after {clear: both;}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+.lt-ie8 .clearfix {zoom: 1;}
+
+/*For simplifying the layout of an ordered or unordered list element*/
+.plainList {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.noIndentList {padding-left:1em}
+.inlineList, .inlineList > li {display:inline;}
+.normalList {list-style:inherit;}
+
+.pad3 {padding:3px;}
+.pad6 {padding:6px;}
+.pad10 {padding:10px;}
+.pad12 {padding:12px;}
+.pad15 {padding:15px;}
+.pad16 {padding:16px;}
+.pad18 {padding:18px;}
+.pad20 {padding:20px;}
+.pad24 {padding:24px;}
+.pad30 {padding:30px;}
+.pad32 {padding:32px;}
+.pad36 {padding:36px;}
+.pad42 {padding:42px;}
+.pad48 {padding:48px;}
+.pad54 {padding:54px;}
+.pad60 {padding:60px;}
+.pad72 {padding:72px;}
+.pad90 {padding:90px;}
+.pad102 {padding:102px;}
+.pad162 {padding:162px;}
+
+
+.noPad {padding:0;}
+.noSidePad {padding-left:0; padding-right:0;}
+.noBottomPad {padding-bottom:0;}
+.onlySidePad, .sidePadOnly {padding-top:0; padding-bottom:0;}
+.onlyTopPad{padding-bottom:0; padding-left:0; padding-right:0;}
+.onlyBottomPad{ padding-top:0; padding-left:0; padding-right:0;}
+.onlyLeftPad{ padding-top:0; padding-bottom:0; padding-right:0;}
+.onlyRightPad{ padding-top:0; padding-bottom:0; padding-left:0;}
+.noTopPad{padding-top:0;}
+.noBottomPad{padding-bottom:0;}
+.noLeftPad{padding-left:0;}
+.noRightPad{padding-right:0;}
+
+.margin0 {margin:0;}
+.margin3 {margin:3px;}
+.margin6 {margin:6px;}
+.margin10 {margin:10px;}
+.margin12 {margin:12px;}
+.margin18 {margin:18px;}
+.margin20 {margin:20px;}
+.margin24 {margin:24px;}
+.margin30 {margin:30px;}
+.margin36 {margin:36px;}
+.margin42 {margin:42px;}
+.margin48 {margin:48px;}
+.margin54 {margin:54px;}
+.margin60 {margin:60px;}
+.margin66 {margin:66px;}
+.margin72 {margin:72px;}
+.margin102 {margin:102px;}
+.margin-6 {margin:-6px;}
+.margin-10 {margin:-10px;}
+.margin-24{	margin:-24px;}
+.margin-36{	margin:-36px;}
+.margin-42{	margin:-42px;}
+.margin-48{	margin:-48px;}
+.margin-78{	margin:-78px;}
+.margin-90{	margin:-90px;}
+
+.noMargin {margin:0;}
+.noSideMargin { margin-left:0; margin-right:0;}
+.noTopMargin {margin-top:0;}
+.noBottomMargin {margin-bottom:0;}
+.noRightMargin {margin-right:0;}
+.noLeftMargin {margin-left:0;}
+
+.onlySideMargin, .sideMarginOnly {margin-top:0; margin-bottom:0;}
+.onlyTopMargin{ margin-bottom:0; margin-left:0; margin-right:0;}
+.onlyBottomMargin{ margin-top:0; margin-left:0; margin-right:0;}
+.onlyLeftMargin{ margin-top:0; margin-bottom:0; margin-right:0;}
+.onlyRightMargin{ margin-top:0; margin-bottom:0; margin-left:0;}
+
+.width6 {width:6px;}
+.width12 {width:12px;}
+.width18 {width:18px;}
+.width24 {width:24px;}
+.width30 {width:30px;}
+.width36 {width:36px;}
+.width42 {width:42px;}
+.width48 {width:48px;}
+.width54 {width:54px;}
+.width60 {width:60px;}
+.width72 {width:72px;}
+.width102 {width:102px;}
+
+
+.height6 {height:6px;}
+.height12 {height:12px;}
+.height18 {height:18px;}
+.height24 {height:24px;}
+.height30 {height:30px;}
+.height36 {height:36px;}
+.height42 {height:42px;}
+.height48 {height:48px;}
+.height54 {height:54px;}
+.height60 {height:60px;}
+.height66 {height:66px;}
+.height72 {height:72px;}
+.height102 {height:102px;}
+.height132 {height:132px;}
+
+
+/* Module for Vertical Centering */
+/* 	center goes on a container.
+	center_element goes on the elements you want to center.
+	Add the m-verticalOnly class to the center container to remove horizontal centering and only center the element vertically.
+	https://css-tricks.com/centering-in-the-unknown/
+ */
+.center { white-space:nowrap; text-align:center;}
+.center:before {
+    content: ""; /* Adding Extra Space Above Element */
+    display: inline-block;
+    height: 100%;
+    margin-right: -0.3em;
+    vertical-align: middle;
+}
+.center > * {
+	white-space:normal; /*reset the white-space to behave normally for all elements inside the centerV container */
+	text-align:left;
+}
+.center_element {
+	display:inline-block;
+	float:none;
+	vertical-align:middle;
+	white-space:normal;
+	text-align:left;
+}
+
+/***************************************************
+				Media Module
+ A module where an image floats left of some content to its right.
+ https://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
+ https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
+***************************************************/
+.media {
+	overflow:auto;
+}
+.media_graphic  {
+	float:left;
+	margin-right:10px;
+}
+.media_graphic.m-flipped {
+	float:right;
+	margin-right:0;
+	margin-left:10px;
+}
+.media_content {
+	overflow:auto; /*https://www.stubbornella.org/content/2009/07/23/overflow-a-secret-benefit/*/
+}
+.mediaSplash_container{
+  height: 50vh;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100vw;
+}
+.media_splash{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/***************************************************
+					Table
+When you need the convienence of table without using
+an acutal table.
+***************************************************/
+.table {display:table;}
+.table_tr {display:table-row;}
+.table_td {display:table-cell;}
+.vertical_align_middle {vertical-align:middle;}
+
+.backgroundPosition{ background-position: center;}
+
+.backgroundPosition.right.bottom{background-position: right bottom;	}
+
+.noRepeat{	background-repeat: no-repeat; }
+
+.block{display: block}
+.flex{
+	display: flex;
+}
+/*
+*  Vertical Height for screen size,
+*  this propery sets screen size based height
+**/
+.vh50{
+  height: 50vh;
+}
+.vh60{
+  height: 60vh;
+}
+.vh70{
+  height: 70vh;
+}
+.vh80{
+  height: 80vh;
+}
+.vh90 {
+  height: 90vh;
+}
+.vh100 {
+  height: 100vh;
+}
+.img_boxShadow{
+  -webkit-box-shadow: -6px -5px 23px -8px rgba(0,0,0,0.35);
+  -moz-box-shadow: -6px -5px 23px -8px rgba(0,0,0,0.35);
+  box-shadow: -6px -5px 23px -8px rgba(0,0,0,0.35);
+}
+
+/* minimum vertical height adjust screen for sibling based on content
+.min_vh50{
+  min-height: 50vh;
+}
+.min_vh60{
+  min-height: 60vh;
+}*/
+.table_tr_flex{
+  display: flex;
+  align-items: center;
+  height: 250px;
+}
+.table_td_flex_left, .table_td_flex_right{
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}

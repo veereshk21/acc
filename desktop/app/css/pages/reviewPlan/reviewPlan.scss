@@ -1,0 +1,353 @@
+//colors
+$black: #000;
+$color_monza_approx: #cd040b;
+$white: #fff;
+$color_java_approx: #12bfb0;
+$color_celeste_approx: #ccc;
+$color_black_haze_approx: #f6f6f6;
+$color_mercury_approx: #e4e5e3;
+
+//fonts
+$font_0: NeueHaasGroteskDisplayBold;
+$font_1: Arial;
+$font_2: Helvetica;
+$font_3: sans-serif;
+
+//data-uris
+$data_uri_0: "data:image/svg+xml;charset=utf-8,%3Csvg%20version='1.1'%20id='Ebene_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20x='0px'%20y='0px'%20viewBox='0%200%2018%2018'%20style='enable-background:new%200%200%2018%2018;'%20xml:space='preserve'%3E%3Cpolygon%20points='8.679,0.165%207.884,0.96%2015.36,8.438%200,8.438%200,9.562%2015.36,9.562%207.884,17.04%208.679,17.835%2017.515,9%20'/%3E%3C/svg%3E";
+
+.dataHeader {
+	border: 1px solid $color_celeste_approx;
+	padding: 18px;
+}
+.dataOption {
+	border: 1px solid $color_celeste_approx;
+	padding: 18px;
+}
+.compatiblePlansSlider {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	z-index: 1;
+	.swiper-slide {
+		width: 205px;
+		cursor: pointer;
+	}
+	.swiper-wrapper {
+		width: 100%;
+	}
+}
+.container-fluid {
+	width: 100%;
+}
+.planFeaturesList {
+	padding: 10px 10px 10px 0;
+	br {
+		line-height: 30px;
+	}
+	.voiceInfoWrap li {
+		margin-bottom: 10px;
+	}
+}
+.planStatus {
+	height: 20px;
+}
+.prxCheckMarkTVP3::after {
+	vertical-align: top;
+	line-height: 15px;
+	line-height: 1.5rem;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	text-align: left;
+	content: '\e901';
+	// color: $color_monza_approx;
+	font-size: 16px;
+	right: -18px;
+	font-weight: 900;
+	top: -5px;
+	margin-left: -2px;
+}
+.planSizeWrap {
+	height: 67px;
+}
+.voiceInfoWrap {
+	padding: 10px;
+}
+.swiper-button-next {
+	right: -30px;
+}
+.swiper-container-rtl {
+	.swiper-button-prev {
+		right: -30px;
+	}
+	.swiper-button-next {
+		left: -30px;
+	}
+}
+.swiper-button-prev {
+	left: -30px;
+}
+.planSubStatus {
+	top: -3px;
+}
+.cpcNext {
+	height: 544px;
+	width: 234px;
+	border: 1px solid $color_celeste_approx;
+	top: 22px;
+	right: 0;
+	background: $white;
+	.carouselStyle {
+		.carouselTextStyle {
+			width: 50%;
+			display: inline-block;
+		}
+		&:after {
+			content: "";
+			background-image: url($data_uri_0);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			height: 20px;
+			width: 20px;
+			float: right;
+		}
+	}
+}
+.cpcPrev {
+	height: 544px;
+	width: 234px;
+	border: 1px solid $color_celeste_approx;
+	top: 22px;
+	left: 0;
+	background: $white;
+	.carouselStyle {
+		float: right;
+		.carouselTextStyle {
+			width: 50%;
+			display: inline-block;
+		}
+		&:after {
+			content: "";
+			background-image: url($data_uri_0);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			height: 20px;
+			width: 20px;
+			float: left;
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: scaleX(-1);
+			margin-right: 40px;
+		}
+	}
+}
+.carouselParent {
+	border-bottom: 1px solid $black;
+	margin: 0 18px;
+	height: 286px;
+}
+.carouselStyle {
+	padding-top: 234px;
+	font-size: 14px;
+}
+.headerInfo {
+	width: 100%;
+	padding: 20px 18px;
+	height: auto;
+	color: $black;
+	z-index: 1001;
+	font-size: 16px;
+	font-size: 1.6rem;
+	background-color: $color_black_haze_approx;
+	font-family: $font_0, $font_1, $font_2, $font_3;
+}
+.swiper-wrapper {
+	height: auto !important;
+}
+.planVerticalCenter {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.capacityUnlimitedAlign {
+	position: relative;
+	left: 44px;
+}
+.capcitySmallAlign {
+	position: relative;
+	left: 63px;
+}
+.capacityDppAlign {
+	position: relative;
+	text-align: center;
+}
+.background-gray {
+	background-color: $color_black_haze_approx;
+}
+.background-dark-gray {
+	background-color: $color_mercury_approx;
+}
+.background-white {
+	background-color: $white;
+}
+.planChoices {
+	border: 1px solid $color_celeste_approx;
+	//background-color: $white;
+}
+.planIconAlign {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.moreinfoLinks {
+	color: $black;
+	text-decoration: underline;
+	font-size: 1.6rem;
+}
+.arrowStyle {
+	color: $black;
+	text-decoration: none;
+	font-size: 1.6rem;
+}
+.secondaryBtnWidth {
+	width: 284px;
+}
+.planCentre {
+	position: relative;
+	text-align: center;
+}
+.borderCD {
+	border-bottom: 4px solid $color_monza_approx;
+}
+.highlighted {
+	border-bottom: 4px solid $color_monza_approx;
+}
+.planSelectionTab {
+	display: inline-flex;
+	list-style: none;
+	border-bottom: 1px solid $color_celeste_approx;
+	width: 100%;
+	padding-left: 0;
+}
+.accordion__title {
+	outline: none;
+	border-top: 1px solid $black;
+	padding-top: 10px;
+}
+.cpc_tooltop {
+	top: 3px;
+	right: 5px;
+}
+$color_celeste_approx: #ccc;$font_0: vzwIcons;.cpcPromptTooltip {
+	top: -5px;
+}
+.m-cpcPlanArrow .arrowCTA:after {
+	font-family: $font_0;
+	top: 5px;
+	content: "\E607";
+}
+.expanded .m-cpcPlanArrow .arrowCTA:after {
+	font-family: $font_0;
+	content: "\E608";
+	top: 0;
+}
+.headingsTooltip .font-icon_tooltip {
+	top: -5px;
+}
+#restrictedZipcodeMessage a {
+	text-decoration: underline;
+}
+#page-wrap .tooltip {
+	vertical-align: middle;
+}
+.compatiblePlansWrap.is-active {
+	border: 1px solid $black;
+	border-top: 4px solid $color_monza_approx;
+}
+.currentPlan:before {
+	content: "YOUR CURRENT PLAN";
+	border: 1px solid transparent;
+	padding: 9px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	font-size: 16px;
+	color: $white;
+	background: $color_java_approx;
+	border-width: 1px 0 1px;
+}
+.font-icon_pricetag:before {
+	content: "\e0a0";
+	display: inline-block;
+	color: $black;
+	font-size: 19px;
+	font-size: 1.9rem;
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: scale(-1, 1);
+}
+.planInfo:after {
+	content: " ";
+	margin: 0 5px;
+}
+*:focus {
+	outline: none;
+}
+[aria-selected="false"].accordion__title:after {
+	content: ' +';
+	font-size: 24px;
+	color: $black;
+	margin-left: 24px;
+}
+[aria-selected="true"].accordion__title:after {
+	content: '-';
+	font-size: 24px;
+	color: $black;
+	margin-left: 24px;
+}
+.planSelectionTab {
+	display: inline-flex;
+	list-style: none;
+	border-bottom: 1px solid $color_celeste_approx;
+	width: 100%;
+	padding-left: 0;
+}
+.singleDevicePlanName{
+	width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding-top: 18px;
+    background-color: #ecd947;
+    text-align: center;
+    align-content: baseline;
+}
+
+/* ipad - tablet */
+@media only screen and (device-width: 768px) {
+    .dataHLLPlanSelection{
+        height: 520px;
+    }
+
+	.dataHLLPlanSelection button span, .dataHLLPlanSelection p{
+        font-size: 20px;
+		font-size: 2.0rem;
+    }
+}
+
+.color_FFF button:focus{
+	outline: #fff dotted 1px;
+}
+
+button .icon-close.buttonX{
+	width: 15px;
+	height: 15px;
+}
+
+.dataHLLPlanSelection h3{
+	line-height: 1;
+}
+
+.notification.notificationInfo  a.color_white:hover{
+	color: #fff;
+}

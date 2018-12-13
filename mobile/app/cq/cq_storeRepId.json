@@ -1,0 +1,15 @@
+{
+  "html": {
+
+  },
+  "label": {
+    "OD_STORE_REP_ID_ENTRY_TEXT": "Please enter rep id to start the flow: ",
+    "OD_STORE_REP_ID_CONTINUE_BUTTON_TEXT": "Continue",
+    "OD_STORE_REP_ID_SUCCESS_MSG_WELCOME_TEXT": "Welcome!",
+    "OD_STORE_REP_ID_SUCCESS_MSG_CLICK_TO_CONTINUE_TEXT": "Please click 'Continue' to proceed.",
+    "OD_STORE_REP_ID": "Enter Rep Id"
+  },
+  "error": {
+
+  }
+}

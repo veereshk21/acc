@@ -1,0 +1,65 @@
+//colors
+$color_celeste_approx: #ccc;
+$black:  black;
+
+.transferButton {
+	padding: 12px 0 0 18px;
+}
+.topButtonBar {
+	padding: 18px;
+	border: 1px solid $color_celeste_approx;
+}
+.progressBar {
+	height: 14px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px 10px 10px 10px;
+}
+.progressBarMarker {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid $black;
+}
+.verticalMiddle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.deviceRow_radio {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.deviceRow_img {
+	max-height: 150px;
+}
+
+
+[name="mdnSelection"].radioBtn:checked + label:before{
+    outline:1px dotted;
+}
+.chatAndCall {
+  height: 0;
+}
+
+.align5GText{
+	margin: 8px;
+}
+
+.topAlign5GText{
+	padding-left: 6px;
+}
+
+.icon-checkmarkComplete {
+    background-image: url(https://ss7.vzw.com/is/image/VerizonWireless/Check%20mark_Green);
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+	margin-right: 8px;
+}
+.disableFieldItem{
+	opacity:0.2;
+	pointer-events:none;
+}

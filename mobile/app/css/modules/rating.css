@@ -1,0 +1,107 @@
+/**************************************************
+             Rating module
+ For displaying X/X stars to show average user rating
+**************************************************/
+.rating,.rating.m-0-star,.rating.m-0_0-star {
+    display: inline-block;
+    background-image: url("https://scache.vzw.com/omni/mobile/i/stars.png");
+    height: 11px;
+    width: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-size: 60px 143px;
+}
+
+.rating.m-0_5-star {
+    background-position: 0 -13px
+}
+
+.rating.m-1-star,.rating.m-1_0-star {
+    background-position: 0 -26px
+}
+
+.rating.m-1_5-star {
+    background-position: 0 -39px
+}
+
+.rating.m-2-star,.rating.m-2_0-star {
+    background-position: 0 -52px
+}
+
+.rating.m-2_5-star {
+    background-position: 0 -65px
+}
+
+.rating.m-3-star,.rating.m-3_0-star {
+    background-position: 0 -78px
+}
+
+.rating.m-3_5-star {
+    background-position: 0 -91px
+}
+
+.rating.m-4-star,.rating.m-4_0-star {
+    background-position: 0 -104px
+}
+
+.rating.m-4_5-star {
+    background-position: 0 -117px
+}
+
+.rating.m-5-star,.rating.m-5_0-star {
+    background-position: 0 -130px
+}
+
+.rating.m-large,.rating.m-0-star.m-large,.rating.m-0_0-star.m-large {
+    height: 34px;
+    width: 194px;
+    background-size: 194px 464px
+}
+
+.rating.m-large.m-0_5-star {
+    background-position: 0 -43px
+}
+
+.rating.m-large.m-1-star,.rating.m-large.m-1_0-star {
+    background-position: 0 -85px
+}
+
+.rating.m-large.m-1_5-star {
+    background-position: 0 -127px
+}
+
+.rating.m-large.m-2-star,.rating.m-large.m-2_0-star {
+    background-position: 0 -169px
+}
+
+.rating.m-large.m-2_5-star {
+    background-position: 0 -212px
+}
+
+.rating.m-large.m-3-star,.rating.m-large.m-3_0-star {
+    background-position: 0 -254px
+}
+
+.rating.m-large.m-3_5-star {
+    background-position: 0 -296px
+}
+
+.rating.m-large.m-4-star,.rating.m-large.m-4_0-star {
+    background-position: 0 -338px
+}
+
+.rating.m-large.m-4_5-star {
+    background-position: 0 -382px
+}
+
+.rating.m-large.m-5-star,.rating.m-large.m-5_0-star {
+    background-position: 0 -423px
+}
+
+.rating-focus-text {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  overflow: hidden;
+}

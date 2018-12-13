@@ -1,0 +1,63 @@
+
+
+
+.staticNotification {
+	width: 100%;
+	padding: 15px;
+	color: #000;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-family: NeueHaasGroteskDisplayBold, Arial, Helvetica, sans-serif;	
+}
+.staticNotificationErrors {
+	background-color: #ed7000;
+	color: #fff;
+}
+	.staticNotificationWarnings {
+	background-color: #ffbc3d;
+	color: #000;
+}
+	.staticNotificationSuccess {
+	background-color: #00ac3e;
+	color: #fff;
+}
+	.staticNotificationInfo {
+	background-color: #0088cc;
+	color: #fff;
+}
+.staticNotification_wrap {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	position: relative;
+}
+.staticNotification_close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+.staticNotification_close::after {
+	content: "\2715";
+}
+.notification_content {
+	vertical-align: middle;
+	text-align: left;
+}
+.staticNotification-enter {
+	height: 0;
+}
+.staticNotification-enter-active {
+	height: 102px;
+	/* Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10) */
+	transition: height 500ms ease-in;
+}
+.staticNotification-leave {
+	height: 102px;
+}
+.staticNotification-leave-active {
+	height: 0;
+	/* Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10) */
+	transition: height 400ms ease-in;
+}

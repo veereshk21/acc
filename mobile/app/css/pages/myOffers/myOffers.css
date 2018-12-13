@@ -1,0 +1,45 @@
+.myOfferBanner{
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.myoffer-next-slide::after,.myoffer-prev-slide::after{
+  content: "\e609";
+  font-family: 'vzwIcons';
+  color: #000;
+  margin: 0 16px;
+  position: absolute;
+  z-index: 100;
+  top:35%
+}
+
+.myoffer-prev-slide::after {
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    left: 10px;
+    right: auto;
+  }
+
+.myoffer-next-slide::after{
+  right: 10px;
+  left: auto;
+}
+
+
+.myOfferBanner a,.myOfferBanner a:hover {
+  color:#000;
+  text-decoration: underline;
+  font-weight:bold;
+}
+
+.myOfferBanner .promo_icon_triangle::after{
+  top:-13px;
+}
+
+
+.myOfferBanner .promo_icon_triangle{
+  border-width: 20px;
+}

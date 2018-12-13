@@ -1,0 +1,27 @@
+{
+  "html": {
+
+  },
+  "label": {
+    "OD_HUM_SELECT_CAR_TITLE":"Check compatibility",
+    "OD_HUM_ALL_FIELDS_REQD":"All fields required.",
+    "OD_HUM_YEAR_LBL":"Year",
+    "OD_HUM_MAKE_LBL":"Make",
+    "OD_HUM_MODEL_LBL":"Model",
+    "OD_HUM_COLOR_LBL":"Color",
+    "OD_HUM_EXISTING_EMAIL_LBL":"Choose a saved email address",
+    "OD_HUM_TOTAL_LEGAL":"* Totals Due do not include taxes, surcharges or additional fees. During the credit check process, a deposit may be added to the total amount due today. Pre-Orders will be charged to your credit card when items are shipped.",
+    
+    "OD_HUM_PRICE_TITLE":"Looks good. Pick a payment",
+    "OD_HUM_ISPU_LINK":"In-store availability",
+    "OD_HUM_PAGE_CTA":" Add to cart &amp; select plan",
+
+    "OD_HUM_DUE_TODAY":"Due today*",
+    "OD_HUM_DUE_MONTHLY":"Due monthly*",
+
+    "OD_HUM_PAGE_CTA_GOTO_WEBSITE":"Go to HUM.com"
+  },
+  "error": {
+
+  }
+}

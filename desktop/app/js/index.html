@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" xmlns:og="https://opengraphprotocol.org/schema/" xmlns:fb="https://www.facebook.com/2008/fbml">
+<!--<![endif]-->
+  <head>
+    <title>OneDigital</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge"> <meta http-equiv="imagetoolbar" content="no"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=2.0"/>
+    <link rel="canonical" href="https://www.verizonwireless.com/"/>
+    <link rel="alternate" href="https://www.verizonwireless.com/" id="desktop" media="only screen and (hover: 1) and (pointer: fine)"/>
+    <link rel="alternate" href="https://www.verizonwireless.com/vzw/homepage" id="smartphone" media="only screen and (max-device-width: 650px)"/>
+    <link rel="alternate" href="https://www.verizonwireless.com" id="tablet" media="only screen and (min-device-width: 651px)"/>
+    <link rel="icon" type="image/x-icon" href="https://scache.vzw.com/images_b2c/shared/favicon/favicon_4.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://scache.vzw.com/images_b2c/shared/favicon/favicon_4.ico"/>
+    <link rel="stylesheet" href="https://scache3.vzw.com/ui-one-digital/gn/css/gnavv121217.css" type="text/css"/>
+  </head>
+<body>
+  <!-- Display a message if JS has been disabled on the browser. -->
+  <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript>
+
+  <!-- The app hooks into this div -->
+  <div id="vzw-gn"></div>
+  <div id="app"></div>
+  <div id="vzw-gf" style="display:none"></div>
+  <div id="inqC2CImgContainer_Fixed1"></div>
+  <div id="loader" class="spinner"></div>
+  <script type="text/javascript">
+    function showLoader() {
+      document.getElementById("loader").className = "spinner"
+    }
+
+    function hideLoader() {
+      document.getElementById("loader").className = "is-hidden";
+    }
+    window.onpageshow = hideLoader;
+
+  </script>
+
+ <!--[if lte IE 8]>
+
+   <style>
+    .warningWrap {
+      width: 900px;
+      margin: 0 auto;
+      min-height: 300px;
+      margin-top: 80px;
+      font-family: Arial,Verdana;
+    }
+
+    .warningHdng {
+      color: #ED7000;
+      font-size: 35px;
+      margin-bottom: 12px;
+    }
+  </style>
+
+  <div>
+    <div  class=" warningWrap " >
+      <h2 class="warningHdng">Warning</h2>
+      <p>
+        To get the best possible experience using our website, we recommend that you upgrade to a new verison (IE9 or
+        greater) or use other web browser.
+      </p>
+    </div>
+  </div>
+
+<![endif]-->
+
+  <script>
+    window.isAgentSite = true;
+    window.siteId = 800002;
+    window.resourceBaseUrl = window.location.origin + '/';
+    window.sessionTimeOutJSON = {
+  "timeout": 20000,
+  "warning": 10000,
+  "timeoutMessage": "Session Timeout!",
+  "warningMessage": "Your session is about to expire!",
+  "continueSessionURL": "/od/cust/auth/keepalive",
+  "cancelSessionURL": "/od/cust/logout",
+  "guestContinueSessionURL": "/od/cust/keepalive",
+  "clearSession": "/od/cust/clearsession"
+};
+    var myOffersBannerJSON = {
+      "statusCode": "00",
+      "errorMap": null,
+      "output": {
+        "offers": [
+        {
+          "bannerDescription": "Online only. $30 upgrade fee waived",
+          "offerId":1212,
+          "offerImage":"true"
+        },
+        {
+          "bannerDescription": "Online only. $30 upgrade fee waived <a href=\"#\">test link</a>",
+          "offerId":null,
+          "offerImage":null
+        }
+        ]
+      }
+    };
+    var creditHoldErrorJSON = {
+      output:{
+          title: "Give us a quick call so we can finish your credit application.",
+          description: "<p>Your credit application number: 237301192.</p><br/><p>Call us at <a href='tel:8663887390'>(866) 388-7390</a> during the hours below and a frinedly representative will get you on your way. If you can't call now, we've saved your order to your e-mail adress so you can place your order later.</p><br/><p>Monday &#8212; Saturday: 8 AM &#8212; 3 AM, ET</p>",
+          cancelButton: "Order later",
+          confirmButton: "I'm all set to checkout",
+          confirmURL: "http://vzw.com",
+          cancelURL: "http://vzw.com",
+          refreshTimer: 1200,
+          goToCheckout: true,
+          source: "CreditHold",
+      }
+    };
+    var upgradeHeaderJSON = {
+				firstName: "James",
+				lastName: "Smith",
+				mtn: "8888888888",
+				tradeInValue: "70.00",
+    };
+    
+    var reviewOrderJSON = {
+  "output": {
+    "tmpMdOpted": false,
+    "checkoutStates": {
+      "shippingAddressRequired": false,
+      "shippingAddressChangeRequired": true,
+      "shippingNameChangeRequired": false,
+      "poBoxShippingAddress": false,
+      "shippingAddressValidationError": true,
+      "shippingMethodRequired": false,
+      "paymentRequired": false,
+      "pastDuePaymentRequired": false,
+      "showPaymentSection": true,
+      "showShippingAddress": true,
+      "showDeliveryMethod": true,
+      "newCard": false,
+      "cvvNeeded": false,
+      "contactInfoRequired": true,
+      "instantCreditAllocationsChanged": false,
+      "instantCreditOrder": false,
+      "tradesExceedItems": false,
+      "creditCardZipEditable": false,
+      "vzProtect": false,
+      "vzProtectMultiDevice": false,
+      "batteryShippingNotAllowedStates": false,
+      "disableSubmitOrderForOPALUser": false
+    },
+    "stepsCompleted": {
+      "billingAddress": false,
+      "shippingAddress": false,
+      "deliveryInfo": false,
+      "paymentInfo": false
+    },
+    "shippingInfo": {
+      "shippingInfoUpdated": false,
+      "sameAsBilling": false,
+      "ispuEligibleFlag": false,
+      "addressInfo": {
+        "firstName": null,
+        "lastName": null,
+        "companyName": null,
+        "address1": null,
+        "address2": null,
+        "city": null,
+        "state": null,
+        "zipcode": null,
+        "businessName": null,
+        "postalCode": null,
+        "email": null,
+        "phoneNumber": null
+      },
+      "contactInfo": {
+        "emailAddress": null,
+        "phoneNumber": null,
+        "firstName": null,
+        "lastName": null,
+        "smsMdn": null,
+        "activeSMSCapableMtnList": null
+      },
+      "shippingTypesInfo": [
+        {
+          "estimatedDeliveryDate": "Thu 12/13",
+          "estimatedDeliveryDateText": "Thu 12/13",
+          "shippingDescription": "FREE 2 Day by 8pm",
+          "shippingOptionId": "GOWLSHP002",
+          "shippingCost": "0.00",
+          "shortDescription": "FREE 2 Day by 8pm",
+          "active": true,
+          "addedShippingOptionId": true,
+          "signatureRequired": "true",
+          "description": "Estimated to arrive on ",
+          "depletionLocationCode": null,
+          "sddAvailableWindows": null
+        },
+        {
+          "estimatedDeliveryDate": "Wed 12/12",
+          "estimatedDeliveryDateText": "Wed 12/12",
+          "shippingDescription": "Next Day by 8pm",
+          "shippingOptionId": "GOWLSHP004",
+          "shippingCost": "12.99",
+          "shortDescription": "Next Day by 8pm",
+          "active": true,
+          "addedShippingOptionId": false,
+          "signatureRequired": "true",
+          "description": "Estimated to arrive on ",
+          "depletionLocationCode": null,
+          "sddAvailableWindows": null
+        },
+        {
+          "estimatedDeliveryDate": "Wed 12/12",
+          "estimatedDeliveryDateText": "Wed 12/12",
+          "shippingDescription": "Next Day by 10:30am",
+          "shippingOptionId": "GOWLSHP005",
+          "shippingCost": "14.99",
+          "shortDescription": "Next Day by 10:30am",
+          "active": true,
+          "addedShippingOptionId": false,
+          "signatureRequired": "true",
+          "description": "Estimated to arrive on ",
+          "depletionLocationCode": null,
+          "sddAvailableWindows": null
+        }
+      ],
+      "storeDetail": {
+        "storeHeader": null,
+        "storeName": null,
+        "storeAddress": null,
+        "deviceAvailable": false,
+        "distance": null,
+        "appendedStoreTiming": null,
+        "longitude": null,
+        "storeId": null,
+        "netaceLocationCode": null,
+        "latitude": null,
+        "seoUrlName": null,
+        "storeClosingTime": null,
+        "directStore": null
+      },
+      "tradeIn": false,
+      "tradeInAddress": null,
+      "nonSddEligibleMsg": null,
+      "selectedSDDWindow": null,
+      "selectedSDDFormattedWindow": null,
+      "poboMessage": null,
+      "vendorShippingTypesInfo": [
+        {
+          "estimatedDeliveryDate": "Thu 12/13",
+          "estimatedDeliveryDateText": "Thu 12/13",
+          "shippingDescription": "FREE 2 Day by 8pm",
+          "shippingOptionId": "GOWLSHP002",
+          "shippingCost": "0.00",
+          "shortDescription": "FREE 2 Day by 8pm",
+          "active": true,
+          "addedShippingOptionId": false,
+          "signatureRequired": "true",
+          "description": "Estimated to arrive on ",
+          "depletionLocationCode": null,
+          "sddAvailableWindows": null
+        },
+        {
+          "estimatedDeliveryDate": "Wed 12/12",
+          "estimatedDeliveryDateText": "Wed 12/12",
+          "shippingDescription": "Next Day by 8pm",
+          "shippingOptionId": "GOWLSHP004",
+          "shippingCost": "12.99",
+          "shortDescription": "Next Day by 8pm",
+          "active": true,
+          "addedShippingOptionId": false,
+          "signatureRequired": "true",
+          "description": "Estimated to arrive on ",
+          "depletionLocationCode": null,
+          "sddAvailableWindows": null
+        },
+        {
+          "estimatedDeliveryDate": "Wed 12/12",
+          "estimatedDeliveryDateText": "Wed 12/12",
+          "shippingDescription": "Next Day by 10:30am",
+          "shippingOptionId": "GOWLSHP005",
+          "shippingCost": "14.99",
+          "shortDescription": "Next Day by 10:30am",
+          "active": true,
+          "addedShippingOptionId": false,
+          "signatureRequired": "true",
+          "description": "Estimated to arrive on ",
+          "depletionLocationCode": null,
+          "sddAvailableWindows": null
+        }
+      ],
+      "verizonCommerceItemsNames": null,
+      "vendorCommerceItemsNames": [
+        "APPLE IPHONE 6 PLUS / IPHONE 6S PLUS / IPHONE 7 PLUS / IPHONE 8 PLUS PELICAN PROTECTOR SERIES CASE"
+      ],
+      "vendorShippingOptionExists": true,
+      "editEmailAndPhoneNumber": false,
+      "editShippingAddress": false,
+      "shippingAddressInvalidMsg": null,
+      "ispudetailsInfo": {
+        "storeAddress": null,
+        "storeHours": null,
+        "storeId": null,
+        "storeName": null,
+        "phoneNumber": null,
+        "distance": null,
+        "totalItems": 0,
+        "availItems": 0,
+        "latitdude": 0,
+        "longtitude": 0,
+        "availItemName": null,
+        "directStore": null
+      }
+    },
+    "billingInfo": {
+      "billToAccountEligible": false,
+      "creditCardZipEditable": false,
+      "billingAddress": {
+        "firstName": null,
+        "lastName": null,
+        "businessName": null,
+        "zipcode": null,
+        "state": null,
+        "address2": null,
+        "address1": null,
+        "companyName": null,
+        "city": null,
+        "sameAsShipping": false
+      },
+      "masterpass3DSecure": null,
+      "billToAccountNumber": null,
+      "creditCardInfo": {
+        "savedCardNickName": null,
+        "preselectCard": null,
+        "creditCardNumber": null,
+        "creditCardExpMonth": null,
+        "creditCardExpYear": null,
+        "billingZipCode": null,
+        "creditCardType": null,
+        "creditCardVerificationNumber": null,
+        "creditCardBIN": null,
+        "cvvRequired": false
+      },
+      "selectedPaymentMode": null,
+      "giftCardList": [],
+      "savedCardInfo": [],
+      "applePayResponseInfo": null,
+      "masterpassResponseInfo": {
+        "emailAddress": null,
+        "cardType": null,
+        "lastDigits": null,
+        "creditCardBIN": null,
+        "masterpassSelected": false
+      },
+      "masterpassError": false,
+      "masterpassErrorMessage": null,
+      "cybersourecPreAuthFailure": false,
+      "cybersourecPreAuthFailureErrorMessage": null,
+      "paypalEmailAddress": null,
+      "expirationMonths": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "expirationYears": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "2027"
+      ]
+    },
+    "tradeInPromoDetails": null,
+    "transformedTradeInPromoDetails": null,
+    "deviceConfigInfo": {
+      "devices": [],
+      "npaNxxdetails": {
+        "zipCode": null,
+        "state": null,
+        "city": null,
+        "success": false,
+        "mtns": null,
+        "states": null,
+        "cities": null
+      },
+      "deviceAddressUpdated": false,
+      "accessories": null
+    },
+    "termsAndConditionsInfo": null,
+    "orderId": "S3309f06f11e619826ca69199f0da141a{s2}",
+    "dueToday": "79.90",
+    "dueMonthly": "0.00",
+    "totalDueMonthlyPlanAndDevice": "0.00",
+    "displayUpgradeFee": false,
+    "instantCreditDetails": {
+      "totalInstantCredit": null,
+      "optionalDownPayment": null,
+      "twoYearDevicesInstantCredit": null,
+      "fullRetailInstantCredit": null,
+      "accessoriesInsantCredit": null,
+      "taxesInstantCredit": null,
+      "accountCredit": null
+    },
+    "savedCardsRetrieved": false,
+    "retrieveCardsURL": null,
+    "instantCreditEligible": false,
+    "genericPromoMessageAI": null,
+    "selectedVendorShippingType": null,
+    "subtotalDueToday": "79.90",
+    "totalOrderTax": "0.00",
+    "depositAmount": "0.00",
+    "employeeDiscount": "0.00",
+    "saveAmount": "0.00",
+    "totalUpgradeFee": "0.00",
+    "recycleDeviceAppraise": "0.00",
+    "edgeOrderTotalDownPayment": "0.00",
+    "flow": "NAO",
+    "states": [
+      "AK",
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "GA",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ],
+    "authInfo": {
+      "clients": {
+        "CARDINAL3DSECURE": {
+          "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJTMzMwOWYwNmYxMWU2MTk4MjZjYTY5MTk5ZjBkYTE0MWF7czJ9IiwiaWF0IjoxNTQ0NTM2NjkzLCJpc3MiOiI1OWY5ZDI3YjJlZTU4ZjFkZTA4Nzc1ODQiLCJPcmdVbml0SWQiOiI1NWVmNDhlM2Y3MjNhYTQzMWM5ZGYxNGUiLCJQYXlsb2FkIjp7Ik9yZGVyRGV0YWlscyI6eyJDdXJyZW5jeUNvZGUiOiJVU0QiLCJBbW91bnQiOiI3OTkwIiwiT3JkZXJOdW1iZXIiOiJTMzMwOWYwNmYxMWU2MTk4MjZjYTY5MTk5ZjBkYTE0MWF7czJ9IiwiVHJhbnNhY3Rpb25JZCI6IjcyOWI5MTNmLTczY2ItNDBiNC1hZmFkLTlkZTI0ZDFkYTg4ZiJ9fSwiT2JqZWN0aWZ5UGF5bG9hZCI6dHJ1ZSwiUmVmZXJlbmNlSWQiOiJQT1NEZTliOWVkOTdjZDhjNGJiMWEyNDg0ZDBhN2E2NWZiZGVzMiIsImV4cCI6MTU0NDU0Mzg5M30.ezU8-7AEOzsgnkrY-TESqPgwMLC6VObwLntMQs4jLDg",
+          "tokenType": "JWT",
+          "featuresList": {
+            "binDetection": true
+          }
+        }
+      }
+    },
+    "giftCard1Info": null,
+    "giftCard2Info": null,
+    "opalImpersonator": null,
+    "stackableDataDescription": null,
+    "stackbleDataAggregateTotals": null,
+    "edgeUpBuyOutAmount": "0.00",
+    "edgeupBuyOutMtnList": null,
+    "tapFeatureDetails": null,
+    "promotionList": null,
+    "cpcOrder": false,
+    "instantCreditAmount": "0.00",
+    "loginMTN": "",
+    "useISPUService": false,
+    "smartFamilyInCart": false,
+    "validateOrderURL": "/od/cust/auth/aiexpresscart/checkout/validateOrder",
+    "dppInOrder": false,
+    "submitAIOrderURL": "/od/cust/auth/aiexpresscart/checkout/submitOrder",
+    "updateDeviceConfigurationURL": "/od/cust/auth/aiexpresscart/update",
+    "standaloneAccessories": true,
+    "amountAfterInstantCredit": "0.00",
+    "datagapDisclosureAgreement": null,
+    "pastDueAmount": "0.00",
+    "pastDueExist": false,
+    "pastDueAmountPaid": false,
+    "plans": null,
+    "devices": {
+      "dueMonthly": 0,
+      "totalActivationFee": 0,
+      "deviceTotalDueMonthly": 0,
+      "dueToday": 0,
+      "accessories": [],
+      "accessoriesBundle": [],
+      "globalPromotions": [],
+      "items": null,
+      "buddyUpgrade": false
+    },
+    "masterpassConfigInfo": {
+      "checkoutId": "c5d1b8232e5f48569fdc0163c04a47ef",
+      "allowedCardTypes": [
+        "master",
+        "amex",
+        "diners",
+        "discover",
+        "jcb",
+        "maestro",
+        "visa"
+      ],
+      "shippingLocationProfile": "US",
+      "amount": "79.9",
+      "cartId": "S3309f06f11e619826ca69199f0da141a{s2}",
+      "currency": "USD",
+      "suppress3Ds": false,
+      "callbackUrl": "http://wga0022alditdvb.uswin.ad.vzwcorp.com/od/cust/guest/checkout/masterpass/paymentData"
+    },
+    "masterpassEnabled": true,
+    "paymentMethodRedesign": true,
+    "accountLevelDiscountList": null,
+    "militaryDiscount": 0,
+    "accessories": [
+      {
+        "scene7ImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/otterbox-commuter-series-case-iphone-6-6s-bespoke-way-77-54162-iset?$acc-med$",
+        "name": "Communter Series Case for iPhone 7 - Bespoke Way ",
+        "actualPrice": 39.95,
+        "originalPrice": 39.95,
+        "percentageOffTxt": null,
+        "itemTotal": 39.95,
+        "quantity": 1,
+        "commerceItemId": "S3309f06f11e619826ca69199f0da141a{s2}_accessory_1",
+        "color": null,
+        "size": null,
+        "inventoryStatus": "",
+        "inventoryAvailableDate": "",
+        "prodId": "acc6640125",
+        "skuId": "sku2120125",
+        "sorId": "77-54162",
+        "promoMessage": null,
+        "hasEcpdDiscount": false,
+        "mobileAppImageName": "",
+        "imageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/otterbox-commuter-series-case-iphone-6-6s-bespoke-way-77-54162-iset?$acc-med$",
+        "hasBogoDiscount": false,
+        "price": 39.95,
+        "discountPrice": 0,
+        "retailPrice": 39.95,
+        "associatedDeviceSkus": null,
+        "prodName": "",
+        "instantCreditApplied": null,
+        "discounted": false
+      },
+      {
+        "scene7ImageUrl": null,
+        "name": "APPLE IPHONE 6 PLUS / IPHONE 6S PLUS / IPHONE 7 PLUS / IPHONE 8 PLUS PELICAN PROTECTOR SERIES CASE",
+        "actualPrice": 39.95,
+        "originalPrice": 39.95,
+        "percentageOffTxt": null,
+        "itemTotal": 39.95,
+        "quantity": 1,
+        "commerceItemId": "S3309f06f11e619826ca69199f0da141a{s2}_accessory_2",
+        "color": null,
+        "size": null,
+        "inventoryStatus": "",
+        "inventoryAvailableDate": "",
+        "prodId": "vcprd877",
+        "skuId": "vcsku234157",
+        "sorId": "C24000-000B-BKLG",
+        "promoMessage": null,
+        "hasEcpdDiscount": false,
+        "mobileAppImageName": "",
+        "imageUrl": null,
+        "hasBogoDiscount": false,
+        "price": 39.95,
+        "discountPrice": 0,
+        "retailPrice": 39.95,
+        "associatedDeviceSkus": null,
+        "prodName": "",
+        "instantCreditApplied": null,
+        "discounted": false
+      }
+    ],
+    "accessoriesBundle": null,
+    "taxes": [
+      {
+        "name": "Taxes & Fees",
+        "price": "0.00",
+        "discountPrice": "0.00",
+        "retailPrice": "0.00",
+        "originalPrice": "0.00",
+        "city": null,
+        "state": null,
+        "taxCalculated": false,
+        "taxNotCalculatedMsg": null,
+        "instantCreditApplied": null
+      }
+    ],
+    "dueMonthlyView": {
+      "title": null,
+      "dueMonthlyPrice": null,
+      "items": null,
+      "tmpMd": null
+    },
+    "dueTodayView": {
+      "title": "Due Today",
+      "dueTodayPrice": "79.90",
+      "items": [],
+      "accessories": [
+        {
+          "name": "Communter Series Case for iPhone 7 - Bespoke Way ",
+          "size": null,
+          "color": null,
+          "quantity": "1",
+          "price": "39.95",
+          "wasPrice": "39.95",
+          "deviceProductDisplayName": "",
+          "label": "Price",
+          "discounted": false,
+          "instantCreditApplied": null,
+          "discountPercentage": 0,
+          "discountPrice": 0
+        },
+        {
+          "name": "APPLE IPHONE 6 PLUS / IPHONE 6S PLUS / IPHONE 7 PLUS / IPHONE 8 PLUS PELICAN PROTECTOR SERIES CASE",
+          "size": null,
+          "color": null,
+          "quantity": "1",
+          "price": "39.95",
+          "wasPrice": "39.95",
+          "deviceProductDisplayName": "",
+          "label": "Price",
+          "discounted": false,
+          "instantCreditApplied": null,
+          "discountPercentage": 0,
+          "discountPrice": 0
+        }
+      ],
+      "accessoriesBundle": [],
+      "additionalCharges": {
+        "title": "Additional Charges",
+        "items": [
+          {
+            "name": "Taxes & Fees",
+            "price": "0.00",
+            "description": "null, null",
+            "instantCreditDescription": null
+          },
+          {
+            "name": "FREE 2 Day by 8pm",
+            "price": "0.00",
+            "description": null,
+            "instantCreditDescription": null
+          }
+        ]
+      },
+      "price": null
+    },
+    "cartDetailURL": "/od/cust/cart/getCartDetails",
+    "validateAndPersistDeviceInfoURL": "/od/cust/guest/checkout/validateAndPersistDeviceInfo",
+    "npaNxxNumberZipCodeURL": "/od/cust/guest/checkout/npaNxxNumberZipCode",
+    "getMarketDetailsURL": "/od/cust/guest/checkout/getMarketDetails",
+    "paypalCmpiLookupURL": "/od/cust/guest/checkout/paypal/cmpilookup?triggerFrom=PAYMENT",
+    "smsAuthenticationComplete": false,
+    "securePinPageUrl": null,
+    "fetchSMSDevicesUrl": null,
+    "sendSMSUrl": null,
+    "validateAuthCodeUrl": null,
+    "totalActivationFee": "0.00",
+    "itemOnJaxPlan": false,
+    "comboOrder": false,
+    "anyLineFreeVO": null,
+    "giftCardsEnabled": true,
+    "giftCardsLimit": 2,
+    "giftCardsUsed": null,
+    "submitGiftCardURL": "/od/cust/guest/checkout/updateGiftCard",
+    "checkGiftCardBalanceURL": "/od/cust/guest/checkout/checkGiftCardBalance",
+    "removeGiftCardURL": "/od/cust/guest/checkout/removeGiftCard",
+    "balanceCreditCardAmount": "79.90",
+    "totalGiftCardAmount": null,
+    "reasonErrorCode": null,
+    "reasonErrorMsg": null,
+    "validAuthCode": false,
+    "numOfAttempts": 0,
+    "promoBanners": null,
+    "cancelCartURL": "/od/cust/cart/clearCart",
+    "mmplanEnabled": false,
+    "instantCreditPageURL": null,
+    "totalSurcharges": "0.00",
+    "totalOrderTaxTooltip": "null null",
+    "payPalEnabled": true,
+    "securePinEligible": false,
+    "ispuBTAPaymentUpdated": false,
+    "flipIspuToShipping": false,
+    "iconicFlow": true,
+    "updatePaymentInfoURL": "/od/cust/guest/checkout/updatePaymentInfo",
+    "updateShippingInfoURL": "/od/cust/guest/checkout/updateShippingInfo",
+    "updateBillingAddressInfoURL": "/od/cust/guest/checkout/updatePaymentInfo",
+    "handleCardinalResponseURL": "/od/cust/guest/checkout/handleCardinal3DResponse",
+    "pastDueCheckoutURL": null,
+    "updateDeviceServiceAddressURL": null,
+    "submitOrderURL": "/od/cust/guest/checkout/submitOrder",
+    "storeDetailsURL": "/od/cust/guest/checkout/storeDetails",
+    "protectionChangeURL": null,
+    "protectionRemoveURL": null,
+    "mainViewSubTitle": null,
+    "pieEnabled": true,
+    "eppAccessoryTermsAndConditionDisplay": false,
+    "googleMapAPI": {
+      "client": "gme-verizonwireless2",
+      "channel": "vzw-mobile",
+      "draggable": true
+    },
+    "selectedShippingType": {
+      "type": "SHIPPING",
+      "shippingTypeName": "FREE 2 Day by 8pm",
+      "price": 0,
+      "discountPrice": 0,
+      "estimatedDeliveryDate": null,
+      "selectedFormattedWindow": null,
+      "estimatedDeliveryDateText": null,
+      "description": null
+    },
+    "applePaymentRequest": {
+      "totalAmount": "79.90",
+      "orderTotalLabel": "VERIZON (TOTAL PENDING)",
+      "showAvailableShippingOptions": false,
+      "requestBillingInfoFromApple": [
+        "postalAddress"
+      ],
+      "requestShippingInfoFromApple": [
+        "email"
+      ],
+      "lineItems": [
+        {
+          "label": "PAYMENT NOT PROCESSED UNTIL WE VERIFY YOUR ORDER",
+          "amount": "0.0",
+          "type": "pending"
+        }
+      ]
+    },
+    "applePayEnabled": true,
+    "appleMerchantIdentifier": "merchant.com.vzw.test",
+    "useISPUCC": false,
+    "bannerContent": {
+      "returnPolicy": {
+        "header": null,
+        "tooltip": null
+      }
+    },
+    "bicRepresentationChangeEnabled": true,
+    "isHLLPlanInOrder": false
+  },
+  "errorMap": null,
+  "statusMessage": null,
+  "statusCode": "00"
+};
+  </script>
+  <script type="text/javascript" src="https://scache3.vzw.com/ui-one-digital/gn/js/gnavv121217.js"></script>
+  <script type="text/javascript" src="https://includestest.ccdc02.com/cardinalcruise/v1/songbird.js"></script>
+  <script type="text/javascript" src="https://sandbox.masterpass.com/integration/merchant.js"></script>
+
+  <!-- A lot of magic happens in this file. HtmlWebpackPlugin automatically includes all assets (e.g. bundle.js, main.css)
+   with the correct HTML tags, which is why they are missing in this HTML file. Don't add any assets here! (Check out webpackconfig.js if you want to know more) -->
+</body>
+</html>

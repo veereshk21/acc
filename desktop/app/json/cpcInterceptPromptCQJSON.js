@@ -1,0 +1,2 @@
+const cpcInterceptPromptCQJSON = {"html":{},"label":{"DT_OD_CPC_INTERCEPT_PROMPT_HEADER":"Upgrade your new device to <br />our Unlimited data plan.","DT_OD_CPC_INTERCEPT_DESC1":"Experience life without limits.","DT_OD_CPC_INTERCEPT_DESC":"Your new device is only as good as the network it's on.","DT_OD_CPC_INTERCEPT_ACCEPT_BTN":"Explore plans","DT_OD_CPC_INTERCEPT_DECLINE_BTN":"Not now, later"},"error":{}};
+export default cpcInterceptPromptCQJSON;

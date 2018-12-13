@@ -1,0 +1,150 @@
+@import '../preprocess/brand';
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat:no-repeat;
+ }
+html {
+	height: 100%;
+	font-size: 62.5%;
+	box-sizing: border-box; /* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body {
+	background-color:#FFF;
+	/*min-width: 984px;  Forces backgrounds to span full width, even if there is horizontal scrolling. */
+	margin:0;
+	padding:0;
+	/*Defaults for cascading - inherited by child elements */
+	color:#000;
+	cursor:default;
+	font-family: NeueHaasGroteskDisplay;
+	font-size:13px; /* TODO */
+	font-size:1.3rem;
+	font-style:normal;
+	font-weight:normal;
+	text-align:left;
+	visibility:visible;
+	white-space:normal;
+	height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	font-weight:normal;
+}
+h1, h2, h3, .h1, .h2, .h3{
+	font-family: $verizon-font-bold;
+  font-weight: bold;
+}
+ h4, h5, h6, h7, .h4, .h5, .h6, .h6, .h7 {
+	font-family: $verizon-font-text;
+ }
+
+h1, h2, h3, h4, h5, h6, h6, h7 .h1, .h2, .h3, .h4, .h5, .h6, .h6, .h7  {
+	color:#000;
+}
+h1, .h1 {
+  font-size:40px;
+  font-size:4.0rem;
+  line-height: 38px
+}
+h2, .h2 {
+	font-size:25px;
+  font-size: 2.5rem;
+  line-height: 1.2;
+
+}
+h3, .h3 {
+	font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 17.1px
+}
+h4, .h4 {
+	font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 17.1px
+
+}
+h5, .h5 {
+	font-size:18px;
+  font-size:1.8rem;
+  line-height: 17.1px
+}
+h6, h7 {
+	font-family: NeueHaasGroteskTextBold, Arial, Helvetica, sans-serif;
+}
+h6, .h6 {
+	font-size:16px;
+	font-size:1.6rem;
+}
+h7, .h7 {
+	font-size:14px;
+	font-size:1.4rem;
+}
+
+ol, ul, p {
+	margin:0;
+}
+p {
+	font-size:14px;
+	font-size:1.4rem;
+}
+a {
+	color: #000;
+	text-decoration:none;
+	outline: none;
+}
+a:hover,
+input[type=submit]:hover,
+button.link:hover {
+	color: #0088CE;
+}
+input[type=submit] {
+	cursor: pointer;
+}
+hr {
+	border-top: 1px solid #E4E4E4;
+	border-bottom-width:0;
+	margin:8px auto;
+	background:tranparent;
+}
+var {
+	font-style:normal;
+}
+ins {
+	text-decoration:none;
+}
+label {
+	font-size:10px;
+	font-size:1.0rem;
+
+}
+strong {font-family:$verizon-font-bold; font-weight:normal;}
+
+/*
+*Including the below rule to force buttons to take same width as chrome.
+*Remove this rule in case normalize.css is added to GRUNT build
+*/
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.disableField{
+	opacity:0.5;
+	pointer-events:none;
+}
+img {
+  border: 0;
+}
+.pointer {
+	cursor: pointer;
+}

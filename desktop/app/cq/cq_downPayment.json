@@ -1,0 +1,14 @@
+{
+  "html": {
+    "DT_OD_DOWNPAYMENT_DPP_CONTRACT_TERMS": "for 24 months; $PERCENTAGE$% APR.<br>Reduced retail price $$PRICE$.<br>*Taxes and fees not included."    
+  },
+  "label": {
+    "DT_OD_DOWNPAYMENT_BACK_BUTTON": "Back to cart",
+    "DT_OD_DOWNPAYMENT_CANCEL_BUTTON": "Cancel",
+    "DT_OD_DOWNPAYMENT_CONTINUE_WITH_DOWNPAYMENT_BUTTON": "Continue with down payment",
+    "DT_OD_DOWNPAYMENT_WAS_PRICE": "was",
+    "DT_OD_DOWNPAYMENT_PRICE_PREFIX": "Down payment"    
+  },
+  "error": {
+  }
+}

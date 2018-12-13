@@ -1,0 +1,19 @@
+{
+  "html": {
+    
+  },
+  "label": {
+    "OD_ACCESSORIES_PAGE_TITLE": "Adding any accessories with your device?",
+    "OD_ACCESSORIES_PAGE_DESC_PREFIX_TEXT": "Here's what's popular for the",
+    "OD_ACCESSORIES_ADD_TO_CART_CTA_TEXT": "Add to cart",
+    "OD_ACCESSORIES_LEARN_MORE_LINK_TEXT": "Learn more",
+    "OD_ACCESSORIES_VIEW": "View",
+    "OD_ACCESSORIES_NO_THANKS": "No, thanks",
+    "OD_ACCESSORIES_NEXT_CTA_TEXT": "Next",
+    "OD_ACCESSORIES_BACK_TEXT": "Back",
+    "OD_ACCESSORIES_CHOOSE_SIZE_CTA_TEXT": "Choose Size"
+  },
+  "error": {
+    
+  }
+}

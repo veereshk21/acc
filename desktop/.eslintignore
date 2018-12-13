@@ -1,0 +1,6 @@
+/build/**
+/internals/**
+/server/**
+/app/js/json/**
+/app/json/**
+/app/js/**/*.test.js

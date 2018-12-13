@@ -1,0 +1,76 @@
+//colors
+$black: #000;
+$white: #fff;
+
+//fonts
+$font_0: vzwIcons;
+
+//@extend-elements
+//original selectors
+//.myoffer-next-slide::after, .myoffer-prev-slide::after
+%extend_1 {
+	content: "\e609";
+	font-family: $font_0;
+	color: $black;
+	margin: 0 16px;
+	position: absolute;
+	z-index: 100;
+	top: 35%;
+}
+
+//original selectors
+//.myOfferBanner a, .myOfferBanner a:hover
+%extend_2 {
+	color: $black;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.myOfferBanner {
+	// position: absolute;
+	z-index: 100;
+  width: 100%;
+  max-width: 1272px;
+  z-index: -9999;
+	a {
+		@extend %extend_2;
+		color: $black;
+		&:hover {
+			@extend %extend_2;
+		}
+	}
+	.promo_icon_triangle::after {
+		top: -13px;
+	}
+	.promo_icon_triangle {
+		border-width: 20px;
+  }
+  .swiper-container {
+		height: 42px;
+	}
+}
+.myoffer-next-slide::after {
+	@extend %extend_1;
+	right: 10px;
+	left: auto;
+}
+.myoffer-prev-slide::after {
+	@extend %extend_1;
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: rotate(180deg);
+	left: 10px;
+	right: auto;
+}
+.myOfferBanner-tag:before {
+  content: '\e924';
+  font-family: vzwicons;
+}
+
+.flexHorizontal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+

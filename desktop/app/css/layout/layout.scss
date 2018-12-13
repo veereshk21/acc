@@ -1,0 +1,1068 @@
+@import '../preprocess/brand';
+/*FlexBox Grid Padding*/
+
+
+
+/*Primary Colors*/
+
+.background_black {
+  background: #000;
+}
+
+.background_white {
+  background: #FFF;
+}
+
+.background_red {
+  background: $verizon_red;
+}
+
+.background_transparent {
+  background: transparent;
+}
+
+/*Secondary Colors*/
+
+.background_gray_one {
+  background: #F6F6F6;
+}
+
+.background_gray_three {
+  background: #D8DADA;
+}
+
+.background_gray_six {
+  background: #747676;
+}
+
+.background_gray_ten {
+  background: #333;
+}
+
+.background_yellow {
+  background: #FFBC3D;
+}
+
+.background_orange {
+  background: #ED7000;
+}
+
+.background_green {
+  background: #00AC3E;
+}
+.background_shamrock {
+  background: #c9fdc7;
+}
+.background_blue {
+  background: #0088CE;
+}
+.background_blueTint {
+  background: #bcd9ff;
+}
+/* borders */
+
+.border_CC {
+    border: 1px solid #CCC;
+}
+
+.border_red {
+  border: 1px solid $verizon_red;
+}
+.border_black {
+  border: 1px solid #000;
+}
+.border_gray, .border_graySix {
+  border: 1px solid #747676;
+}
+.border_gray_one {
+  border: 1px solid #F6F6F6;
+}
+.border_grayThree {
+  border: 1px solid #D8DADA;
+}
+.border_e6{
+  border: 1px solid #e6e6e6;
+}
+.border_white {
+  border: 1px solid #fff;
+}
+.largeBorder_graySix {
+  border: 2px solid #747676;
+}
+.largeBorder_grayThree {
+  border: 2px solid #D8DADA;
+}
+.largeBorder_red{
+  border: 2px solid $verizon_red;
+}
+.largeBorder_black {
+  border: 2px solid #000;
+}
+.largeBorder_white{
+  border: 2px solid #fff;
+}
+
+.borderSize_0{
+  border-width: 0px;
+}
+
+.borderSize_2{
+  border-width: 2px;
+}
+
+.borderSize_4{
+  border-width: 4px;
+}
+
+.noTopBorder {
+  border-top: none;
+}
+
+.noBottomBorder {
+  border-bottom: none;
+}
+
+.noLeftBorder {
+  border-left: none;
+}
+
+.noRightBorder {
+  border-right: none;
+}
+
+.onlyTopBorder {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.onlyBottomBorder {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.onlyLeftBorder {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+.onlyRightBorder {
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.noSideBorder {
+  border-left: none;
+  border-right: none;
+}
+
+.onlySideBorder {
+  border-top: none;
+  border-bottom: none;
+}
+
+.noOutline {
+  outline: 0;
+}
+
+/* Clear Floated Elements */
+
+
+/* https://sonspring.com/journal/clearing-floats */
+
+.clear,
+.clear6,
+.clear12,
+.clear18,
+.clear24,
+.clear30,
+.clear36,
+.clear42,
+.clear54,
+.clear60,
+.clear72,
+.clear102 {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clear6,
+.clear12,
+.clear18,
+.clear24,
+.clear30,
+.clear36,
+.clear42,
+.clear54,
+.clear72,
+.clear102 {
+  width: auto;
+}
+
+.clear6 {
+  height: 6px;
+}
+
+.clear12 {
+  height: 12px;
+}
+
+.clear18 {
+  height: 18px;
+}
+
+.clear24 {
+  height: 24px;
+}
+
+.clear30 {
+  height: 30px;
+}
+
+.clear36 {
+  height: 36px;
+}
+
+.clear42 {
+  height: 42px;
+}
+
+.clear54 {
+  height: 54px;
+}
+
+.clear60 {
+  height: 60px;
+}
+
+.clear72 {
+  height: 72px;
+}
+
+.clear102 {
+  height: 102px;
+}
+
+.clear150 {
+  height: 150px;
+}
+
+.clear300 {
+  height: 300px;
+}
+
+
+/* https://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.lt-ie8 .clearfix {
+  zoom: 1;
+}
+
+
+/*For simplifying the layout of an ordered or unordered list element*/
+
+.plainList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.noIndentList {
+  padding-left: 1em
+}
+
+.inlineList,
+.inlineList>li {
+  display: inline;
+}
+
+.normalList {
+  list-style: inherit;
+}
+
+.pad3 {
+  padding: 3px;
+}
+
+.pad4 {
+  padding: 4px;
+}
+
+.pad5 {
+  padding: 5px;
+}
+
+.pad6 {
+  padding: 6px;
+}
+.pad8 {
+  padding: 8px;
+}
+.pad9 {
+  padding: 9px;
+}
+.pad10 {
+  padding: 10px;
+}
+
+.pad12 {
+  padding: 12px;
+}
+
+.pad15 {
+  padding: 15px;
+}
+.pad16{
+  padding: 16px;
+}
+.pad18 {
+  padding: 18px;
+}
+
+.pad20 {
+  padding: 20px;
+}
+
+.pad24 {
+  padding: 24px;
+}
+
+.pad30 {
+  padding: 30px;
+}
+
+.pad36 {
+  padding: 36px;
+}
+.pad40 {
+  padding: 40px;
+}
+
+.pad42 {
+  padding: 42px;
+}
+
+.pad48 {
+  padding: 48px;
+}
+
+.pad54 {
+  padding: 54px;
+}
+
+.pad60 {
+  padding: 60px;
+}
+
+.pad66 {
+  padding: 66px;
+}
+
+.pad72 {
+  padding: 72px;
+}
+
+.pad90 {
+  padding: 90px;
+}
+
+.pad102 {
+  padding: 102px;
+}
+
+.noPad {
+  padding: 0;
+}
+
+.noSidePad {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.noBottomPad {
+  padding-bottom: 0;
+}
+
+.onlySidePad,
+.sidePadOnly {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.onlyTopPad {
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.onlyBottomPad {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.onlyLeftPad {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+.onlyRightPad {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.noTopPad {
+  padding-top: 0;
+}
+
+.noBottomPad {
+  padding-bottom: 0;
+}
+
+.noLeftPad {
+  padding-left: 0;
+}
+
+.noRightPad {
+  padding-right: 0;
+}
+
+.margin0 {
+  margin: 0;
+}
+.margin1 {
+	margin: 1px;
+}
+.margin3 {
+  margin: 3px;
+}
+.margin5 {
+  margin: 5px;
+}
+.margin6 {
+  margin: 6px;
+}
+
+.margin10 {
+  margin: 10px;
+}
+
+.margin12 {
+  margin: 12px;
+}
+.margin15 {
+  margin: 15px;
+}
+.margin16 {
+  margin: 16px;
+}
+
+.margin18 {
+  margin: 18px;
+}
+
+.margin20 {
+  margin: 20px;
+}
+
+.margin24 {
+  margin: 24px;
+}
+.margin25 {
+  margin: 25px;
+}
+
+.margin30 {
+  margin: 30px;
+}
+
+.margin36 {
+  margin: 36px;
+}
+.margin40 {
+  margin: 40px;
+}
+.margin42 {
+  margin: 42px;
+}
+.margin45 {
+  margin: 45px;
+}
+
+.margin48 {
+  margin: 48px;
+}
+.margin50 {
+  margin: 50px;
+}
+
+.margin54 {
+  margin: 54px;
+}
+
+.margin60 {
+  margin: 60px;
+}
+
+.margin72 {
+  margin: 72px;
+}
+
+.margin78 {
+  margin: 78px;
+}
+
+.margin100 {
+  margin: 100px;
+}
+
+.margin102 {
+  margin: 102px;
+}
+
+.margin-6 {
+  margin: -6px;
+}
+
+.margin-10 {
+  margin: -10px;
+}
+
+.margin-12 {
+  margin: -12px;
+}
+
+.margin-15 {
+  margin: -15px;
+}
+
+.margin-24 {
+  margin: -24px;
+}
+
+.margin-36 {
+  margin: -36px;
+}
+
+.margin-42 {
+  margin: -42px;
+}
+
+.margin-48 {
+  margin: -48px;
+}
+
+.margin-78 {
+  margin: -78px;
+}
+
+.margin-90 {
+  margin: -90px;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.noSideMargin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.noTopMargin {
+  margin-top: 0;
+}
+
+.noBottomMargin {
+  margin-bottom: 0;
+}
+
+.noRightMargin {
+  margin-right: 0;
+}
+
+.noLeftMargin {
+  margin-left: 0;
+}
+
+.onlySideMargin,
+.sideMarginOnly {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.onlyTopMargin {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.onlyBottomMargin {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.onlyLeftMargin {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.onlyRightMargin {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.marginAuto{
+  margin: 0 auto;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.width6 {
+  width: 6px;
+}
+.width10 {
+  width: 10px;
+}
+.width12 {
+  width: 12px;
+}
+
+.width18 {
+  width: 18px;
+}
+
+.width22 {
+  width: 22px;
+}
+
+.width24 {
+  width: 24px;
+}
+
+.width-30 {
+  width: 30px;
+}
+
+.width36 {
+  width: 36px;
+}
+
+.width42 {
+  width: 42px;
+}
+
+.width48 {
+  width: 48px;
+}
+
+.width54 {
+  width: 54px;
+}
+
+.width60 {
+  width: 60px;
+}
+
+.width72 {
+  width: 72px;
+}
+
+.width90 {
+  width: 90px;
+}
+
+.width102 {
+  width: 102px;
+}
+.width120 {
+  width: 120px;
+}
+.width144 {
+  width: 144px;
+}
+.width150 {
+  width: 150px;
+}
+.width160 {
+  width: 160px;
+}
+.width300 {
+  width: 300px;
+}
+.height5 {
+	height: 5px;
+}
+.height6 {
+  height: 6px;
+}
+
+.height10 {
+  height: 10px;
+}
+
+.height12 {
+  height: 12px;
+}
+.height14 {
+  height: 14px;
+}
+.height18 {
+  height: 18px;
+}
+
+.height22 {
+  height: 22px;
+}
+
+.height24 {
+  height: 24px;
+}
+
+.height30 {
+  height: 30px;
+}
+
+.height36 {
+  height: 36px;
+}
+.height38 {
+  height: 38px;
+}
+.height40 {
+  height: 40px;
+}
+.height42 {
+  height: 42px;
+}
+
+.height48 {
+  height: 48px;
+}
+
+.height54 {
+  height: 54px;
+}
+
+.height60 {
+  height: 60px;
+}
+
+.height72 {
+  height: 72px;
+}
+.height85 {
+  height: 85px;
+}
+.height96 {
+  height: 96px;
+}
+.height102 {
+  height: 102px;
+}
+
+.height106 {
+  height: 106px;
+}
+
+.height132 {
+  height: 132px;
+}
+
+.height160 {
+  height: 160px;
+}
+
+.height200 {
+	height: 200px;
+}
+
+.height210 {
+  height: 210px;
+}
+
+.height320 {
+  height: 320px;
+}
+
+.min-height700 {
+  min-height: 700px;
+}
+
+.maxWidth100{
+  max-width: 100%
+}
+
+.minHeight200 {
+  min-height: 200px;
+}
+
+.minHeight160 {
+  min-height: 160px;
+}
+
+.minHeight210 {
+  min-height: 210px;
+}
+
+.minHeight132 {
+  min-height: 132px;
+}
+
+.height100{
+  height:100%;
+}
+
+/* Module for Vertical Centering */
+
+
+/* 	center goes on a container.
+	center_element goes on the elements you want to center.
+	Add the m-verticalOnly class to the center container to remove horizontal centering and only center the element vertically.
+	https://css-tricks.com/centering-in-the-unknown/
+ */
+
+.center {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.center:before {
+  content: "";
+  /* Adding Extra Space Above Element */
+  display: inline-block;
+  height: 100%;
+  margin-right: -0.3em;
+  vertical-align: middle;
+}
+
+.center>* {
+  white-space: normal;
+  /*reset the white-space to behave normally for all elements inside the centerV container */
+  text-align: left;
+}
+
+.center_element {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+  white-space: normal;
+  text-align: left;
+}
+
+
+/***************************************************
+				Media Module
+ A module where an image floats left of some content to its right.
+ https://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
+ https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
+***************************************************/
+
+.media {
+  overflow: auto;
+}
+
+.media_graphic {
+  float: left;
+  margin-right: 10px;
+}
+
+.media_graphic.m-flipped {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.media_content {
+  overflow: auto;
+  /*https://www.stubbornella.org/content/2009/07/23/overflow-a-secret-benefit/*/
+}
+
+.mediaSplash_container {
+  height: 50vh;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100vw;
+}
+
+.media_splash {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/***************************************************
+					Table
+When you need the convienence of table without using
+an acutal table.
+***************************************************/
+
+.table {
+  display: table;
+}
+
+.table_tr {
+  display: table-row;
+}
+
+.table_td {
+  display: table-cell;
+}
+
+.vertical_align_middle {
+  vertical-align: middle;
+}
+
+.backgroundPosition {
+  background-position: center;
+}
+
+.backgroundPosition.right.bottom {
+  background-position: right bottom;
+}
+
+.noRepeat {
+  background-repeat: no-repeat;
+}
+
+.block {
+  display: block
+}
+.hide{
+  display: none;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+
+/*
+*  Vertical Height for screen size,
+*  this propery sets screen size based height
+**/
+
+.vh50 {
+  height: 50vh;
+}
+
+.vh60 {
+  height: 60vh;
+}
+
+.vh70 {
+  height: 70vh;
+}
+
+.vh80 {
+  height: 80vh;
+}
+
+.vhm80 {
+  min-height: 80vh;
+}
+
+.vh90 {
+  height: 90vh;
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.img_boxShadow {
+  -webkit-box-shadow: -6px -5px 23px -8px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: -6px -5px 23px -8px rgba(0, 0, 0, 0.35);
+  box-shadow: -6px -5px 23px -8px rgba(0, 0, 0, 0.35);
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textUnderline{
+  text-decoration: underline;
+}
+
+.noTextDecoration{
+  text-decoration: none;
+}
+
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+.borderRadius50 {
+	border-radius: 50%;
+}
+.textCenterAlign {
+	transform: translateY(50%);
+}
+.textCenterAlign40Per {
+	transform: translateY(40%);
+}
+
+.right25{
+  right: 25px;
+}
+
+.nil:before{
+  content: '---';
+  letter-spacing: -2px;
+}

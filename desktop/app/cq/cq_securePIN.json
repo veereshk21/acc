@@ -1,0 +1,18 @@
+{
+  "label": {
+    "OD_SECURE_PIN_INVALID_AUTH_CODE_TEXT": "This code isn't valid.",
+    "OD_SECURE_PIN_ENTER_CODE_INFO_TEXT": " Now enter the code we just sent you.",
+    "OD_SECURE_PIN_SEND_NEW_CODE_INFO_TEXT":"If you don't get the code after a few minutes, have us send a new one.",
+    "OD_SECURE_PIN_SEND_NEW_CODE_BUTTON_TEXT":"Send a new code",
+    "OD_SECURE_PIN_DONE_BUTTON_TEXT":"Done",
+    "OD_SECURE_PIN_VERIFICATION_OPTIONS_UNAVAILABLE_TEXT":"Verification code texts are free. Why are some options unavailable?",
+    "OD_SECURE_PIN_VERIFICATION_CODE_FREE_TEXT":"Verification code texts are free.",
+    "OD_SECURE_PIN_LEARN_MORE_TEXT":"Learn More.",
+    "OD_SECURE_PIN_SEND_VERIFICATION_CODE_BUTTON_TEXT":"Send",
+    "OD_SECURE_PIN_GET_VERIFICATION_CODE_PROMPT_TEXT":"How would you like to get your verification code?",
+    "OD_SECURE_PIN_SEND_VERIFICATION_CODE_PROMPT_TEXT":"Got it. Which device should we text the code to?",
+    "OD_SECURE_PIN_TEXT_ME_TEXT":"Text me",
+    "OD_SECURE_PIN_TEXT_TO_DIFFERENT_NUMBER_TEXT":"Text a different number",
+    "OD_SECURE_PIN_CHOOSE_LINE_TEXT":"Choose a line from your account"
+  }
+}

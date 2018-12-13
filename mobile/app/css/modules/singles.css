@@ -1,0 +1,250 @@
+/* PLEASE READ!!!
+ * Simple Modules
+ * Only a single class
+ * re-useable styles.
+ * If the module requires more than 1 class, put in modules.css.
+ * Organize by category to the best of your ability.
+ * Name singles with that describe a single property in the same order as that property is read:
+ * 		i.e. .textAlignRight { text-align:right; }
+ * Shorthand names can be used if the property value is unique to that property
+ *		i.e. .bold {font-weight:bold;}
+ * DO NOT create duplicates with the same or a different name! Check the file FIRST!
+ */
+
+
+/* classes to change display type. */
+.displayInline{display:inline;}
+.displayBlock{display:block;}
+.displayInlineBlock{display:inline-block;}
+.displayNone{display:none}
+
+
+/* Alignment and Centering */
+.floatLeft {float:left;}
+.floatRight {float:right;}
+.floatNone{float:right;}
+
+.textAlignLeft {text-align:left;}
+.textAlignRight {text-align:right;}
+.textAlignJustify {text-align:justify;}
+.textAlignCenter {text-align:center;}
+
+.centerBlock {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.verticalCenter {
+	display: inline-block;
+	vertical-align: middle;
+}
+.verticalAlignMiddle {vertical-align: middle;}
+.verticalBottom {vertical-align:bottom;}
+.debug {border: 1px solid red;}
+
+
+/****************************************/
+/* Text color Palette - No new colors
+   should be added, use the closest color
+   below!                               */
+/****************************************/
+.color_000 {color:#000;} /* Black */
+.color_959595 {color:#959595;} /* Light Gray */
+.color_4B4B4B {color:#4b4b4b;} /* Gray */
+.color_333 {color:#333333;}
+.color_666 {color:#666666;}
+.color_FFF {color: #FFF}
+.color_red {color:#cd040b;} /* Red - Verizon Red*/
+.color_blue {color: #06C}
+.color-green {color:#489A48;}
+.color_legal{color: #747676;}
+
+
+/*Primary Colors*/
+
+.color_black {color: #000;}
+.color_white {color: #FFF;}
+.color_red, .red {color: #D52B1E;}
+
+/*Secondary Colors*/
+
+.color_gray_one {color: #F6F6F6;}
+.color_gray_three {color: #D8DADA;}
+.color_gray_six {color: #747676;}
+.color_gray_ten {color: #333;}
+.color_yellow {color: #FFBC3D;}
+.color_orange {color: #ED7000;}
+.color_green {color: #00AC3E;}
+.color_blue {color: #0088CE;}
+
+
+
+
+/*Primary Colors*/
+
+.color_black {color: #000;}
+.color_white {color: #FFF;}
+.color_red, .red {color: #D52B1E;}
+
+/*Secondary Colors*/
+
+.color_gray_one {color: #F6F6F6;}
+.color_gray_three {color: #D8DADA;}
+.color_gray_six {color: #747676;}
+.color_gray_ten {color: #333;}
+.color_yellow {color: #FFBC3D;}
+.color_orange {color: #ED7000;}
+.color_green {color: #00AC3E;}
+.color_blue {color: #0088CE;}
+/****************************************
+			Font Styles
+****************************************/
+.normal {font-weight:normal;}
+.bold, .fontWeightBold {font-family:NeueHaasGroteskDisplayBold, Arial, Helvetica, sans-serif;}
+.boldText {font-family:NeueHaasGroteskTextBold, Arial, Helvetica, sans-serif;}
+.bolder, .fontWeightBolder {font-weight:bolder;}
+.fontStyleNormal {font-style:normal;}
+.italic {font-style:italic;}
+.hideText {
+	overflow:hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+.textDecLineThrough {text-decoration:line-through;}
+.textDecUnderline{text-decoration:underline;}
+.textDecNone{text-decoration:none;}
+.cursorPointer {cursor:pointer;}
+.cursorDefault {cursor: default;}
+.noPointer {pointer-events: none;}
+
+.noSelect{
+	cursor:default;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+/****************************************
+			Line Heights
+****************************************/
+
+
+.lineHeight8  {line-height:0.8rem;}
+.lineHeight10 {line-height:1.0rem;}
+.lineHeight12 {line-height:1.2rem;}
+.lineHeight18 {line-height:1.8rem;}
+.lineHeight20 {line-height:20px;} /* These will be removed soon */
+.lineHeight24 {line-height:2.4rem;}
+.lineHeight30 {line-height:3.0rem;}
+.lineHeight36 {line-height:3.6rem;}
+.lineHeight42 {line-height:4.2rem;}
+.lineHeightNormal {line-height: normal;}
+
+/****************************************
+			Font Families
+****************************************/
+.iconFont {
+	font-family:vzwIcons, Arial, Helvetica, sans-serif;
+}
+.listStyleDisc li{
+	list-style:disc;
+}
+.listStyleDecimal li{
+	list-style:decimal;
+}
+
+/* classes to change font capitalization. */
+.textTransCapitalize {text-transform:capitalize;}
+.textTransUppercase {text-transform:uppercase; }
+.textTransLowercase {text-transform:lowercase;}
+.transformCase{
+	text-transform:lowercase;
+} 
+.transformCase:first-letter{
+	text-transform:capitalize;
+}
+
+/*Toggle position as required*/
+.positionRelative{position: relative;}
+.positionAbsolute{position: absolute;}
+.positionFixed{position: fixed;}
+
+/*Percentage Height*/
+.height100 {height:100%;}
+.height95 {height:95%;}
+
+/*Percentage width*/
+.width5  {width: 05%;}
+.width10 {width: 10%;}
+.width15 {width: 15%;}
+.width20 {width: 20%;}
+.width25 {width: 25%;}
+.width30 {width: 30%;}
+.width35 {width: 35%;}
+.width40 {width: 40%;}
+.width45 {width: 45%;}
+.width50 {width: 50%;}
+.width55 {width: 55%;}
+.width60 {width: 60%;}
+.width65 {width: 65%;}
+.width70 {width: 70%;}
+.width75 {width: 75%;}
+.width80 {width: 80%;}
+.width85 {width: 85%;}
+.width90 {width: 90%;}
+.width95 {width: 95%;}
+.width100{width:100%;}
+.widthAuto{width:auto;}
+
+/* calculated width*/
+.width100-calc-40 {
+	width: calc(100% - 40px);
+}
+
+/* Clearing */ /* These should be in layout.css and camel cased */
+.clearBoth{clear:both;}
+.clearLeft{clear:left;}
+.clearRight{clear:right;}
+
+.overflowAuto{overflow: auto;}
+.overflowScroll{overflow: scroll;}
+.overflowXAuto{overflow-x: auto;}
+
+.whiteSpaceNoWrap{white-space: nowrap;}
+
+.outlineNone {outline: none;}
+
+.fontVmax3-2{
+	font-size: 2.6vmax
+}
+
+.left50{left:50%;}
+.top50 {top:50%;}
+.tileBox{
+	box-shadow: 0 2px 0.5px #eaeaea;
+}
+
+.opacityHalf{   opacity: 0.5 }
+.opacityRemove{   opacity: 1 }
+
+#vzw-gn .container-gnav .sub-container-gnav, 
+#vzw-gn .global-nav-lower .sub-global-nav-lower {
+	min-height: 48px !important;
+}
+
+.inlineP *{
+	display: inline;
+	line-height: auto;
+	margin-left: 3px;
+}
+
+.bottom20 {
+	bottom: 20px;
+}
+ .top50-calc-30px {
+	 top: calc(50% - 30px);
+ }
+ #vzw-gf{ overflow: hidden; display: none !important}

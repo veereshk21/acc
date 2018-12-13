@@ -1,0 +1,74 @@
+
+
+/**************************************************
+                    Checkboxes
+**************************************************/
+/*
+    Example of usage:
+    <input id="[id-1]" type="checkbox" class="checkbox" value=""/>
+    <label for="[id-1]"></label>
+
+    For React, check OneDigital/app/js/common/Checkbox/Checkbox.js
+*/
+.checkbox{
+	border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    z-index: 400;
+}
+
+.checkbox~label{
+  position: relative;
+  display: flex;
+}
+
+.checkbox:checked~label:before{
+    content: "\e0a6";
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+:root .checkbox:checked~label:before {
+    background: url("data:image/svg+xml,%3Csvg width='12px' height='8px' viewBox='0 0 12 8' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3ECheckmark%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3C/defs%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Checkbox-Selected' transform='translate(-4.000000, -6.000000)' stroke='%23000000'%3E%3Cg id='Checkmark' transform='translate(5.000000, 6.000000)'%3E%3Cpolyline id='Stroke-6' points='0.388 3.8068 3.511 7.0688 9.608 0.5448'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") center no-repeat\0; /* IE 9+ (and old Firefox) */
+}
+
+.checkbox~label:before {
+    font-family: 'vzwIcons';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 1em;
+    line-height: 1.8em;
+    border: 1px solid #000;
+    /* border-radius: 50%;*/
+    text-align: center;
+    content: "\e0a6";/* This is to prevent slight movement when toggleing checkbox */
+    color: transparent; /* This is to prevent slight movement when toggleing checkbox */
+    cursor: pointer;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.checkbox.error~label:before {
+  border: 2px solid #FFBC3D;
+}
+
+.checkbox.disabled~label:before {
+    cursor: not-allowed;
+    background: #D8DADA;
+}
+.checkbox:focus~label:before{
+    outline: #000 dashed 1px !important;
+    outline-offset: 4px;
+}
+
+.checkbox input:focus+label::before, .checkbox input:hover+label::before, .checkbox label.m-mulitpleInputs:focus::before, .checkbox label.m-multipleInputs:hover::before  {
+    border: 2px solid #a0a0a0;
+    content: '';
+    padding: 1px 0 0;
+}
+

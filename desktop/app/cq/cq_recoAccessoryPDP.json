@@ -1,0 +1,28 @@
+{
+  "html": {},
+  "label": {
+    "DT_OD_PDP_NEXT_STEP_CTA": "Next step",
+    "DT_OD_RECO_ACCESSORY_PDP_RATINGS_IN_TEXT": "The ratings are in.",
+    "DT_OD_RECO_ACCESSORY_PDP_TOTAL_REVIEWS_TEXT": "reviews",
+    "DT_OD_RECO_ACCESSORY_PDP_NO_RATINGS_REVIEWS_TEXT": "This device has no ratings & reviews yet.",
+    "DT_OD_RECO_ACCESSORY_PDP_OOS_TEXT": "Out of stock.",
+    "DT_OD_RECO_ACCESSORY_PDP_PRE_ORDER_TEXT": "Pre-order",
+    "DT_OD_RECO_ACCESSORY_PDP_BACK_ORDER_TEXT": "Back-order",
+    "DT_OD_RECO_ACCESSORY_PDP_COLOR_TEXT": "Color",
+    "DT_OD_RECO_ACCESSORY_PDP_SIZE_TEXT": "Size",
+    "DT_OD_RECO_ACCESSORY_PDP_QUANTITY_TEXT": "Quantity",
+    "DT_OD_RECO_ACCESSORY_PDP_SIZE_SMALL_TEXT": "Small",
+    "DT_OD_RECO_ACCESSORY_PDP_SIZE_MEDIUM_TEXT": "Medium",
+    "DT_OD_RECO_ACCESSORY_PDP_SIZE_LARGE_TEXT": "Large",
+    "DT_OD_RECO_ACCESSORY_PDP_DEVICE_COLOR_PROMPT": "Perfect, now pick a color.",
+    "DT_OD_RECO_ACCESSORY_PDP_DEVICE_SIZE_PROMPT": "Choose your size.",
+    "DT_OD_RECO_ACCESSORY_PDP_DEVICE_QUANTITY_PROMPT": "How many would you like?",
+    "DT_OD_RECO_ACCESSORY_PDP_SELECT_SIZE_CTA": "Select size",
+    "DT_OD_RECO_ACCESSORY_PDP_SELECT_QUANTITY_CTA": "Select quantity",
+    "DT_OD_RECO_ACCESSORY_PDP_NEXT_CTA": "Next",
+    "DT_OD_RECO_ACCESSORY_PDP_FEATURES_SPECS_LINK": "Features & specs",
+    "DT_OD_RECO_ACCESSORY_PDP_FEATURES_SPECS_MODAL_TITLE": "Features & specs",
+    "DT_OD_RECO_ACCESSORY_PDP_SPECS_TITLE": "Here's a look at the specs."
+  },
+  "error": {}
+}

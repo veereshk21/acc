@@ -1,0 +1,312 @@
+const protectionJSON = 
+{
+  "output": {
+    "mtnDeviceInfo": {
+      "mtn": null,
+      "equipmentProtectionList": [
+        {
+          "sorSfoType": "SPO",
+          "priceTerm": "/mo",
+          "sfoSkuId": "sku3190615",
+          "price": "45.00",
+          "wasPrice": "45.00",
+          "introText": "Protect Any 3 Lines<br /><ul><li>As soon as next&ndash;day replacements for loss, theft, damage (incl. liquid) &amp;  post&ndash;warranty defects</li><li>Fast cracked screen repair for select smartphones (subject to parts availability)<sup>1</sup></li><li>Global fulfillment options <sup>2</sup></li></ul>All Eligible Devices<br /><ul><li>Spam call filter</li><li>Public Wi&ndash;Fi security</li><li>Expert support with Tech Coach</li></ul><p>Products available separately</p>",
+          "displayName": "Verizon Protect Multi-Device",
+          "preSelected": false,
+          "sfoSORId": "1343",
+          "hasEcpdDiscount": false,
+          "defaultDisplayFlag": false,
+          "tmpB2BMdPlan": true,
+          "additionalTapList": [
+            {
+              "devices": "3",
+              "claims": "9",
+              "price": "Included",
+              "skuId": "sku3190615",
+              "additionalTAPFeatureAvailable": false,
+              "preSelected": true
+            },
+            {
+              "devices": "4",
+              "claims": "12",
+              "price": "9.00",
+              "skuId": "sku2300176",
+              "additionalTAPFeatureAvailable": false,
+              "preSelected": false
+            },
+            {
+              "devices": "5",
+              "claims": "15",
+              "price": "18.00",
+              "skuId": "sku2300176",
+              "additionalTAPFeatureAvailable": false,
+              "preSelected": false
+            },
+            {
+              "devices": "6",
+              "claims": "18",
+              "price": "27.00",
+              "skuId": "sku2300176",
+              "additionalTAPFeatureAvailable": false,
+              "preSelected": false
+            },
+            {
+              "devices": "7",
+              "claims": "21",
+              "price": "36.00",
+              "skuId": "sku2300176",
+              "additionalTAPFeatureAvailable": false,
+              "preSelected": false
+            }
+          ],
+          "freeTrial": false,
+          "sequence": 0,
+          "tmpMdPlan": true,
+          "vzMdPlan": true,
+          "freeTrailLabel": null
+        },
+        {
+          "sorSfoType": "SPO",
+          "priceTerm": "/mo",
+          "sfoSkuId": "sku2880234",
+          "price": "39.00",
+          "wasPrice": "39.00",
+          "introText": "Protect Any 3 Lines<br /><ul><li>As soon as next&ndash;day replacements for loss, theft, damage (incl. liquid) &amp;  post&ndash;warranty defects</li><li>Fast cracked screen repair for select smartphones (subject to parts availability)<sup>1</sup></li><li>Global fulfillment options <sup>2</sup></li></ul>All Eligible Devices<br /><ul><li>Expert support with Tech Coach</li></ul><p>Products available separately</p>",
+          "displayName": "Total Mobile Protection Multi-Device",
+          "preSelected": false,
+          "sfoSORId": "1167",
+          "hasEcpdDiscount": false,
+          "defaultDisplayFlag": false,
+          "additionalTapList": [
+            {
+              "devices": "3",
+              "claims": "9",
+              "price": "Included",
+              "skuId": "sku2880234",
+              "additionalTAPFeatureAvailable": false,
+              "preSelected": true
+            },
+            {
+              "devices": "4",
+              "claims": "12",
+              "price": "9.00",
+              "skuId": "sku2300176",
+              "additionalTAPFeatureAvailable": false,
+              "preSelected": false
+            },
+            {
+              "devices": "5",
+              "claims": "15",
+              "price": "18.00",
+              "skuId": "sku2300176",
+              "additionalTAPFeatureAvailable": false,
+              "preSelected": false
+            },
+            {
+              "devices": "6",
+              "claims": "18",
+              "price": "27.00",
+              "skuId": "sku2300176",
+              "additionalTAPFeatureAvailable": false,
+              "preSelected": false
+            },
+            {
+              "devices": "7",
+              "claims": "21",
+              "price": "36.00",
+              "skuId": "sku2300176",
+              "additionalTAPFeatureAvailable": false,
+              "preSelected": false
+            }
+          ],
+          "freeTrial": false,
+          "sequence": 1,
+          "tmpMdPlan": true,
+          "vzMdPlan": false,
+          "freeTrailLabel": null
+        },
+        {
+          "sorSfoType": "INSUR,I",
+          "priceTerm": "/mo",
+          "sfoSkuId": "sku3190635",
+          "price": "16.00",
+          "wasPrice": "16.00",
+          "introText": "<ul><li>As soon as next&ndash;day replacements for loss, theft, damage (incl. liquid) &amp;  post&ndash;warranty defects</li><li>Fast cracked screen repair for select smartphones (subject to parts availability)<sup>1</sup></li><li>Global fulfillment options <sup>2</sup></li><li>Spam call filter</li><li>Public Wi&ndash;Fi security</li><li>Expert support with Tech Coach</li></ul><p>Products available separately</p>",
+          "displayName": "Verizon Protect",
+          "preSelected": false,
+          "sfoSORId": "86523",
+          "hasEcpdDiscount": false,
+          "defaultDisplayFlag": false,
+          "additionalTapList": null,
+          "freeTrial": false,
+          "sequence": 2,
+          "tmpMdPlan": false,
+          "vzMdPlan": false,
+          "freeTrailLabel": null
+        },
+        {
+          "sorSfoType": "INSUR,I",
+          "priceTerm": "/mo",
+          "sfoSkuId": "sku2880128",
+          "price": "13.00",
+          "wasPrice": "13.00",
+          "introText": "<ul><li>As soon as next&ndash;day replacements for loss, theft, damage (incl. liquid) &amp;  post&ndash;warranty defects</li><li>Fast cracked screen repair for select smartphones (subject to parts availability)<sup>1</sup></li><li>Global fulfillment options <sup>2</sup></li><li>Expert support with Tech Coach</li></ul><p>Products available separately</p>\r",
+          "displayName": "Total Mobile Protection",
+          "preSelected": false,
+          "sfoSORId": "85915",
+          "hasEcpdDiscount": false,
+          "defaultDisplayFlag": false,
+          "additionalTapList": null,
+          "freeTrial": false,
+          "sequence": 3,
+          "tmpMdPlan": false,
+          "vzMdPlan": false,
+          "freeTrailLabel": null
+        },
+        {
+          "sorSfoType": "INSUR,W",
+          "priceTerm": "/mo",
+          "sfoSkuId": "sku1230437",
+          "price": "9.00",
+          "wasPrice": "9.00",
+          "introText": "<ul><li>Cover loss, theft, damage (including liquid), and post&ndash;warranty defects</li>\r<li>As soon as next&ndash;day device replacement</li>\r<li>Fast cracked screen repair for select smartphones (subject to parts availability)<sup>1</sup></li>\r<li>International fulfillment options<sup>2</sup></li></ul>",
+          "displayName": "Total Equipment Coverage",
+          "preSelected": false,
+          "sfoSORId": "81495",
+          "hasEcpdDiscount": false,
+          "defaultDisplayFlag": false,
+          "additionalTapList": null,
+          "freeTrial": false,
+          "sequence": 4,
+          "tmpMdPlan": false,
+          "vzMdPlan": false,
+          "freeTrailLabel": null
+        },
+        {
+          "sorSfoType": "INSUR,I",
+          "priceTerm": "/mo",
+          "sfoSkuId": "sku2880124",
+          "price": "6.75",
+          "wasPrice": "6.75",
+          "introText": "<ul><li>Cover loss, theft, and damage (including liquid)</li>\r<li>As soon as next&ndash;day device replacement</li>\r<li>Fast cracked screen repair for select smartphones (subject to parts availability)<sup>1</sup></li>\r<li>International fulfillment options<sup>2</sup></li></ul>",
+          "displayName": "Wireless Phone Protection",
+          "preSelected": false,
+          "sfoSORId": "85913",
+          "hasEcpdDiscount": false,
+          "defaultDisplayFlag": false,
+          "additionalTapList": null,
+          "freeTrial": false,
+          "sequence": 5,
+          "tmpMdPlan": false,
+          "vzMdPlan": false,
+          "freeTrailLabel": null
+        },
+        {
+          "sorSfoType": "INSUR,W",
+          "priceTerm": "/mo",
+          "sfoSkuId": "sku401085",
+          "price": "3.00",
+          "wasPrice": "3.00",
+          "introText": "<ul><li> Coverage for post&ndash;warranty defects</li></ul>",
+          "displayName": "Extended Warranty",
+          "preSelected": false,
+          "sfoSORId": "79184",
+          "hasEcpdDiscount": false,
+          "defaultDisplayFlag": false,
+          "additionalTapList": null,
+          "freeTrial": false,
+          "sequence": 6,
+          "tmpMdPlan": false,
+          "vzMdPlan": false,
+          "freeTrailLabel": null
+        },
+        {
+          "sorSfoType": "INSUR,G",
+          "priceTerm": "/mo",
+          "sfoSkuId": "sku401075",
+          "price": "7.00",
+          "wasPrice": "7.00",
+          "introText": "<ul><li>Virtually unlimited access to expert device support</li></ul>",
+          "displayName": "Tech Coach",
+          "preSelected": false,
+          "sfoSORId": "77963",
+          "hasEcpdDiscount": false,
+          "defaultDisplayFlag": false,
+          "additionalTapList": null,
+          "freeTrial": false,
+          "sequence": 7,
+          "tmpMdPlan": false,
+          "vzMdPlan": false,
+          "freeTrailLabel": null
+        },
+        {
+          "sorSfoType": "INSUR,D",
+          "priceTerm": "/mo",
+          "sfoSkuId": "sku401064",
+          "price": "0.00",
+          "wasPrice": "0.00",
+          "introText": "If your device is lost, stolen, damaged, or experiences a post&ndash;warranty defect, the replacement cost may be as high as the retail price. You only have 30 days to enroll in coverage after your device activation.",
+          "displayName": "Decline Equipment Protection",
+          "preSelected": false,
+          "sfoSORId": "66332",
+          "hasEcpdDiscount": false,
+          "defaultDisplayFlag": false,
+          "additionalTapList": null,
+          "freeTrial": false,
+          "sequence": 8,
+          "tmpMdPlan": false,
+          "vzMdPlan": false,
+          "freeTrailLabel": null
+        }
+      ],
+      "tapFeatureInfo": null,
+      "tapExist": false,
+      "tapEligible": true,
+      "tapMsg": null,
+      "tpmdHeader": null,
+      "tpmdDescription": null,
+      "tpmdButtonText": null,
+      "vzProtectEnabled": true,
+      "vzProtectState": "AL",
+      "tmpB2BExist": false,
+      "tmprefreshOptionAvailable": false,
+      "vzMdEligible": false,
+      "vzMdRestrictedDevice": "PIXEL_NEXUS", //TABLET, OTHER
+      "inEligibleOverlay": {
+        "headerContent": "test",
+        "bodyContent": "test",
+        "buttonLabel": "test"
+      }
+    },
+    "bundleItemInCart": null,
+    "cq": null,
+    "saveUrl": "/od/cust/auth/protection/addUpdatePlanFeature/",
+    "commerceItemId": null,
+    "deviceSkuId": "sku2150070",
+    "deviceProdId": "dev6640013",
+    "editProtection": false,
+    "deviceProtectionRequired": false,
+    "fromEditDeviceForEUP": false,
+    "bundleAccessoriesURL": "/od/cust/auth/accessories/?format=json",
+    "throttleAccessoriesBundle": false,
+    "multiUpgradeDetails": null,
+    "smartFamilyInfo": null,
+    "editSmartFamily": false,
+    "deviceImageInfo": {
+      "displayImageURL": "https://ss7.vzw.com/is/image/VerizonWireless/iphone7-plus-front-matblk?$device-lg$",
+      "brandName": "Apple",
+      "color": "Black",
+      "displayName": "iPhone&reg; 7 Plus",
+      "capacity": "32null"
+    },
+    "carouselImagesInfo": {
+      "set": "{\"set\":{\"pv\":\"1.0\",\"type\":\"media_set\",\"n\":\"VerizonWireless/iphone7-plus-front-matblk-mms\",\"item\":[{\"i\":{\"n\":\"VerizonWireless/iphone7-plus-front-matblk\"},\"s\":{\"n\":\"VerizonWireless/iphone7-plus-front-matblk\"},\"dx\":\"1242\",\"dy\":\"2500\",\"iv\":\"QwNvr3\"},{\"i\":{\"n\":\"VerizonWireless/iphone7-plus-family\"},\"s\":{\"n\":\"VerizonWireless/iphone7-plus-family\"},\"dx\":\"899\",\"dy\":\"916\",\"iv\":\"nPivb2\"},{\"type\":\"img_set\",\"set\":{\"type\":\"img_set\",\"n\":\"VerizonWireless/iphone7-plus-front-matblk_IMAGESETS\",\"item\":[{\"i\":{\"n\":\"VerizonWireless/iphone7-plus-front-matblk\"},\"s\":{\"n\":\"VerizonWireless/iphone7-plus-front-matblk\"},\"dx\":\"1242\",\"dy\":\"2500\",\"iv\":\"QwNvr3\"},{\"i\":{\"n\":\"VerizonWireless/iphone7-plus-side-matblk\"},\"s\":{\"n\":\"VerizonWireless/iphone7-plus-side-matblk\"},\"dx\":\"137\",\"dy\":\"2500\",\"iv\":\"lXev33\"},{\"i\":{\"n\":\"VerizonWireless/iphone7-plus-back-matblk\"},\"s\":{\"n\":\"VerizonWireless/iphone7-plus-back-matblk\"},\"dx\":\"1242\",\"dy\":\"2500\",\"iv\":\"saWv50\"}]},\"s\":{\"n\":\"VerizonWireless/iphone7-plus-front-matblk_IMAGESETS\"},\"iv\":\"CFKKq3\"}]}}",
+      "skuImageName": "iphone7-plus-front-matblk"
+    }
+  },
+  "errorMap": null,
+  "statusMessage": "getProtectionFeatures",
+  "statusCode": "00"
+}
+
+export default protectionJSON;

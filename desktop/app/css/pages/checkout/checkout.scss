@@ -1,0 +1,259 @@
+@import '../../preprocess/brand';
+
+/** Promotional Banners **/
+
+.promoBanner {
+  min-height: 60px;
+  background: #000;
+  color: #FFF;
+  position: relative;
+}
+
+.promoBanner .tooltip:before {
+  color: #FFF
+}
+
+.promoBannersContainer,
+.promoBanner {
+    margin: 0 !important;
+}
+.promoBannersContainer,
+.promoBannersContainer [class^="col-"] {
+  padding: 0 !important;
+}
+
+/** Specific Radio Button and Checkbox Label styles **/
+
+.radioLabel {
+  width: calc(100% - 20px);
+}
+
+.checkboxLabel {
+  width: calc(100% - 30px);
+}
+
+.mSelectWrapper>label[for="card_month"] {
+  margin-top: -38px;
+}
+
+/** Shipping Information Text Updates styling **/
+
+.textUpdatesContainer {
+  width: 200px;
+  max-width: 100%;
+}
+
+/** Terms and Conditions Start **/
+
+.terms_external .row {
+  display: block;
+  margin: 0;
+  flex: none;
+}
+
+.terms_external h3,
+.terms_external h4 {
+  font-family: $verizon-font-bold;
+  font-weight: bold;
+  color: #000;
+}
+.terms_external p {
+  margin: 14px 0px;
+ }
+ .terms_external td > p {
+  margin: 0;
+ }
+
+/* Overiding Flex grid so noPad works*/
+
+[class^="col-"].noPad {
+  padding: 0;
+}
+
+/** Ordersummary Accordion Changes  **/
+
+.accordionItem {
+  min-height: 50px;
+}
+
+.orderSummary .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.orderSummary .accordion .row>[class^="col-"]:first-child {
+  padding-left: 0;
+}
+
+.orderSummary .accordion .row>[class^="col-"]:last-child {
+  padding-right: 0;
+}
+
+.orderSummary .accordion__body>*:last-child {
+  margin-bottom: 12px;
+}
+
+/* Order Summary Section Behavior */
+
+@media only screen and (max-width: 983px) {
+  .mainContent,
+  .sideBarContent,
+  .mainHeader,
+  .sideHeader{
+    -ms-flex-preferred-size: 100% !important;
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+  .sideHeader {
+    padding: 20px 0px 0px 8px !important;
+  }
+}
+
+/* Masterpass Icon and CTA - SVG links are from masterpass webesite */
+
+.masterpassIcon {
+  padding: 5px 14px;
+  border-radius: 4px;
+  border: 1px solid #a8a8a8;
+  box-shadow: 0px 0px 0px 0.4px #a8a8a8 inset;
+  height: 40px;
+}
+
+.masterpassButton {
+  padding: 12px 8px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  height: 48px;
+  width: 170px;
+  cursor: pointer;
+}
+
+/* Card Icons for saved cards, taken from ATG */
+
+.creditCards {
+  display: inline-block;
+  width: 35px;
+  height: 20px;
+  float: left;
+  margin-right: 5px;
+  opacity: .5;
+  text-indent: -9999px;
+  background-size: cover !important;
+  position: absolute;
+  top: 16px;
+  left: 10px;
+}
+
+.creditCards.m_entered {
+  opacity: 1
+}
+
+.creditCards.m_visa {
+  background-position: 0 -302px !important;
+}
+
+.creditCards.m_visa.m_entered {
+  background-position: 0 -100px !important;
+}
+
+.creditCards.m_masterCard {
+  background-position: 0 -251px !important;
+}
+
+.creditCards.m_masterCard.m_entered {
+  background-position: 0 -50px !important;
+}
+
+.creditCards.m_amex {
+  background-position: 0 -150px !important;
+}
+
+.creditCards.m_amex.m_entered {
+  background-position: 0 0 !important;
+}
+
+.creditCards.m_discover {
+  background-position: 0 -351px !important;
+}
+
+.creditCards.m_discover.m_entered {
+  background-position: 0 -202px !important;
+}
+
+/* Device Information Changes */
+
+.deviceServiceAddress {
+  text-overflow: ellipsis;
+  max-width: calc(100% - 40px);
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+button:focus,
+a:focus,
+select:focus,
+.accordion__title:focus,
+.checkbox:focus~label:before,
+.radioBtn:focus+label:before,
+.textField:focus-within>div,
+.terms_external:focus {
+  outline: #000 dashed 1px !important;
+  outline-offset: 4px;
+}
+
+button.tooltip.white:focus {
+  outline: #FFF dashed 1px !important;
+  outline-offset: 4px;
+}
+
+/* Alignment fix due to flexbox limitations concerning even number division*/
+
+.billingAddress {
+  margin-left: 4.25%;
+}
+
+.billingAddressEdit {
+  margin-left: 12.5%;
+}
+
+.fontSize32 {
+  font-size: 32px;
+}
+
+.checkout .mSelectWrapper select+.dropdownChevron:before {
+  color: #000;
+  font-size: 8px;
+}
+
+.checkout .mSelectWrapper input+div>hr {
+  border-color: 000 !important;
+  z-index: 2;
+  bottom: -3px !important;
+}
+
+.checkout #shippingSection ul {
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.bicPromoTag:before {
+  left: 0;
+}
+
+.checkout .h3,.checkout h3{
+  font-size: 14px !important;
+}
+
+.chatAndCall {
+  height: 0;
+}
+
+.checkout .editButton{
+  margin-left: 5px;
+}
+
+#ispu_cc input:focus + div > div {
+  outline: none;
+  outline-offset: 0px !important;
+}

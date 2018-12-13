@@ -1,0 +1,43 @@
+exports.npanxxJSON = {
+  statusCode: '00',
+  errorMap: null,
+  output: {
+    state: 'ND',
+    states: null,
+    mtns: [
+      '701-212-XXXX',
+      '701-219-XXXX',
+      '701-238-XXXX',
+      '701-261-XXXX',
+      '701-318-XXXX',
+      '701-353-XXXX',
+      '701-361-XXXX',
+      '701-367-XXXX',
+      '701-371-XXXX',
+      '701-388-XXXX',
+      '701-404-XXXX',
+      '701-412-XXXX',
+      '701-429-XXXX',
+      '701-446-XXXX',
+      '701-552-XXXX',
+      '701-566-XXXX',
+      '701-630-XXXX',
+      '701-715-XXXX',
+      '701-781-XXXX',
+      '701-809-XXXX',
+      '701-850-XXXX',
+      '701-866-XXXX',
+      '701-893-XXXX',
+      '701-929-XXXX',
+      '701-936-XXXX',
+    ],
+    city: 'Mapleton',
+    cities: null,
+    zipCode: '58059',
+    success: true,
+    ajaxCallUrl: "/digital/checkout/npaNxxNumber"
+  },
+  statusMessage: 'Service completed Successfully.',
+};
+
+// export default npanxxJSON;

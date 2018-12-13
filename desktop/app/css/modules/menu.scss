@@ -1,0 +1,204 @@
+/***
+Styles for menu and header of app.
+
+Position and sizing of burger button
+***/
+/*.main {
+  position: relative;
+  top: 50px;
+  height: 90vh;
+  transition: top 400ms ease-in;
+}*/
+
+/*.main.m-pushed {
+  top: 152px;
+}*/
+.main_banner {
+  position: relative;
+  /*height: 90vh;*/
+  /* transition: top 400ms ease-in; */
+}
+
+.header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  transition: top 400ms ease-in;
+}
+
+.headerNav_wrapper {
+  padding: 8px 0;
+}
+
+.header.m-notification {
+  top: 102px;
+}
+
+.headerNav {
+  position: fixed;
+  z-index: 100;
+  top: 50px;
+  width: 100%;
+}
+
+.headerNav_banner {
+  position: fixed;
+  z-index: 100;
+  top: 92px;
+  width: 100%;
+}
+
+.pageContent {
+  position: relative;
+  top: 40px;
+  height: 100vh;
+}
+
+/*#app, #app > div {
+  height: 91vh;
+}*/
+
+.transparentHeader {
+  opacity: 0.8;
+}
+
+.bm-menu-wrap {
+  width: 90% !important;
+}
+
+.bm-burger-button {
+  position: relative;
+  width: 16px;
+  height: 12px;
+  margin: 20px 10px 20px 16px;
+  float: left;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #cd040b;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  top: 18px !important;
+  left: 18px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #fff;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #222222;
+  background: linear-gradient(to bottom, #333333 4em, #222222 calc(4em - 100%));
+  padding: 4em 0 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  height: 100% !important;
+  overflow: scroll;
+  border-top: 1px solid #333;
+  padding-bottom: 72px;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s, -webkit-transform 0s 0.3s !important;
+
+}
+
+.menu-item {
+  background: #222222;
+  height: 50px
+
+}
+
+.menu-item.selected {
+  border-left: 6px solid #f8d362;
+}
+
+.menu-footer {
+  bottom: 0;
+  background-color: #333333;
+
+}
+
+.menu-spanish {
+  top: 21px;
+  right: 24px;
+}
+
+.bm-submenu {
+  background-color: #3f3f3f;
+
+}
+
+.submenu-icon {
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.user-icon::before {
+  font-family: 'vzwIcons';
+  content: '\e034';
+  font-size: 10px;
+}
+
+.user-icon {
+  text-decoration: none;
+}
+
+.cartCount {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  color: #fff;
+  background-color: #cd040b;
+  border-radius: 13px;
+  text-align: center;
+  width: 13px;
+  height: 13px;
+  z-index: 1;
+  font-size: 9px;
+  line-height: 1.2rem;
+}
+
+
+.primaryMenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.primaryMenuItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 12px;
+ 
+}
+.primaryMenuItem.noRightPad{
+	padding-right: 0;
+}
+.callSupport::before {
+	position: absolute;
+	font-family: 'vzwIcons';
+	content: '\e025';
+	top: 6px;
+    left: -8px;
+    color: #666;
+}

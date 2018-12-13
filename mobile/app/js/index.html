@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- The first thing in any HTML file should be the charset -->
+  <meta charset="utf-8">
+  <!-- Make the page mobile compatible -->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <!-- Allow installing the app to the homescreen -->
+  <link
+    rel="manifest"
+    href="manifest.json"
+  >
+  <meta
+    name="mobile-web-app-capable"
+    content="yes"
+  >
+  <title>One Digital</title>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  >
+  <script
+    type="text/javascript"
+    src="https://pie.uat.verizon.com/pie/v1/verizon/getkey.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://pie.uat.verizon.com/pie/v1/encryption.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://includestest.ccdc02.com/cardinalcruise/v1/songbird.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://sandbox.masterpass.com/integration/merchant.js"
+  ></script>
+
+</head>
+
+<body>
+  <!-- Display a message if JS has been disabled on the browser. -->
+  <noscript>If you're seeing this message, that means
+    <strong>JavaScript has been disabled on your browser</strong>, please
+    <strong>enable JS</strong> to make this app work.</noscript>
+
+  <!-- The app hooks into this div -->
+  <div
+    id="vzw-gn"
+    class="sticky"
+  ></div>
+  <div id="app"></div>
+  <div
+    id="loader"
+    class="spinner"
+  ></div>
+  <script type="text/javascript">
+    function showLoader() {
+      document.getElementById("loader").className = "spinner"
+    }
+
+    function hideLoader() {
+      document.getElementById("loader").className = "is-hidden";
+    }
+    window.onpageshow = hideLoader;
+
+  </script>
+  <script>
+    // Now http://localhost:3000/ or http://xyz.ngrok.io/ works without change !!
+    // Only for Dev environment
+    window.resourceBaseUrl = window.location.origin + '/';
+    // Enable this for agent sites
+     window.siteId = 800002;
+     window.isAgentSite = true;
+    window.sessionTimeOutJSON = {
+  "timeout": 2,
+  "warning": 1,
+  "timeoutMessage": "Session Timeout!",
+  "warningMessage": "Your session is about to expire!",
+  "continueSessionURL": "/od/cust/auth/keepalive",
+  "cancelSessionURL": "/od/cust/logout",
+  "guestContinueSessionURL": "/od/cust/keepalive",
+  "clearSession": "/od/cust/clearsession"
+};
+    var cartJSON = { "statusCode": "00", "output": { "orderId": "Sf07ec460e9ec44729d8c53a3b000c22b{d1}", "redirectionURL": null, "isPOBODeviceInCart": false, "accGuestCheckoutEnabled": null, "dueTodayPOBOHeader": null, "items": [{ "deviceProdId": "dev6720119", "deviceManufactureName": "Google", "deviceProductDisplayName": "Pixel XL, Phone by Google", "colorName": "Quite Black", "capacity": "32GB", "flow": "EUP", "mtn": "2162106420", "displayMtn": "216.210.6420", "deviceImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/Google_Marlin_Slate?$device-med$&fmt=jpeg&wid=75&hei=150", "deviceImageUrlLarge": "https://ss7.vzw.com/is/image/VerizonWireless/Google_Marlin_Slate?$device$&bgc=ffffff&wid=158&hei=300", "activationFee": "0.00", "waivedActivationFeePromo": false, "upgradeFee": "30.00", "waivedUpgradeFeePromo": false, "edgeDevice": true, "price": "669.99", "originalPrice": "669.99", "priceText": "Full retail device price", "priceSubTitle": null, "edgeItemDownPaymentAmount": "0.00", "installmentBalance": "0.00", "deviceEdgeUpAmount": "0.00", "deviceEdgeBuyOutAmount": "0.00", "protectionOption": { "name": "Decline Equipment Protection", "price": "0.00", "originalPrice": "0.00", "featureType": "INS", "featureSkuId": "sku401064", "hideEditProtection": false, "displayMsg": null, "tapOpted": false }, "commerceItemId": "Sf07ec460e9ec44729d8c53a3b000c22b{d1}_device_1", "deviceSkuId": "sku2170535", "deviceSORId": "G-2PW2100-021-A", "lacPrice": "20.00", "lacText": "Smartphone line access", "inventoryStatus": "1000", "inventoryAvailableDate": null, "hasEcpdDiscount": false, "hasEcpdDiscountForDevicePayment": false, "devicePromotionList": [], "bicOfferApplied": false, "bicContractPrice": "0.00", "bicDiscountedContractPrice": "0.00", "bicSavings": "0.00", "myOfferWaiveUpgradeFee": false, "shipCommitInd": null, "promoLACMessage": null, "additionalFeatures": [], "simDetails": null, "imeiId": null, "transferredFromMtn": null, "originalActivationFee": "0.00", "priceForFullRetailPriceListID": "669.99", "bicMessage": null, "bicMessagetooltip": null, "editDeviceUrl": "/od/pdp/dev6720119/?commerceItemId=Sf07ec460e9ec44729d8c53a3b000c22b%7Bd1%7D_device_1&deviceProdId=dev6720119&catalogRefId=sku2170535&editDevice=true&flow=EUP", "fullRetailPrice": "669.99", "fromSavedCart": false, "numberShareDevice": false, "numberSharedMtn": null, "itemOnJaxPlan": false, "humCarDetails": null, "poboAvailableDate": null, "planCommerceItemId": null, "monthlyPriceAfterDownPaymentBeforeDiscount": 0.0, "originalFullRetailPrice": 0.0, "hasReducedRetailPrice": false, "hasReducedDueMonthly": false, "originalDueMonthly": 0.0, "lineAccessPromotionText": null, "downPaymentPromotionText": null, "contractTerm": "0", "deviceType": "SMARTPHONE", "activationFeeText": null, "promoOfferText": null, "promoApplied": false, "portIn": false, "deviceNickName": "TSTE0205            V TSTE0205-6420", "totalNumberShareExtension": 0, "originalUpgradeFee": "30.00", "totalSavings": "0.00", "sbdOffer": null, "hostCommerceItemId": null, "trunkMtn": null, "discountedEdgeRetailPrice": null, "displayImeiId": null, "featureDropped": false, "upgradeFeeWaived": false, "activationFeeWaived": false }], "existingDevices": null, "plans": { "planOnlyDueMonthly": "40.00", "dueMonthly": "40.00", "dueToday": "0.00", "items": [{ "planType": "The new Verizon Plan Single Smartphone 5 GB", "planSorId": "97928", "planProdId": "plan3440001", "planSkuId": "sku2280053", "planLetter": "5", "planDescription": "<span>5 GB  </span><span>Shared Data,  </span><span>Carryover Data, </span><span>Unlimited </span><span>Talk &amp; Text </span>", "planDisplayName": "The new Verizon Plan Single Smartphone 5 GB", "planChangeURL": "/od/cust/auth/compatiblePlans?editPlan=true&planSorId=97928&flow=null&planCommId=Sf07ec460e9ec44729d8c53a3b000c22b{d1}_plan_1", "planImageURL": "https://ss7.vzw.com/is/image/VerizonWireless/2017-plan-5gb-black", "accountAccess": { "name": "The new Verizon Plan Single Smartphone 5 GB", "price": "40.00", "discountPrice": 0.0, "promoMessage": null, "hasEcpdDiscount": false, "planAmount": "40.00", "originalPlanAmount": "40.00" }, "dueMonthly": 0.0, "dueMonthlyOriginal": 0.0, "planCommerceItemId": null, "autoPayText": null, "termsAndConditionKey": null }], "newDevices": [], "upgradeDevices": [{ "name": "Pixel XL, Phone by Google", "price": "20.00", "discountPrice": 0.0, "hasEcpdDiscount": false, "mtn": "2162106420", "listPrice": 20.0, "deviceLineItemId": null, "discountPriceVal": "0.00", "planCommerceItemId": null, "nickName": null, "numberShareDevice": false, "featureDropped": false }], "existingDevices": [], "dueMonthlyPlanWithLAC": "60.00", "discountedDueMonthlyPlanWithLAC": "0.00", "existingDevicesLAC": null, "discountedExistingDevicesLAC": null }, "accessories": [], "cartEdited": false, "iconicFlow": false, "removePromoCodeURL": "/od/cust/auth/cart/removePromoCode", "applyPromoCodeURL": "/od/cust/auth/cart/applyPromoCode", "clearCartURL": "/od/cust/auth/cart/clearCart", "addOrUpdateDeviceURL": "/od/cust/auth/cart/addOrUpdateDevice", "addOrRemoveAccessoryURL": "/od/cust/auth/cart/addOrRemoveAccessory", "changeZipCodeURL": "/od/cust/auth/cart/changezipcode/", "addOrUpdateFeatureURL": "/od/cust/auth/cart/addOrUpdateFeature", "initiateCheckoutURL": "/od/cust/auth/checkout/initiateCheckout", "guestCheckoutSignInURL": null, "accountMember": false, "accessoriesBundle": null, "taxDetails": { "taxPrice": "62.30", "cityStateString": "Atlanta, GA", "stateTaxLabel": null, "zipCode": null }, "totalDueToday": "762.29", "totalDueMonthly": "20.00", "employeeDiscount": 0, "pastDueBalance": "0.00", "emptyCartFlag": false, "edgeContractDeviceInCart": true, "totalEdgeUpAmount": "0.00", "totalEdgeUpBuyOutAmount": "0.00", "totalEdgeOrderDownPayment": "0.00", "tradeInCredit": null, "tradeInPromoDetails": null, "promotionList": [], "cartMessages": { "cartReadyforCheckout": true, "code": null, "message": "" }, "cartItemCount": 1, "mailInRebateTotal": 0, "mailInRebateDetails": null, "promoCodes": [], "promoCodeHeader": "Promo code? Lucky you.", "promoCodeLabel": "Promo code", "addAnotherPromoCodeText": "Add another promo code", "applyBtn": "Apply", "emptyCartMessage": "There are no items in your cart", "shopBtn": "Shop", "tradeInPromoEligible": true, "eligibleForSingleDeviceRibbon": false, "eligibleForMultiDeviceAllocation": false, "retrieveCartSuccessful": false, "standaloneAccessories": false, "dueTodayText": "Due today", "dueMonthlyText": "Due Monthly", "mainCartHeader": "Time to review your cart.", "mainCartSubTitle": "Enjoy free 2-day shipping", "mainCartNextDayShippingMessage": null, "shopMoreBtnText": "Shop more", "checkoutBtn": "Check out", "editBtn": "Edit", "removeLinkText": "Remove", "mainCartFooterText": "Want to start over?", "mainCartFooterLinkText": "Emtpy your cart", "shopMoreLink": "/od/cust/auth/shoplanding/", "activationFeeText": "Activation Fee", "waivedActivationText": "Waived Activation Fee", "upgradeFeeText": "Upgrade Fee", "waivedUpgradeFeeText": "Waived Upgrade Fee", "saveBtnLabel": "Save", "zipCodeHeader": "Please enter a new ZIP code", "tradeInCreditHeader": "Trade-in Credit for this device", "tradeInFooterLink": "Tell me more", "tradeInOfferDetailsHeader": "Offer Details", "tradeInOfferDetailsMsg": "long block of text", "tradeInConfirmationBtn": "Got it", "lonelyCartMessage": "Your cart is lonely.", "lonelyCartSubMessage": null, "checkoutButtonURL": "/od/cust/auth/checkout/initiateCheckout", "tradeInUrl": "/od/trade-in/auth?gotoCart=true", "mainInRebateDetails": null, "deviceProtectionDetails": { "deviceProtectionDetailsHeader": "device protection details", "deviceProtectionDetailsSubTitle": "Five things you need to know about Equipment Protection", "deviceProtectionDetailsText": "<div> <p>Cost per Month and Individual Service Availability. Total Mobile Protection (TMP) Single Device and Total Mobile Protection Multi-Device are a combination of multiple products, each of which is available separately per device: Wireless Phone Protection (WPP) $5.00/Basic Devices &amp; Tablets or for $7.15/Smartphones &amp; iPhone Devices; Verizon Wireless Extended Warranty (EW) $3.00; and Verizon Tech Coach $7.00. You may also purchase Total Equipment Coverage (TEC) for $7.00/Basic Devices &amp; Tablets or for $9.00/Smartphones &amp; iPhone Devices. TEC is a combination of 2 products, each of which is available separately: WPP $5.00/Basic Devices &amp; Tablets or for $7.15/Smartphones &amp; iPhone Devices; and Verizon Wireless EW for $3.00.</p> <p> Applicability and Amount of Deductible.  For lost, stolen and damaged device claims, deductibles are $49 for basic phones and, depending on device, $49-$199 for smartphones and tablets. For a full list of deductibles click here <a href='http://phoneclaim.com/verizon/deductible' target='_blank'>http://phoneclaim.com/verizon/deductible.</a> </p> <p>Claim Limits for loss, stolen and damaged devices. Equipment claim maximum is $400 or $1,500, depending on device, and limited to three claims per 12-month period for TMP Single Device and up to nine claims per 12-month period for TMP Multi-Device.</p> <p>Covered and Replacement Equipment. If your device is lost, stolen or damaged, your accessories are covered too ï¿1Ž2 one each of the following: standard battery, standard car charger, standard case, standard home charger and standard earbud. It is our goal to provide you with a replacement device that is the same color and has the same features, but this cannot be guaranteed. If the same make and model you claim is not available, a similar make and model will be substituted. Your replacement device could be new or refurbished. You may also receive generic accessories with lost, stolen or damaged claims.</p> <p>Cancellation Policy. Change your mind? You can cancel your coverage at any time and receive a pro-rated refund of your monthly fee.</p> </div>" }, "preOrderAlertMsg": "Your order contains one or more items that are not in stock. All items will ship together when everything is available.", "bicText": null, "hasSubmittedTradein": false, "cpcSucessful": true, "cpcSucessfulNotification": true, "protectionURL": "/od/cust/auth/protection", "itemsFromRetrievedCart": false, "totalActivationFee": "0.00", "itemOnJaxPlan": false, "anyLineFreeSPO": null, "paypalEnabled": false, "paypalApi": "/od/cust/auth/checkout/paypal/cmpilookup?triggerFrom=PAYMENT", "aalUrl": "/od/cust/auth/shop?flow=AAL", "eupUrl": "/od/cust/auth/shop?flow=EUP", "rawSubTotalDueToday": "699.99", "overallDueMonthly": "60.00", "additionalCharges": [{ "taxPrice": "28.00", "cityStateString": null, "stateTaxLabel": "GA State Sales Tax", "zipCode": null }, { "taxPrice": "28.00", "cityStateString": null, "stateTaxLabel": "GA State Sales Tax", "zipCode": null }], "accessoryGWURL": "/od/cust/auth/accessories/", "accessoryPDPURL": "/od/cust/auth/accessoryDetails/", "removeTradeInURL": "/od/trade-in/removeTradeIn", "masterpassEnabled": false, "targetter": { "freeShippingText": "Free Shipping or In-Store Pickup", "freeShippingDesc": "Free shipping \n Free 2-day shipping when you order online M-F by 8PM EST, Sat by 2PM EST (excluding holidays), will deliver in two business days within the U.S. only (excluding AK & HI). 2-day orders placed after 2PM EST on Sat will deliver by Wednesday. Overnight shipping to destinations within the U.S. (excluding AK & HI) is generally available for orders placed M-F until 11PM EST, excluding holidays. Orders that contain a pre-order or backorder will ship via 2-day shipping on or prior to the committed date. Subject to credit authorization, verification and inventory availability.", "nextDayText": "Want it tomorrow? Order by 11PM ET w/Next Day Shipping. Pre-order devices excl'd", "nextDayDesc": "Depending on inventory availability for destinations within the US (excluding AK, HI) for orders placed M-F (excluding holidays). Next Day Shipping is not available for devices in pre-order status. Pre-order devices will ship as inventory becomes available", "contentText": "Keep your content.", "contentDesc": "Don't worry, we've got you covered. We'll make sure all of your pictures, contacts and content transfer from one phone to the other without issue.", "returnPolicyText": "14 day return policy", "returnPolicyDesc": "You may return or exchange wireless devices and accessories purchased from Verizon Wireless within 14 days of purchase. A restocking fee of $35 applies to any return or exchange of a wireless device (excluding Hawaii)." }, "overallDiscountedAmount": "0.00", "ecpdDueTodayDiscountedAmount": "0.00", "ecpdDueMonthlySavings": "0.00", "devicesURL": "/od/devices/", "autoPayApplied": false, "cartURL": "/od/cust/auth/cart/getCartDetails?format=json", "byodUrl": "/od/cust/auth/shop?flow=NSO", "masterpassConfigInfo": { "checkoutId": null, "allowedCardTypes": ["master", "amex", "diners", "discover", "jcb", "maestro", "visa"], "shippingLocationProfile": "US", "amount": "762.29", "cartId": "Sf07ec460e9ec44729d8c53a3b000c22b{d1}", "currency": "USD", "suppress3Ds": false, "callbackUrl": "http://wga0022alditdvb.uswin.ad.vzwcorp.com/od/cust/auth/checkout/masterpass/paymentData" }, "accessoryShopURL": "/accessories", "bicOfferMessage": null, "cartMFCompatible": true, "cartValidationDetailsVo": { "cartReadyforCheckout": true, "cartIncompleteCode": null, "cartIncompleteMessage": null, "orderId": "Sf07ec460e9ec44729d8c53a3b000c22b{d1}" }, "tmpMdOpted": false, "tmpMd": null, "frontEndPersonalization": null, "allowAAL": true, "allowEUP": false, "authenticated": true, "splitShipment": false }, "errorMap": null, "statusMessage": "" };
+    var mdnJSON = { "output": { "devicesList": [{ "displayMtn": "316.644.7405", "deviceName": null, "imageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/apple_iPhoneSE_rsGld?$device-thumb$", "nickname": "KENNY                 REYES-7405", "brand": null, "mtn": "3166447405", "isSelectEnabled": true, "deviceId": null, "totalNumberShare": "0", "commerceItemId": null, "itemAlreadyInCart": false, "numberSharePairDevice": null, "selectEnabled": true }, { "displayMtn": null, "deviceName": "iPhone&reg; X", "imageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/iPhoneX-Svr?$device-lg$", "nickname": "iPhone&reg; X", "brand": null, "mtn": null, "isSelectEnabled": true, "deviceId": null, "totalNumberShare": "0", "commerceItemId": "Sb86dd4426f34dfa647d955475496acc6_device_1", "itemAlreadyInCart": true, "numberSharePairDevice": null, "selectEnabled": true }], "redirectUrl": "/od/cust/auth/numbershare", "eligibleMdnNotPresent": false, "cartRedirectUrl": "/od/cust/auth/cart/getCartDetails", "deviceProdId": null, "deviceSkuId": null, "eligibleForE911Address": false, "numberShareLineAccessCharge": 0.0, "nonNumberShareLineAccessCharge": 0.0, "states": null, "nuberShareDeviceType": "RIO", "inEligibleMessage": null }, "errorMap": null, "statusMessage": "Service Completed Successfully", "statusCode": "00" };
+    var e911JSON = { "statusCode": "00", "output": { "states": ["AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA", "MA", "MD", "ME", "MI", "MN", "MO", "MS", "MT", "NC", "ND", "NE", "NH", "NJ", "NM", "NV", "NY", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VA", "VT", "WA", "WI", "WV", "WY"], "redirectUrl": null, "updateAddressUrl": "/od/cust/auth/addE911Address", "addressInfo": null, "customerBillingAddress": { "firstName": "VZW", "lastName": "BYPASS", "address1": "5055 N POINT PKWY", "address2": null, "city": "ALPHARETTA", "state": "GA", "zipcode": "30022" } }, "errorMap": null, "statusMessage": null };
+    var numberShareJSON = {
+      "output": {
+        "options": [
+          {
+            "defaultSelection": false,
+            "goToUrl": "",
+            "optionText": "NumberShare",
+            "optionDescription": "Make and receive calls using your shmarphone  mobile number"
+          },
+          {
+            "defaultSelection": false,
+            "goToUrl": "",
+            "optionText": "Standalone",
+            "optionDescription": "Use a seperate mobile number for your device"
+          }
+        ]
+      }
+    };
+    var cpcJSON = { "upgradeURL": "/od/cust/auth/compatiblePlans", "continueURL": "/od/cust/auth/keepCurrentPlan", "showImage": true, "showLearnMore": true, "headerMessage": "Save on your iPhone&reg; 7 with an Unlimited Plan.", "imageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/iphone7-front-gld?$device-lg$", "promptBody": "when you switch to the new Verizon Unlimited Plan and trade in your device." };
+    var cpcInterceptPromptJSON = { "statusCode": "00", "errorMap": null, "statusMessage": null, "output": { "declineURL": "/od/cust/auth/keepCurrentPlan", "acceptURL": "/od/cust/auth/compatiblePlans", "restrictedZipcodeMessage": "Make and receive calls using your shmarphone  mobile number", "currentPlanDetails": { "currentPlanName": "The new Verizon Plan Small 2 GB", "monthlyAccessCost": "35.00", "monthlyAccessDiscountCost": "26.25", "totalMonthlyAccessCostForAllDevices": "86.25", "monthlyLineAccessDetails": { "noDevice": 4, "totalMonthlyLineAccessCost": "80.00", "totalMonthlyLineAccessDiscountCost": "60.00", "upgradeDevices": null, "newDevices": [{ "mtn": "device_1", "deviceName": "Apple iPhone&reg; X 64GB Silver", "cost": "20.00", "discountCost": "15.00", "totalCost": null, "deviceSorId": null, "deviceCost": null, "dataFeatures": [], "msgFeatures": [], "minuteFeatures": null }], "existingDevices": [{ "mtn": "731.358.1304", "deviceName": "Samsung SCH-a930", "cost": "20.00", "discountCost": "15.00", "totalCost": null, "deviceSorId": null, "deviceCost": null, "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }, { "mtn": "731.358.1316", "deviceName": "Motorola MOTO Q&trade; music 9m", "cost": "20.00", "discountCost": "15.00", "totalCost": null, "deviceSorId": null, "deviceCost": null, "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }, { "mtn": "949.275.2841", "deviceName": "Samsung SCH-a650", "cost": "20.00", "discountCost": "15.00", "totalCost": null, "deviceSorId": null, "deviceCost": null, "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }] }, "planCategoryCode": "56", "sorCollectionCode": "TV210" }, "planNAFs": [], "singleDeviceNAFs": null, "singleDevicePlan": false, "dataOnlyPlan": false, "autopayNotification": false, "selectPlanURL": "/od/cust/auth/selectPlan" } };
+    // var cpcInterceptPromptJSON = {
+    //   "statusCode": "00",
+    //   "errorMap": null,
+    //   "statusMessage": null,
+    //   "output": {
+    //     "singleDevicePlan": false,
+    //     "dataOnlyPlan": false,
+    //     "selectPlanURL": "/od/cust/auth/selectPlan",
+    //     "keepCurrentURL": "/od/cust/auth/keepCurrentPlan",
+    //     "exploreTVPURL": "/od/cust/auth/compatiblePlans",
+    //     "exploreMMPlanURL": "//localhost:9092/digital/cpc/cpcExploreMMPlan",
+    //     "modifyExistingPlanUrl": "/od/cust/auth/planListing",
+    //     "showTVP": true,
+    //     "showME": false,
+    //     "showMM": true,
+    //     "showKeepCurrent": true,
+    //     "showMFilex": false,
+    //     "showALPPlan": false,
+    //     "restrictedMessage": "",
+    //     "currentPlanDetails": {
+    //       "currentPlanName": "The new Verizon Plan Large 8 GB",
+    //       "monthlyAccessCost": "70.00",
+    //       "monthlyAccessDiscountCost": null,
+    //       "totalMonthlyAccessCostForAllDevices": null,
+    //       "monthlyLineAccessDetails": null,
+    //       "planLetter": "L",
+    //       "planSize": "8",
+    //       "unitOfMeasure": "GB",
+    //       "allowance": "8",
+    //       "planCategoryCode": "56",
+    //       "sorCollectionCode": "TV210",
+    //       "currentPlanId": "96328"
+    //     }
+    //   }
+    // }
+
+
+    var compatiblePlansJSON = { "statusCode": null, "errorMap": null, "output": { "plans": [{ "information": null, "price": "160.00/mo.", "displayIcon": null, "capacityDesc": "Unlimited", "capacity": "<span class='red'>go</span><span class='prxCheckMarkTVP3' >unlimited</span> ", "priceDisc": "$160.00", "header": "Unlimited data at $160.00 for 3 device(s).", "planSorId": "99230", "voiceMessageInfo": "Enjoy unlimited talk, text and 4G LTE data.<br/>Stream DVD-quality video endlessly.<br/>Unlimited mobile hotspot.<br/>Calls/texts to and from Mexico/Canada included.", "autopayNotification": "Save $5/phone/mo when you pay with Auto Pay.", "autopayDiscount": null, "priceInfo": "$160.00/mo. for 3 device(s)</strong></strong>", "discountPriceInfo": null, "discount": false, "finalPrice": null, "compareDetails": null, "planSkuId": "sku2580028", "currentPlan": false, "recommendedPlan": false, "jaxPlan": true, "sorCategoryCode": "61", "planName": "Go Unlimited", "planLevelFlag": "Account Level", "comparePlans": false, "dataAllowance": 9998.0, "planType": "multiLine", "planDesc": "All the data you&#146;ll ever need on the nation&#146;s best network", "upgradeDevices": [], "newDevices": [], "newPhones": [{ "mtn": "316.644.7405", "deviceName": "Apple iPhone&reg; 7 Plus 32GB Black", "cost": "70.00", "discountCost": "0.00", "totalCost": null, "deviceSorId": "4G Smartphone", "deviceCost": "70.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "existingDevices": [{ "mtn": "316.531.2490", "deviceName": "Home Phone Connect F256VW", "cost": "20.00", "discountCost": "0.00", "totalCost": null, "deviceSorId": "Home Solutions", "deviceCost": "20.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "existingPhones": [{ "mtn": "316.640.5114", "deviceName": "LG Exalt&trade; II in Black", "cost": "70.00", "discountCost": "0.00", "totalCost": null, "deviceSorId": "Feature Phones", "deviceCost": "70.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "totalPlanPrice": "160.00", "discounted": false, "totalDiscountedPlanPrice": null, "accountAccessPrice": null, "discountedAccountAccessPrice": null, "whatsIncludedToolTip": "In times of congestion, your data may be temporarily slower than other traffic. Plan eligible for up to 10 phones or tablets and up to 20 connected devices.", "discounts": [], "savePrice": null, "additionalPlanDetails": { "linkText": "View additional plan details", "title": "Additional Plan Details", "header": "Additional Plan Details - Go Unlimited", "details": [{ "description": "Save an extra $5/phone/mo when you enable Auto Pay (bank accounts, debit cards, or home banking only) and paper-free billing. When you switch to unlimited, your monthly line costs are included in your data plan. For phones, line costs will vary (1=$75/line, 2=$65/line, 3=$50/line, 4+=$40/line after $5/phone Auto Pay discount is applied). Jetpacks and tablets are $20/mo/line and connected devices are just $5/mo/line. You will have to change plans to add new internet device lines or to upgrade an existing internet device.", "title": "Plan cost" }, { "description": "4G LTE only. After 1 byte/line/mo, we may prioritize your data behind other traffic during network congestion. Most of the time you'll continue to enjoy the same great network experience. If during your billing cycle you are on a cell site that is congested at that moment, your download may be temporarily queued behind other traffic. This may result in slightly slower download speeds relative to another Verizon Wireless customer's experience on the same cell site at that moment.", "title": "Data speed" }, { "description": "Experience SD video with 480p on phones and 720p on tablets, as allowed by the screen resolution of your device.", "title": "Video streaming" }, { "description": "Mobile hotspot/tethering at 600 kbps speeds; Connected devices and streaming cameras at 600 kbps speeds; USB modems, notebooks, netbooks not supported. Not available for machine-to-machine services.", "title": "Video streaming" }, { "description": "Calls, texts, and data roaming in Canada or Mexico are included.", "title": "International support" }] }, "basic": true, "premium": false }, { "information": null, "price": "$190.00/mo.", "displayIcon": null, "capacityDesc": "Unlimited", "capacity": "<span class='red'>beyond</span><span class='prxCheckMarkTVP3'>unlimited</span>", "priceDisc": "$190.00", "header": "Unlimited data at $190.00 for 3 device(s).", "planSorId": "99231", "voiceMessageInfo": "Enjoy unlimited talk, text and 4G LTE data.<br/>Stream DVD-quality video endlessly.<br/>Unlimited mobile hotspot within 15 GB of 4G LTE.<br/>Calls/texts to and from Mexico/Canada included.", "autopayNotification": "Save $5/phone/mo when you pay with Auto Pay.", "autopayDiscount": null, "priceInfo": "$190.00/mo. for 3 device(s)</strong>", "discountPriceInfo": null, "discount": false, "finalPrice": null, "compareDetails": null, "planSkuId": "sku2580029", "currentPlan": false, "recommendedPlan": false, "jaxPlan": true, "sorCategoryCode": "61", "planName": "Beyond Unlimited", "planLevelFlag": "Account Level", "comparePlans": false, "dataAllowance": 9999.0, "planType": "multiLine", "planDesc": "Everything you want from an unlimited plan. And then some.", "upgradeDevices": [], "newDevices": [], "newPhones": [{ "mtn": "316.644.7405", "deviceName": "Apple iPhone&reg; 7 Plus 32GB Black", "cost": "85.00", "discountCost": "0.00", "totalCost": null, "deviceSorId": "4G Smartphone", "deviceCost": "85.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "existingDevices": [{ "mtn": "316.531.2490", "deviceName": "Home Phone Connect F256VW", "cost": "20.00", "discountCost": "0.00", "totalCost": null, "deviceSorId": "Home Solutions", "deviceCost": "20.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "existingPhones": [{ "mtn": "316.640.5114", "deviceName": "LG Exalt&trade; II in Black", "cost": "85.00", "discountCost": "0.00", "totalCost": null, "deviceSorId": "Feature Phones", "deviceCost": "85.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "totalPlanPrice": "190.00", "discounted": false, "totalDiscountedPlanPrice": null, "accountAccessPrice": null, "discountedAccountAccessPrice": null, "whatsIncludedToolTip": "After 22GB/line, in times of congestion, your data may be temporarily slower than other traffic. Plan eligible for up to 10 phones or tablets and up to 20 connected devices.", "discounts": [], "savePrice": null, "additionalPlanDetails": { "linkText": "View additional plan details", "title": "Additional Plan Details", "header": "Additional Plan Details - Beyond Unlimited", "details": [{ "description": "Save an extra $5/phone/mo when you enable Auto Pay (bank accounts, debit cards, or home banking only) and paper-free billing. When you switch to unlimited, your monthly line costs are included in your data plan. For phones, line costs will vary (1=$85/line, 2=$80/line, 3=$60/line, 4+=$50/line after $5/phone Auto Pay discount is applied). Jetpacks and tablets are $20/mo/line and connected devices are just $5/mo/line.", "title": "Plan cost" }, { "description": "4G LTE only. After 22 GB/line/mo, we may prioritize your data behind other traffic during network congestion. Most of the time you'll continue to enjoy the same great network experience once your line exceeds 22 GB during your billing cycle. If you've already used 22 GB on a particular line during your current billing cycle, and are on a cell site that is congested at that moment, your download may be temporarily queued behind other traffic. This may result in slightly slower download speeds relative to another Verizon Wireless customer's experience on the same cell site at that moment.", "title": "Data speed" }, { "description": "Experience HD video with 720p on phones and 1080p on tablets, as allowed by the screen resolution of your device.", "title": "Video streaming" }, { "description": "Mobile hotspot/tethering reduced to 600 kbps speeds after 15 GB/mo; additional hotspot data at 4G speeds is available for purchase; USB modems, notebooks, netbooks, connected devices, and streaming cameras reduced to 600 kbps speeds after 15 GB/mo Not available for machine-to-machine services.", "title": "Video streaming" }, { "description": "Domestic data roaming at 128 kbps speeds; international data reduced to 128 kbps speeds after 512 MB/day. If more than 50% of your talk, text or data usage in a 60-day period is in Canada or Mexico, use of those services in those countries may be removed or limited. Discounts not available.", "title": "International support" }] }, "basic": false, "premium": true }, { "information": null, "price": "35.00/mo.", "displayIcon": "S", "capacityDesc": "2 GB", "capacity": "2 GB", "priceDisc": "$35.00", "header": "Find a plan that works best for you.", "planSorId": "96325", "voiceMessageInfo": "Keep what you don't use with Carryover Data. <br />Buy more anytime with Data Boost. <br />Never pay an overage with Safety Mode. <br />Stay connected with mobile hotspot.", "autopayNotification": null, "autopayDiscount": null, "priceInfo": "<span class='textDecLineThrough'>$35.00</span> <strong>$28.00/mo.</strong>", "discountPriceInfo": null, "discount": true, "finalPrice": null, "compareDetails": null, "planSkuId": "sku2040014", "currentPlan": false, "recommendedPlan": false, "jaxPlan": false, "sorCategoryCode": "56", "planName": "The new Verizon Plan Small 2 GB", "planLevelFlag": "Account Level", "comparePlans": false, "dataAllowance": 2.0, "planType": "multiLine", "planDesc": "For those who are single and proud(and mostly on Wi-Fi).", "upgradeDevices": [], "newDevices": [], "newPhones": [{ "mtn": "316.644.7405", "deviceName": "Apple iPhone&reg; 7 Plus 32GB Black", "cost": "20.00", "discountCost": "16.00", "totalCost": null, "deviceSorId": "4G Smartphone", "deviceCost": "20.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "existingDevices": [{ "mtn": "316.531.2490", "deviceName": "Home Phone Connect F256VW", "cost": "20.00", "discountCost": "16.00", "totalCost": null, "deviceSorId": "Home Solutions", "deviceCost": "20.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "existingPhones": [{ "mtn": "316.640.5114", "deviceName": "LG Exalt&trade; II in Black", "cost": "20.00", "discountCost": "16.00", "totalCost": null, "deviceSorId": "Feature Phones", "deviceCost": "20.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "totalPlanPrice": "95.00", "discounted": true, "totalDiscountedPlanPrice": "76.00", "accountAccessPrice": "35.00", "discountedAccountAccessPrice": "28.00", "whatsIncludedToolTip": null, "discounts": [{ "discountName": "Employee", "discountPrice": "19.00" }], "savePrice": null, "additionalPlanDetails": null, "basic": false, "premium": false }, { "information": null, "price": "50.00/mo.", "displayIcon": "M", "capacityDesc": "4 GB", "capacity": "4 GB", "priceDisc": "$50.00", "header": "Find a plan that works best for you.", "planSorId": "96327", "voiceMessageInfo": "Keep what you don't use with Carryover Data. <br />Buy more anytime with Data Boost. <br />Never pay an overage with Safety Mode. <br />Stay connected with mobile hotspot.", "autopayNotification": null, "autopayDiscount": null, "priceInfo": "<span class='textDecLineThrough'>$50.00</span> <strong>$40.00/mo.</strong>", "discountPriceInfo": null, "discount": true, "finalPrice": null, "compareDetails": null, "planSkuId": "sku2040011", "currentPlan": false, "recommendedPlan": false, "jaxPlan": false, "sorCategoryCode": "56", "planName": "The new Verizon Plan Medium 4 GB", "planLevelFlag": "Account Level", "comparePlans": false, "dataAllowance": 4.0, "planType": "multiLine", "planDesc": "The Goldilocks of gigabytes. Not too little. Not too much.", "upgradeDevices": [], "newDevices": [], "newPhones": [{ "mtn": "316.644.7405", "deviceName": "Apple iPhone&reg; 7 Plus 32GB Black", "cost": "20.00", "discountCost": "16.00", "totalCost": null, "deviceSorId": "4G Smartphone", "deviceCost": "20.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "existingDevices": [{ "mtn": "316.531.2490", "deviceName": "Home Phone Connect F256VW", "cost": "20.00", "discountCost": "16.00", "totalCost": null, "deviceSorId": "Home Solutions", "deviceCost": "20.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "existingPhones": [{ "mtn": "316.640.5114", "deviceName": "LG Exalt&trade; II in Black", "cost": "20.00", "discountCost": "16.00", "totalCost": null, "deviceSorId": "Feature Phones", "deviceCost": "20.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "totalPlanPrice": "110.00", "discounted": true, "totalDiscountedPlanPrice": "88.00", "accountAccessPrice": "50.00", "discountedAccountAccessPrice": "40.00", "whatsIncludedToolTip": null, "discounts": [{ "discountName": "Employee", "discountPrice": "22.00" }], "savePrice": null, "additionalPlanDetails": null, "basic": false, "premium": false }, { "information": null, "price": "70.00/mo.", "displayIcon": "L", "capacityDesc": "8 GB", "capacity": "8 GB", "priceDisc": "$70.00", "header": "Find a plan that works best for you.", "planSorId": "96328", "voiceMessageInfo": "Keep what you don't use with Carryover Data. <br />Buy more anytime with Data Boost. <br />Never pay an overage with Safety Mode. <br />Stay connected with mobile hotspot.", "autopayNotification": null, "autopayDiscount": null, "priceInfo": "<span class='textDecLineThrough'>$70.00</span> <strong>$56.00/mo.</strong>", "discountPriceInfo": null, "discount": true, "finalPrice": null, "compareDetails": null, "planSkuId": "sku2040017", "currentPlan": false, "recommendedPlan": false, "jaxPlan": false, "sorCategoryCode": "56", "planName": "The new Verizon Plan Large 8 GB", "planLevelFlag": "Account Level", "comparePlans": false, "dataAllowance": 8.0, "planType": "multiLine", "planDesc": "For couples(or those married to their device).", "upgradeDevices": [], "newDevices": [], "newPhones": [{ "mtn": "316.644.7405", "deviceName": "Apple iPhone&reg; 7 Plus 32GB Black", "cost": "20.00", "discountCost": "16.00", "totalCost": null, "deviceSorId": "4G Smartphone", "deviceCost": "20.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "existingDevices": [{ "mtn": "316.531.2490", "deviceName": "Home Phone Connect F256VW", "cost": "20.00", "discountCost": "16.00", "totalCost": null, "deviceSorId": "Home Solutions", "deviceCost": "20.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "existingPhones": [{ "mtn": "316.640.5114", "deviceName": "LG Exalt&trade; II in Black", "cost": "20.00", "discountCost": "16.00", "totalCost": null, "deviceSorId": "Feature Phones", "deviceCost": "20.00", "dataFeatures": null, "msgFeatures": null, "minuteFeatures": null }], "totalPlanPrice": "130.00", "discounted": true, "totalDiscountedPlanPrice": "104.00", "accountAccessPrice": "70.00", "discountedAccountAccessPrice": "56.00", "whatsIncludedToolTip": null, "discounts": [{ "discountName": "Employee", "discountPrice": "26.00" }], "savePrice": null, "additionalPlanDetails": null, "basic": false, "premium": false }], "comparePlanCostView": null, "comparePlansEnabled": null, "declineURL": null, "acceptURL": "/od/cust/auth/selectPlan", "comparePlanURL": "/od/cust/auth/comparePlan", "plansPage": true, "lacMap": { "96328": { "3165312490": 16.0, "3166405114": 16.0, "3166447405": 16.0 }, "99230": { "3165312490": 20.0, "3166405114": 70.0, "3166447405": 70.0 }, "96325": { "3165312490": 16.0, "3166405114": 16.0, "3166447405": 16.0 }, "96327": { "3165312490": 16.0, "3166405114": 16.0, "3166447405": 16.0 }, "PLAN_PRICES": { "96328": 60.0, "99230": 160.0, "96325": 60.0, "96327": 60.0, "13646": 110.0, "99231": 190.0 }, "13646": { "3165312490": 20.0, "3166405114": 45.0, "3166447405": 45.0 }, "99231": { "3165312490": 20.0, "3166405114": 85.0, "3166447405": 85.0 } }, "currentPlanName": "The new Verizon Plan Small 2 GB", "currentPlanPrice": "35.00", "currentPlanDiscountedPrice": "7.00", "keepCurrentPlan": true, "keepCurrentPlanURL": "/od/cust/auth/keepCurrentPlan", "restricedZipcode": false, "multiUpgradeDetails": null } };
+    var upgradeHeaderJSON = {
+      mtn: "4352726573",
+      userName: "KENNY BOWER",
+      deviceName: "Apple&reg; iPhone&reg; X 64GB in Space Gray",
+      tradeInValue: "530.0",
+      flow: "AAL",
+      ccEnabled: true,
+      ccAjaxUrl: "/od/cust/auth/costClarifier", //ajax url
+    };
+    var reviewOrderJSON = {
+  "output": {
+    "tmpMdOpted": false, /* REMOVE */
+    "stepsCompleted": {
+      "billingAddress": false,
+      "shippingAddress": true,
+      "deliveryInfo": false,
+      "paymentInfo": false
+    },
+    "checkoutStates": {  /* REMOVE */
+      "shippingAddressRequired": false,
+      "shippingAddressChangeRequired": false,
+      "shippingMethodRequired": false,
+      "paymentRequired": false,
+      "pastDuePaymentRequired": false,
+      "showPaymentSection": true,
+      "showShippingAddress": true,
+      "showDeliveryMethod": true,
+      "newCard": false,
+      "cvvNeeded": false
+    },
+    "shippingInfo": {
+      "shippingInfoUpdated": true,
+      "ispuEligibleFlag": false,
+      "addressInfo": {
+        "firstName": "KENNY",
+        "lastName": "WRIGHT",
+        "companyName": null,
+        "address1": "2509 POLLY JEFFERSON WAY",
+        "address2": null,
+        "city": "Oak Hill",
+        "state": "VA",
+        "zipcode": "20171",
+        "businessName": null,
+        "postalCode": null,
+        "email": "MOHAN.BOJEDLA@VZW.COM",
+        "phoneNumber": "6037667350"
+      },
+      "contactInfo": {  /* REMOVE */
+        "emailAddress": "MOHAN.BOJEDLA@VZW.COM",
+        "phoneNumber": "6037667350",
+        "firstName": "KENNY",
+        "lastName": "WRIGHT",
+        "smsMdn": null,
+        "activeSMSCapableMtnList": [
+          "7035870496",
+          "2026175918",
+          "7034399175",
+          "2404000906"
+        ]
+      },
+      "shippingTypesInfo": [  /* REMOVE FOR ORDER CONFIRMATION DESKTOP */
+        {
+          "estimatedDeliveryDate": null,
+          "estimatedDeliveryDateText": null,
+          "shippingDescription": "2 DAY BY 8PM",
+          "shippingOptionId": "SHP002",
+          "shippingCost": "0.00",
+          "shortDescription": "2 DAY BY 8PM",
+          "active": false,
+          "addedShippingOptionId": true,
+          "signatureRequired": "true",
+          "description": null,
+          "depletionLocationCode": null,
+          "sddAvailableWindows": null
+        },
+        {
+          "estimatedDeliveryDate": null,
+          "estimatedDeliveryDateText": null,
+          "shippingDescription": "2 Day by 8pm",
+          "shippingOptionId": "SHP003",
+          "shippingCost": "6.99",
+          "shortDescription": "2 Day by 8pm",
+          "active": true,
+          "addedShippingOptionId": false,
+          "signatureRequired": "true",
+          "description": null,
+          "depletionLocationCode": null,
+          "sddAvailableWindows": null
+        },
+        {
+          "estimatedDeliveryDate": null,
+          "estimatedDeliveryDateText": null,
+          "shippingDescription": "Next Day by 8pm",
+          "shippingOptionId": "SHP004",
+          "shippingCost": "12.99",
+          "shortDescription": "Next Day by 8pm",
+          "active": true,
+          "addedShippingOptionId": false,
+          "signatureRequired": "true",
+          "description": null,
+          "depletionLocationCode": null,
+          "sddAvailableWindows": null
+        },
+        {
+          "estimatedDeliveryDate": null,
+          "estimatedDeliveryDateText": null,
+          "shippingDescription": "Next Day by 10:30am",
+          "shippingOptionId": "SHP005",
+          "shippingCost": "14.99",
+          "shortDescription": "Next Day by 10:30am",
+          "active": true,
+          "addedShippingOptionId": false,
+          "signatureRequired": "true",
+          "description": null,
+          "depletionLocationCode": null,
+          "sddAvailableWindows": null
+        }
+      ],
+      "storeDetail": {
+        "storeHeader": null,
+        "storeName": null,
+        "storeAddress": null,
+        "deviceAvailable": false,
+        "distance": null,
+        "appendedStoreTiming": null,
+        "longitude": null,
+        "storeId": null,
+        "netaceLocationCode": null,
+        "latitude": null,
+        "seoUrlName": null,
+        "storeClosingTime": null
+      },
+      "tradeIn": false,  /* REMOVE */
+      "tradeInAddress": null,  /* REMOVE */
+      "nonSddEligibleMsg": null,
+      "selectedSDDWindow": null,
+      "poboMessage": null,  /* REMOVE */
+      "ispudetailsInfo": {
+        "storeAddress": null,
+        "storeHours": null,
+        "storeId": null,
+        "storeName": null,
+        "phoneNumber": null,
+        "distance": null,
+        "totalItems": 0,
+        "availItems": 0,
+        "latitdude": 0.0,
+        "longtitude": 0.0,
+        "availItemName": null
+      }
+    },
+    "billingInfo": {
+      "billToAccountEligible": true,
+      "creditCardZipEditable": true,
+      "billingAddress": {
+        "firstName": "KENNY",
+        "lastName": "WRIGHT",
+        "businessName": null,
+        "zipcode": "20171",
+        "state": "VA",
+        "address2": null,
+        "address1": "2509 POLLY JEFFERSON WAY",
+        "companyName": null,
+        "city": "Oak Hill"
+      },
+      "masterpass3DSecure": null,
+      "billToAccountNumber": "XXXX-XXXX-XXXX-0001",  /* REMOVE */
+      "creditCardInfo": {
+        "savedCardNickName": null,
+        "preselectCard": null,
+        "creditCardNumber": "XXXX-XXXX-XXXX-1111",
+        "creditCardExpMonth": "03",
+        "creditCardExpYear": "2025",
+        "billingZipCode": null,
+        "creditCardType": "visa",
+        "creditCardVerificationNumber": null,
+        "creditCardBIN": null,
+        "cvvRequired": false
+      },
+      "selectedPaymentMode": "newCard",
+      "giftCardList": [
+
+      ],
+      "savedCardInfo": [  /* REMOVE */
+        {
+          "savedCardNickName": "BOGUS",
+          "preselectCard": null,
+          "creditCardNumber": "XXXX-XXXX-XXXX-1204",
+          "creditCardExpMonth": "12",
+          "creditCardExpYear": "29",
+          "billingZipCode": "20171",
+          "creditCardType": "visa",
+          "creditCardVerificationNumber": null,
+          "creditCardBIN": "405466",
+          "cvvRequired": true
+        }
+      ],
+      "applePayResponseInfo": null,
+      "masterpassResponseInfo": {
+        "emailAddress": null,
+        "cardType": null,
+        "lastDigits": null,
+        "creditCardBIN": null
+      },
+      "masterpassError": false,
+      "masterpassErrorMessage": null,
+      "paypalEmailAddress": null,
+      "expirationMonths": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "expirationYears": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "2027"
+      ]
+    },
+    "tradeInPromoDetails": null,  /* REMOVE */
+    "transformedTradeInPromoDetails": null,  /* REMOVE */
+    "deviceConfigInfo": {  /* REMOVE */
+      "devices": [
+
+      ],
+      "npaNxxdetails": {
+        "zipCode": null,
+        "state": null,
+        "city": null,
+        "success": false,
+        "mtns": null,
+        "states": null,
+        "cities": null
+      },
+      "deviceAddressUpdated": false,
+      "accessories": null
+    },
+    "termsAndConditionsInfo": null,  /* REMOVE */
+    "orderId": "SDC0ccc5cfbe9cd5c58171c728d0b15cafd{d6}",
+    "dueToday": "243.77",
+    "dueMonthly": "0.00",
+    "totalDueMonthlyPlanAndDevice": "0.00",  /* REMOVE */
+    "displayUpgradeFee": false,  /* REMOVE */
+    "subtotalDueToday": "229.97",
+    "totalOrderTax": "13.80",
+    "depositAmount": "0.00",  /* REMOVE */
+    "employeeDiscount": "243.77",
+    "saveAmount": "0.00",
+    "totalUpgradeFee": "0.00",  /* REMOVE */
+    "recycleDeviceAppraise": "0.0",  /* REMOVE */
+    "edgeOrderTotalDownPayment": "0.00",  /* REMOVE */
+    "flow": "NAO",
+    "states": [
+      "AK",
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "GA",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ],
+    "authInfo": {
+      "clients": {
+        "CARDINAL3DSECURE": {
+          "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJTREMwY2NjNWNmYmU5Y2Q1YzU4MTcxYzcyOGQwYjE1Y2FmZHtkNn0iLCJpYXQiOjE1MjQwODczMDksImlzcyI6IjU5ZjlkMjdiMmVlNThmMWRlMDg3NzU4NCIsIk9yZ1VuaXRJZCI6IjU1ZWY0OGUzZjcyM2FhNDMxYzlkZjE0ZSIsIlBheWxvYWQiOnsiT3JkZXJEZXRhaWxzIjp7IkN1cnJlbmN5Q29kZSI6IlVTRCIsIkFtb3VudCI6IjI0Mzc3IiwiT3JkZXJOdW1iZXIiOiJTREMwY2NjNWNmYmU5Y2Q1YzU4MTcxYzcyOGQwYjE1Y2FmZHtkNn0iLCJUcmFuc2FjdGlvbklkIjoiNDE3ZTIwZjItYWIxMy00MTU4LTk5ZjYtYTczZWU1YzM1OTExIn19LCJPYmplY3RpZnlQYXlsb2FkIjp0cnVlLCJSZWZlcmVuY2VJZCI6IlBPUzFlNDRjZWRiLWJiNzktNGUxZi05ODMzLWNkODIzYjUyMmYwYXtkNn0iLCJleHAiOjE1MjQwOTQ1MDl9.XX2ng7JC3iliLVa1SjT2SWlbVCPT7CXBZMCfph2nvTM",
+          "tokenType": "JWT",
+          "featuresList": {
+            "binDetection": true
+          }
+        }
+      }
+    },
+    "giftCard1Info": null,  /* REMOVE */
+    "giftCard2Info": null, /* REMOVE */
+    "opalImpersonator": null,
+    "stackableDataDescription": null,  /* REMOVE */
+    "stackbleDataAggregateTotals": null,  /* REMOVE */
+    "edgeUpBuyOutAmount": "0.0",  /* REMOVE */
+    "edgeupBuyOutMtnList": null,  /* REMOVE */
+    "tapFeatureDetails": null,  /* REMOVE */
+    "promotionList": null,
+    "cpcOrder": false,  /* REMOVE */
+    "instantCreditAmount": "0.0",  /* REMOVE */
+    "loginMTN": null,  /* REMOVE */
+    "standaloneAccessories": true,
+    "amountAfterInstantCredit": "0.0",  /* REMOVE */
+    "datagapDisclosureAgreement": null,  /* REMOVE */
+    "pastDueAmount": "0.00",  /* REMOVE */
+    "pastDueExist": false,  /* REMOVE */
+    "pastDueAmountPaid": false,  /* REMOVE */
+    "plans": null,  /* REMOVE */
+    "devices": {  /* REMOVE */
+      "dueMonthly": 0.0,
+      "totalActivationFee": 0.0,
+      "deviceTotalDueMonthly": 0.0,
+      "dueToday": 0.0,
+      "accessories": [
+
+      ],
+      "accessoriesBundle": [
+
+      ],
+      "items": null,
+      "buddyUpgrade": false
+    },
+    "masterpassConfigInfo": null,
+    "masterpassEnabled": false,
+    "paymentMethodRedesign": true,
+    "accessories": [
+      {
+        "scene7ImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/casemate-brilliance-iridescent-case-protector-bndl-cm035554-iset?$acc-med$",
+        "name": "Iridescent Case and Glass Screen Protector Bundle for iPhone 7/6s/6",
+        "actualPrice": 79.99,
+        "originalPrice": 79.99,
+        "percentageOffTxt": null,
+        "itemTotal": 79.99,
+        "quantity": 1,
+        "commerceItemId": "SDC0ccc5cfbe9cd5c58171c728d0b15cafd{d6}_accessory_1",
+        "color": null,
+        "size": null,
+        "inventoryStatus": "",
+        "inventoryAvailableDate": "",
+        "prodId": "acc7280064",
+        "skuId": "sku2290268",
+        "sorId": "CM035554",
+        "promoMessage": null,
+        "hasEcpdDiscount": false,
+        "mobileAppImageName": "",
+        "imageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/casemate-brilliance-iridescent-case-protector-bndl-cm035554-iset?$acc-med$",
+        "hasBogoDiscount": false,
+        "price": 79.99,
+        "discountPrice": 0.0,
+        "retailPrice": 79.99,
+        "associatedDeviceSkus": null,
+        "prodName": "",
+        "discounted": false
+      },
+      {
+        "scene7ImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/ue-wonderboom-bluetooth-speaker-phantom-black-uewndrboomblk-iset?$acc-med$",
+        "name": "WONDERBOOM",
+        "actualPrice": 99.99,
+        "originalPrice": 99.99,
+        "percentageOffTxt": null,
+        "itemTotal": 99.99,
+        "quantity": 1,
+        "commerceItemId": "SDC0ccc5cfbe9cd5c58171c728d0b15cafd{d6}_accessory_2",
+        "color": "Phantom Black",
+        "size": null,
+        "inventoryStatus": "",
+        "inventoryAvailableDate": "",
+        "prodId": "acc7400036",
+        "skuId": "sku2320116",
+        "sorId": "UEWNDRBOOMBLK",
+        "promoMessage": null,
+        "hasEcpdDiscount": false,
+        "mobileAppImageName": "",
+        "imageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/ue-wonderboom-bluetooth-speaker-phantom-black-uewndrboomblk-iset?$acc-med$",
+        "hasBogoDiscount": false,
+        "price": 99.99,
+        "discountPrice": 0.0,
+        "retailPrice": 99.99,
+        "associatedDeviceSkus": null,
+        "prodName": "",
+        "discounted": false
+      },
+      {
+        "scene7ImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/google-joplin-chalk-ga00210-us-iset?$acc-med$",
+        "name": "Google Home Mini",
+        "actualPrice": 49.99,
+        "originalPrice": 49.99,
+        "percentageOffTxt": null,
+        "itemTotal": 49.99,
+        "quantity": 1,
+        "commerceItemId": "SDC0ccc5cfbe9cd5c58171c728d0b15cafd{d6}_accessory_3",
+        "color": "Chalk",
+        "size": null,
+        "inventoryStatus": "",
+        "inventoryAvailableDate": "",
+        "prodId": "acc8680049",
+        "skuId": "sku2670214",
+        "sorId": "GA00210-US",
+        "promoMessage": null,
+        "hasEcpdDiscount": false,
+        "mobileAppImageName": "",
+        "imageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/google-joplin-chalk-ga00210-us-iset?$acc-med$",
+        "hasBogoDiscount": false,
+        "price": 49.99,
+        "discountPrice": 0.0,
+        "retailPrice": 49.99,
+        "associatedDeviceSkus": null,
+        "prodName": "",
+        "discounted": false
+      }
+    ],
+    "accessoriesBundle": null,
+    "taxes": [
+      {
+        "name": "Taxes & Fees",
+        "price": "13.80",
+        "discountPrice": "0.00",
+        "retailPrice": "0.00",
+        "originalPrice": "0.00",
+        "city": "Oak Hill",
+        "state": "VA",
+        "taxCalculated": true,
+        "taxNotCalculatedMsg": null
+      }
+    ],
+    "dueMonthlyView": {  /* REMOVE */
+      "title": null,
+      "dueMonthlyPrice": null,
+      "items": null,
+      "tmpMd": null
+    },
+    "dueTodayView": {
+      "title": "Due Today",
+      "dueTodayPrice": "243.77",
+      "items": [
+
+      ],
+      "accessories": [
+        {
+          "name": "Iridescent Case and Glass Screen Protector Bundle for iPhone 7/6s/6",
+          "size": null,
+          "color": null,
+          "quantity": "1",
+          "price": "79.99",
+          "wasPrice": "79.99",
+          "deviceProductDisplayName": "",
+          "label": "Price",
+          "discounted": false,
+          "discountPercentage": 0.0,
+          "discountPrice": 0.0
+        },
+        {
+          "name": "WONDERBOOM",
+          "size": null,
+          "color": "Phantom Black",
+          "quantity": "1",
+          "price": "99.99",
+          "wasPrice": "99.99",
+          "deviceProductDisplayName": "",
+          "label": "Price",
+          "discounted": false,
+          "discountPercentage": 0.0,
+          "discountPrice": 0.0
+        },
+        {
+          "name": "Google Home Mini",
+          "size": null,
+          "color": "Chalk",
+          "quantity": "1",
+          "price": "49.99",
+          "wasPrice": "49.99",
+          "deviceProductDisplayName": "",
+          "label": "Price",
+          "discounted": false,
+          "discountPercentage": 0.0,
+          "discountPrice": 0.0
+        }
+      ],
+      "accessoriesBundle": [
+
+      ],
+      "additionalCharges": {
+        "title": "Additional Charges",
+        "items": [
+          {
+            "name": "Taxes & Fees",
+            "price": "13.80",
+            "description": "Oak Hill, VA"
+          },
+          {
+            "name": "FREE 2 Day by 8pm",
+            "price": "0.00",
+            "description": null
+          }
+        ]
+      },
+      "price": null
+    },
+    "cartDetailURL": "/od/cust/auth/cart/getCartDetails",
+    "smsAuthenticationComplete": false,  /* REMOVE */
+    "securePinPageUrl": "/od/cust/auth/checkout/securePin",  /* REMOVE */
+    "fetchSMSDevicesUrl": "/od/cust/auth/checkout/fetchSMSEnabledDevices",  /* REMOVE */
+    "sendSMSUrl": null,  /* REMOVE */
+    "validateAuthCodeUrl": null,  /* REMOVE */
+    "totalActivationFee": "0.00",  /* REMOVE */
+    "itemOnJaxPlan": false,  /* REMOVE */
+    "comboOrder": false,  /* REMOVE */
+    "anyLineFreeVO": null,  /* REMOVE */
+    "giftCardsEnabled": true,
+    "giftCardsLimit": 2,
+    "giftCardsUsed": 0,
+    "submitGiftCardURL": "/od/cust/auth/checkout/updateGiftCard",
+    "checkGiftCardBalanceURL": "/od/cust/auth/checkout/checkGiftCardBalance",
+    "removeGiftCardURL": "/od/cust/auth/checkout/removeGiftCard",
+    "balanceCreditCardAmount": "243.77",
+    "totalGiftCardAmount": "0.00",
+    "reasonErrorCode": null,  /* REMOVE */
+    "reasonErrorMsg": null,  /* REMOVE */
+    "validAuthCode": false,  /* REMOVE */
+    "numOfAttempts": 0,  /* REMOVE */
+    "promoBanners": {
+      "PROMO_BANNER_1": "Want it by tomorrow? Order by 11pm ET with Next Day Shipping",
+      "PROMO_BANNER_2": "Free shipping or in-store pickup.",
+      "PROMO_BANNER_3": "Online only. 14 days return policy."
+    },
+    "cancelCartURL": "/od/cust/auth/cart/clearCart",
+    "payPalEnabled": true,
+    "securePinEligible": true,
+    "ispuBTAPaymentUpdated": false,
+    "iconicFlow": true,
+    "updatePaymentInfoURL": "/od/cust/auth/checkout/updatePaymentInfo",
+    "updateShippingInfoURL": "/od/cust/auth/checkout/updateShippingInfo",
+    "handleCardinalResponseURL": "/od/cust/auth/checkout/handleCardinal3DResponse",
+    "pastDueCheckoutURL": "/od/cust/auth/checkout/pastDueCheckout",  /* REMOVE */
+    "updateDeviceServiceAddressURL": "/od/cust/auth/checkout/updateDeviceServiceAddress",  /* REMOVE */
+    "submitOrderURL": "/od/cust/auth/checkout/submitOrder",
+    "storeDetailsURL": "/od/cust/auth/checkout/storeDetails",
+    "mainViewSubTitle": null,
+    "pieEnabled": true,
+    "googleMapAPI": {
+      "client": "gme-verizonwireless2",
+      "channel": "vzw-mobile",
+      "draggable": true
+    },
+    "selectedShippingType": {
+      "type": "SHIPPING",
+      "shippingTypeName": "FREE 2 Day by 8pm",
+      "price": 0.0,
+      "discountPrice": 0.0,
+      "estimatedDeliveryDate": null
+    },
+    "applePaymentRequest": {
+      "totalAmount": "243.77",
+      "orderTotalLabel": "VERIZON (TOTAL PENDING)",
+      "showAvailableShippingOptions": false,
+      "requestBillingInfoFromApple": [
+        "postalAddress"
+      ],
+      "requestShippingInfoFromApple": [
+        "email"
+      ],
+      "lineItems": [
+        {
+          "label": "PAYMENT NOT PROCESSED UNTIL WE VERIFY YOUR ORDER",
+          "amount": "0.0",
+          "type": "pending"
+        }
+      ]
+    },
+    "applePayEnabled": true,
+    "appleMerchantIdentifier": "merchant.com.vzw.test"
+  },
+  "statusCode": "00"
+};;
+ 
+</script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "html": {
+    "OD_NPANXX_ERROR_NO_NUMBERS": "<div class='clearfix'><span>Currently no numbers are available for this location. Please enter a different ZIP code.</span></div>"
+  },
+  "label": {
+    "OD_NPANXX_MAIN_TITLE": "Choose the first six digits of your new phone number.",
+    "OD_NPANXX_MAIN_SUBTITLE": "Your area code is based on your ZIP code.",
+    "OD_NPANXX_LABEL_ZIPCODE": "Zip Code",
+    "OD_NPANXX_LABEL_PHONENUMBER": "Phone Number",
+    "OD_NPANXX_NEXT_CTA": "Next",
+    "OD_NPANXX_MAIN_SUB_TITLE": "Your area code is based on your ZIP code.",
+    "OD_NPANXX_NO_NUMBERS_ZIPCODE_TEXT": "Currently no numbers are available for this location. Please enter a different ZIP code."
+  },
+  "error": {
+    
+  }
+}

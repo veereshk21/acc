@@ -1,0 +1,14 @@
+{
+  "response": {
+    "errorMap": {
+      "title": "Your request could not be processed.",
+      "message": "We are currently experiencing a high volume of traffic and are unable to process your request. We apologize for any inconvenience this may have caused and ask that you try again later.",
+      "secondaryCTA": null,
+      "primaryCTA": {
+        "label": "Home",
+        "link": "/digital/shoplanding/",
+        "className": "button primary large margin12"
+      }
+    }
+  }
+}

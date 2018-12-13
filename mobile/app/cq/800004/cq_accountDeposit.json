@@ -1,0 +1,13 @@
+{
+  "html": {
+    
+  },
+  "label": {
+    "OD_SECURITY_DEPOSIT_TITLE": "We need a deposit of $%price% before you can upgrade.",
+    "OD_SECURITY_DEPOSIT_TITLE_DESCRIPTION": "Due to the nature of your account history, we need a security deposit, which will be returned after 1 year. Your deposit will be added to your order.",
+    "OD_SECURITY_DEPOSIT_BUTTON_TEXT": "Continue"
+  },
+  "error": {
+    
+  }
+}

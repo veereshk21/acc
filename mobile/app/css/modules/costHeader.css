@@ -1,0 +1,131 @@
+#costHeader #costClarifier {
+	font-size: 10px;
+}
+#costHeader .priceSmall {
+	font-size: 12px;
+}
+.costDetailsModal {
+	height: 100%;
+	width: 100% !important;
+	max-height: 100% !important;
+}
+.costDetailsModal .priceBig {
+	font-size: 25px;
+	margin-top: 6px;
+}	
+#costClarifier .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+#costClarifier .switch input {
+    display: none;
+}
+
+#costClarifier .checkbox {
+  position: absolute;
+  cursor: pointer;
+  top: 3px;
+  left: 15px;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  height: 23px;
+  width: 50px;
+  clip: unset;
+}
+
+#costClarifier .checkbox:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 18px;
+  left: 2px;
+  top: 3.25px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+
+#costClarifier .checkbox.round {
+  border-radius: 34px;
+}
+
+#costClarifier input:checked + .checkbox {
+  background-color: forestgreen;
+}
+
+#costClarifier input:focus + .checkbox {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+#costClarifier input:checked + .checkbox:before {
+  transform: translateX(26px);
+}
+
+#costClarifier .checkbox.round:before {
+  border-radius: 50%;
+}
+
+#costClarifier .on
+{
+  display: none;
+}
+
+#costClarifier .on, #costClarifier .off
+{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 10px;
+  left: 67%;
+  font-size: 11px;
+  font-family: Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#costClarifier input:checked+ .checkbox .on{
+  display: block;
+  left: 15px;
+  color: white;
+}
+
+#costClarifier input:checked + .checkbox .off{
+  display: none;
+  color: black
+}
+
+.fs11 {
+  font-size: 11px;
+}
+
+
+
+/*.container input:checked ~ .checkbox {
+    background-color: black;
+}
+
+.checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkbox:after {
+    display: block;
+}
+
+.container .checkbox:after {
+    left: 9px;
+    top: 5px;
+    width: 6px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}*/

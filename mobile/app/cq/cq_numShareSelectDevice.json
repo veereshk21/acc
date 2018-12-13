@@ -1,0 +1,16 @@
+{
+  "html": {},
+  "label": {
+    "OD_NS_NEXT": "Next",
+    "OD_NS_DEVICES_LIST_TITLE": "Which smartphone mobile number would you like to numbershare with?",
+    "OD_NS_SELECT_DEVICE": "Select",
+    "OD_NS_ENABLE_VOLTE": "Enable Volte on this device to use NumberShare",
+    "OD_NS_CART_LIMIT_EXCEEDED_HEADER": "Your account do not have a eligible MTN for number sharing.",
+    "OD_NS_CART_LIMIT_EXCEEDED_MSG": "If you still want to add this device, you have to add a new line.",
+    "OD_NS_VIEW_CART_LBL": "View cart",
+    "OD_NS_NUMBER_SHARE_EXTENSION_LBL": "Number Share Extension",
+    "OD_NS_NUMBER_SHARE_EXTENSION_LBL_EXCEEDED": "This device has reached its number share limit",
+    "OD_NS_SAVED_IN_CART_LBL": "Saved in Cart"
+  },
+  "error": {}
+}

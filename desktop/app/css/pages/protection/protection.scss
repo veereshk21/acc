@@ -1,0 +1,63 @@
+.radioCustom_label.m-priceLabel:before,
+.checkbox ~ label:before {
+   vertical-align: top;
+}
+.radioCustom:checked + .radioCustom_label.m-priceLabel:before, .radioCustom:checked + input[type=hidden] + .radioCustom_label.m-priceLabel:before{
+    outline: none;
+}
+
+.protectionBorder {
+    border-top: 4px solid #000;
+    border-right: 1px #ccc solid;
+}
+
+.priceLabel.Protection{
+    margin-right: 0px;
+}
+
+.tapClaimsDD.protection .selectpicker .claimsSelectDD{
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #000;
+}
+
+
+/* ipad - tablet */
+@media only screen and (device-width: 768px) {
+   .protectionPlanList #singDevicePlansDetails{
+       height: 250px;
+   }
+}
+
+.protectionNav {
+    position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    bottom: 0;
+}
+.protectionNav .button{
+    margin-right: 30px;
+    padding: 10px 30px;
+
+}
+
+.protectionContent .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.width49{
+    width: 49%;
+}
+
+.protectionPlanList{
+    margin: 3px 2px
+}
+
+.protectionChoice.protectionPlanList label{
+    width: 100%;
+}
+.bundleTitle {
+    width: calc(100% - 25px);
+}

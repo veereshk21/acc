@@ -1,0 +1,65 @@
+
+
+/**************************************************
+                    Checkboxes
+**************************************************/
+/*
+    Example of usage:
+    <input id="[id-1]" type="checkbox" class="checkbox" value=""/>
+    <label for="[id-1]"></label>
+
+    For React, check OneDigital/app/js/common/Checkbox/Checkbox.js
+*/
+.checkbox{
+	border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    z-index: 400;
+}
+
+.checkbox~label{
+    position: relative;
+}
+.checkbox:checked~label:before{
+    content: "\e0a6";
+    color: #fff;
+    background-color: #000000;
+    border: 2px solid #000000;
+}
+
+.checkbox~label:before {
+    font-family: 'vzwIcons';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    border: 2px solid #a0a0a0;
+   /* border-radius: 50%;*/
+    text-align: center;
+    content: "\e0a6";/* This is to prevent slight movement when toggleing checkbox */
+    color: transparent; /* This is to prevent slight movement when toggleing checkbox */
+    cursor: pointer;
+}
+.checkbox.disabled~label:before {
+    cursor: not-allowed;
+    background: #D8DADA;
+}
+.checkbox:focus~label:before{
+    outline:#000000;
+}
+
+.checkbox input:focus+label::before, .checkbox input:hover+label::before, .checkbox label.m-mulitpleInputs:focus::before, .checkbox label.m-multipleInputs:hover::before  {
+    border: 2px solid #a0a0a0;
+    content: '';
+    padding: 1px 0 0;
+}
+.checkbox~label .checkboxContainer {
+ position: absolute;
+
+}
+

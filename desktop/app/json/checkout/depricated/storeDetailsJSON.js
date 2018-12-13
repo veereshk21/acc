@@ -1,0 +1,70 @@
+exports.storeDetails = {
+  "statusCode": "00",
+  "errorMap": null,
+  "output": [{
+    "storeHeader": "Available Today",
+    "storeName": "North Point",
+    "storeAddress": "7301 N Point Pkwy Alpharetta GA 30022 ",
+    "deviceAvailable": true,
+    "distance": "2.80",
+    "appendedStoreTiming": "Sun : 12:00 PM 06:00 PM | Mon-Sat : 10:00 AM 08:00 PM",
+    "longitude": "-84.30316",
+    "storeId": "283603",
+    "netaceLocationCode": "06177-01",
+    "latitude": "34.043045",
+    "seoUrlName": "/stores/georgia/alpharetta/north-point-283603/",
+    "storeClosingTime": "08:00 PM"
+  }, {
+    "storeHeader": "Available Today",
+    "storeName": "Peachtree Corners",
+    "storeAddress": "5150 Peachtree Pkwy Ste 400 Peachtree Corners GA 30092 ",
+    "deviceAvailable": true,
+    "distance": "4.20",
+    "appendedStoreTiming": "Sun : 12:00 PM 06:00 PM | Mon-Sat : 10:00 AM 08:00 PM",
+    "longitude": "-84.21474",
+    "storeId": "1070030",
+    "netaceLocationCode": "Q2970-01",
+    "latitude": "33.980488",
+    "seoUrlName": "/stores/georgia/peachtree-corners/peachtree-corners-1070030/",
+    "storeClosingTime": "08:00 PM"
+  }, {
+    "storeHeader": "Available Today",
+    "storeName": "Johns Creek",
+    "storeAddress": "2637 Peachtree Pkwy Suwanee GA 30024 ",
+    "deviceAvailable": true,
+    "distance": "6.30",
+    "appendedStoreTiming": "Sun : 12:00 PM 06:00 PM | Mon-Sat : 10:00 AM 08:00 PM",
+    "longitude": "-84.172806",
+    "storeId": "286179",
+    "netaceLocationCode": "73879-01",
+    "latitude": "34.09408",
+    "seoUrlName": "/stores/georgia/suwanee/johns-creek-286179/",
+    "storeClosingTime": "08:00 PM"
+  }, {
+    "storeHeader": "Available Today",
+    "storeName": "Gwinnett",
+    "storeAddress": "3625 Satellite Blvd Duluth GA 30096 ",
+    "deviceAvailable": true,
+    "distance": "8.50",
+    "appendedStoreTiming": "Sun : 12:00 PM 06:00 PM | Mon-Sat : 10:00 AM 08:00 PM",
+    "longitude": "-84.13589",
+    "storeId": "228703",
+    "netaceLocationCode": "06171-01",
+    "latitude": "33.95836",
+    "seoUrlName": "/stores/georgia/duluth/gwinnett-228703/",
+    "storeClosingTime": "08:00 PM"
+  }, {
+    "storeHeader": "Available Today",
+    "storeName": "Perimeter Place",
+    "storeAddress": "123 Perimeter Ctr W Suite 100 Atlanta GA 30346 ",
+    "deviceAvailable": true,
+    "distance": "8.80",
+    "appendedStoreTiming": "Sun : 12:00 PM 06:00 PM | Mon-Sat : 10:00 AM 08:00 PM",
+    "longitude": "-84.34397",
+    "storeId": "286178",
+    "netaceLocationCode": "06172-01",
+    "latitude": "33.927853",
+    "seoUrlName": "/stores/georgia/atlanta/perimeter-place-286178/",
+    "storeClosingTime": "08:00 PM"
+  }]
+};

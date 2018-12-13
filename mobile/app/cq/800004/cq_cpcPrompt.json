@@ -1,0 +1,17 @@
+{
+  "html": {
+    
+  },
+  "label": {
+    "OD_CPC_PROMPT_HEADER": "Save on your Google Pixel XL 32GB  with an Unlimited Plan.",
+    "OD_CPC_PROMPT_BODY": "when you switch to the new Verizon Unlimited Plan and trade in your device.",
+    "OD_CPC_CONTINUE_BTN_CTC": "Skip and Continue",
+    "OD_CPC_UPGRADE_BTN_CTC": "Get me this offer",
+    "OD_CPC_ENABLE_OFFER_BTN": "true",
+    "OD_CPC_IMAGE_URL": "https://mobile.vzw.com/hybridClient/is/image/VerizonWireless/google-pixel-xl-slate?$device-med$&wid=75&hei=150",
+    "OD_CPC_LEGAL_COPY": ""
+  },
+  "error": {
+    
+  }
+}

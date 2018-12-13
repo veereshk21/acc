@@ -1,0 +1,42 @@
+{
+  "statusCode": "00",
+  "output": {
+    "orderID": "T40622f9ef9d0cf8de2c4bdda9b49b49c{ss3}",
+    "deviceDetails": [{
+        "deviceName": "PIXEL XL NON-VZW",
+        "numberOfSMSRequestsIn24Hours": 0,
+        "esnHistoryCheckPassed": true,
+        "smsCapable": true,
+        "mtn": "4012438503",
+        "nickName": null,
+        "deviceImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/generic_phone?$device-thumb$",
+        "formattedMtn": "401.243.8503"
+      },
+      {
+        "deviceName": "Apple&reg; iPhone&reg; 6 64GB in Space Gray",
+        "numberOfSMSRequestsIn24Hours": 0,
+        "esnHistoryCheckPassed": true,
+        "smsCapable": true,
+        "mtn": "1238447312",
+        "nickName": null,
+        "deviceImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-6-spacegray?$device-thumb$",
+        "formattedMtn": "123.844.7312"
+      },
+      {
+        "deviceName": "Huawei - H1511",
+        "numberOfSMSRequestsIn24Hours": 0,
+        "esnHistoryCheckPassed": true,
+        "smsCapable": true,
+        "mtn": "1235096112",
+        "nickName": null,
+        "deviceImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/generic_phone?$device-thumb$",
+        "formattedMtn": "123.509.6112"
+      }
+    ],
+    "referrer": "/od/cust/auth/checkout#/deliveryInformation"
+  },
+  "errorMap": null,
+  "statusMessage": null
+}
+
+/* https://www.verizonwireless.com/od/cust/auth/checkout/fetchSMSEnabledDevices */

@@ -1,0 +1,13 @@
+{
+  "label": {
+    "OD_GC_LOGIN_TITLE": "Begin Checkout",
+    "OD_GC_LOGIN_TITLE_SUBHEAD": "",
+    "OD_GC_LOGIN_EXISTING_CUSTOMER_LABEL": "Existing customer.",
+    "OD_GC_LOGIN_GUEST_CUSTOMER_LABEL": "Continue as guest.",
+    "OD_GC_LOGIN_GUEST_CUSTOMER_MESSAGE": "If you don't have a MyVerizon login, you can checkout without signing in.",
+    "OD_GC_LOGIN_EXISTING_CUSTOMER_MESSAGE": "If you have a MyVerizon login, sign in for access to saved shipping and billing information.",
+    "OD_GC_LOGIN_BACK_TO_CART": "Back to cart",
+    "OD_GC_LOGIN_CONTINUE": "Continue"
+  },
+  "error": {}
+}

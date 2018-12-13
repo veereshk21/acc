@@ -1,0 +1,165 @@
+@import '../preprocess/brand';
+/*** FONTS ***/
+
+@font-face {
+  font-family: "vzwIcons";
+  src: url("/reactive/shop/desktop/build/fonts/vzw-iconfont.eot");
+  src: url("/reactive/shop/desktop/build/fonts/vzw-iconfont.eot?#iefix") format("embedded-opentype");
+  src: url("/reactive/shop/desktop/build/fonts/vzw-iconfont.woff") format("woff");
+  src: url("/reactive/shop/desktop/build/fonts/vzw-iconfont.ttf") format("truetype");
+  /*src: url("/reactive/shop/desktop/build/fonts/vzw-iconfont.svg#vzwIcons") format("svg");*/
+  font-weight: normal;
+  font-style: normal
+}
+
+
+/* Neue Haas Grotesk */
+
+@font-face {
+  font-family: "NeueHaasGroteskDisplayBold";
+	src:url("/reactive/shop/desktop/build/fonts/NeueHaasGroteskDisplayBold.eot?#iefix") format("embedded-opentype"),
+		url("/reactive/shop/desktop/build/fonts/NeueHaasGroteskDisplayBold.woff2") format("woff2"),
+		url("/reactive/shop/desktop/build/fonts/NeueHaasGroteskDisplayBold.woff") format("woff"),
+		url("/reactive/shop/desktop/build/fonts/NeueHaasGroteskDisplayBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NeueHaasGroteskDisplay";
+	src:url("/reactive/shop/desktop/build/fonts/NeueHaasGroteskText.eot?#iefix") format("embedded-opentype"),
+		url("/reactive/shop/desktop/build/fonts/NeueHaasGroteskText.woff2") format("woff2"),
+		url("/reactive/shop/desktop/build/fonts/NeueHaasGroteskText.woff") format("woff"),
+		url("/reactive/shop/desktop/build/fonts/NeueHaasGroteskText.ttf") format("truetype");
+}
+
+.fontRoman {
+  font-family: $verizon-font-display;
+}
+
+.fontDisplayBold {
+  font-family: $verizon-font-bold;
+}
+
+.headingFeature {
+	font-size: 64px;
+	line-height: 60px;
+}
+.fontTitle{
+	font-size: 25px;
+	line-height: 1;
+}
+.fontTitleSmall{
+	font-size: 16px;
+	line-height: 1;
+}
+.fontSubTitle{
+	font-size: 14px;
+	line-height: 1;
+}
+@media only screen and (min-width: 1272px) {
+    /* For mobile phones: */
+    .fontTitle{
+			font-size: 32px;
+			line-height: 1;
+		}
+		.fontTitleSmall{
+			font-size: 20px;
+			line-height: 1;
+		}
+		.fontSubTitle{
+			font-size: 16px;
+			line-height: 1;
+		}
+}
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .headingFeature {
+			font-size: 50px;
+			line-height: 48px;
+		}
+}
+
+@media only screen and (min-width: 768px) {
+		/* For desktop and tablets: */
+		.infoFeature {
+			font-size: 20px;
+		}
+		.pricefeature{
+			font-size: 14px;
+		}
+		.legalFeature{
+			font-size: 10px;
+		}
+}
+/*font Sizes*/
+.fontSize_16 {
+  font-size: 90px;
+  font-size: 9rem;
+}
+
+.fontSize_15 {
+  font-size: 80px;
+  font-size: 8rem;
+}
+
+.fontSize_14{
+  font-size:75px;
+  font-size:7.5rem;
+}
+
+.fontSize_13{
+  font-size:56px;
+  font-size:5.6rem;
+}
+.fontSize_12{
+	font-size: 42px;
+	font-size: 4.2rem;
+}
+.fontSize_11{
+	font-size:32px;
+	font-size:3.2rem;
+}
+.fontSize_10{
+	font-size:30px;
+	font-size:3rem;
+}
+.fontSize_9{
+	font-size:24px;
+	font-size:2.4rem;
+}
+.fontSize_8 {
+	font-size:22px;
+	font-size:2.2rem;
+}
+.fontSize_7{
+	font-size:20px;
+	font-size:2.0rem;
+}
+.fontSize_6{
+	font-size:18px;
+	font-size:1.8rem;
+}
+.fontSize_5 {
+	font-size:16px;
+	font-size:1.6rem;
+}
+.fontSize_4 {
+	font-size:14px;
+	font-size:1.4rem;
+}
+.fontSize_3 {
+	font-size:13px;
+	font-size:1.3rem;
+}
+.fontSize_2 {
+	font-size:12px;
+	font-size:1.2rem;
+}
+.fontSize_1 {
+	font-size:10px;
+	font-size:1.0rem;
+}
+.legal{
+	color:#4b4b4b;
+	font-size:10px;
+	font-size:1.0rem;
+}

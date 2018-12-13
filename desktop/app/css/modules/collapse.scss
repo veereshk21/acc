@@ -1,0 +1,49 @@
+/***********************************
+  RC Collapse CSS
+  These have been modified for the checkout page.
+***********************************/
+.rc-collapse {
+  width: 100%;
+}
+.rc-collapse-anim-active {
+  transition: height 0.2s ease-out;
+}
+.rc-collapse > .rc-collapse-item {
+  border-top: 1px solid #d9d9d9;
+}
+.rc-collapse > .rc-collapse-item:first-child {
+  border-top: none;
+}
+.rc-collapse > .rc-collapse-item > .rc-collapse-header {
+  margin-top: 6px;
+  cursor: pointer;
+  position: relative
+}
+.rc-collapse > .rc-collapse-item > .rc-collapse-header .arrow:before {
+    content: '+';
+    top: -5px;
+    right: 0px;
+    font-size: 23px;
+    font-style: normal;
+    margin-right: 6px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    position: absolute;
+}
+.rc-collapse-content {
+  overflow: hidden;
+  padding: 0;
+}
+.rc-collapse-content > .rc-collapse-content-box {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.rc-collapse-content-inactive {
+  display: none;
+}
+.rc-collapse > .rc-collapse-item-active > .rc-collapse-header .arrow:before {
+   content: '-';
+   font-size: 23px;
+
+}
+

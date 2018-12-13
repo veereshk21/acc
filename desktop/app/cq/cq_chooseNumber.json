@@ -1,0 +1,43 @@
+{
+    "html": {
+      "DT_OD_NPANXX_ERROR_NO_NUMBERS": "<div class='clearfix pad20 noSidePad'><span class='red fontSize_3'>Currently no numbers are available for this location. Please enter a different ZIP code.</span></div>"
+    },
+    "label": {
+      "DT_OD_PORTIN_PROMPT_TITLE": "Choose your wireless number.",
+      "DT_OD_PORTIN_NEWNUMBER": "I want a new number in",
+      "DT_OD_PORTIN_NEW_NO": "I want a new number",
+      "DT_OD_PORTIN_NUMBERTRANSFER_TITLE": "Transfer number from another carrier",
+      "DT_OD_PORTIN_EXISTING_ACCOUNTNUMBER": "Existing account number",
+      "DT_OD_PORTIN_EXISTING_MOBILENUMBER": "Existing mobile number",
+      "DT_OD_PORTIN_ACCOUNT_PIN": "Account PIN",
+      "DT_OD_PORTIN_ACCOUNT_HOLDER_NAME": "Account holder name",
+      "DT_OD_PORTIN_CONTACT_PHONE_NUMBER": "Contact phone number",
+      "DT_OD_PORTIN_BILLING_ADDRESS_1": "Billing address 1",
+      "DT_OD_PORTIN_BILLING_ADDRESS_2": "Billing address 2",
+      "DT_OD_PORTIN_CITY": "City",
+      "DT_OD_PORTIN_ZIPCODE": "Zip code",
+      "DT_OD_PORTIN_STATE": "State",
+      "DT_OD_PORTIN_AGREEMENT_TEXT": "I agree that I may incur costs to my existing account service provider, including payment of an early termination fee for transferring my number.",
+      "DT_OD_PORTIN_FORM_FIELD_REQUIRED_TEXT": "Required",
+      "DT_OD_NPANXX_MAIN_TITLE": "Let's pick your six digit phone number of your choice!",
+      "DT_OD_NPANXX_MAIN_SUBTITLE": "Your area code is based on your ZIP code",
+      "DT_OD_NPANXX_LABEL_ZIPCODE": "Zip code",
+      "DT_OD_NPANXX_UPDATE_LABEL": "Update",
+      "DT_OD_NPANXX_LABEL_PHONENUMBER": "Phone number",
+      "DT_OD_NPANXX_NEXT_CTA": "Next",
+      "DT_OD_NPANXX_BACK_CTA": "Back",
+      "DT_OD_NPANXX_MAIN_SUB_TITLE": "Your area code is based on your ZIP code",
+      "DT_OD_NPANXX_NO_NUMBERS_ZIPCODE_TEXT": "Currently no numbers are available for this location. Please enter a different ZIP code."
+    },
+    "error": {
+      "DT_OD_PORTIN_ADDRESS_UPDATE_FAILURE_TEXT": "We cannot validate the address. Plesase verify and correct your address.",
+      "DT_OD_PORTIN_INVALID_MOBILE_NUMBER": "Please enter a valid 10 digit phone number.",
+      "DT_OD_PORTIN_INVALID_ACCOUNT_NUMBER": "Please enter a valid account number.",
+      "DT_OD_PORTIN_INVALID_ACCOUNT_HOLDER_NAME": "Please enter a valid Account holder name.",
+      "DT_OD_PORTIN_INVALID_BILLING_ADDRESS": "Please enter a valid Billing address.",
+      "DT_OD_PORTIN_INVALID_ALTERNATE_NUMBER": "Please enter a valid 10 digit phone number.",
+      "DT_OD_PORTIN_INVALID_ZIP_CODE": "Please enter a 5-digit zipcode.",
+      "DT_OD_PORTIN_INVALID_CITY": "Please enter a valid city.",
+      "DT_OD_PORTIN_INVALID_STATE": "Please enter a state."
+    }
+  }

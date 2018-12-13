@@ -1,0 +1,980 @@
+/**************************************************
+        		Gridwall Styles
+**************************************************/
+
+/** PLEASE READ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Organize Modules Aphabetically by Block
+	Module Name = Block Name
+	Keep All Block-related Styles together
+	.block
+	.block_element
+	.block_element.m-modifier
+
+	ADHERE TO ALL SMACSS RULES
+**/
+
+
+/**************************************************
+	  		  Credit Range
+**************************************************/
+.creditRangeDescription {
+	width: 158px;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-left: 21px;
+	color: rgb(34, 34, 34);
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 15.222222px;
+	line-height: normal;
+}
+
+.creditRangeLabel {
+	font-weight: bold !important;
+}
+
+#credit-payment-row .btn-group {
+	width: 292px;
+}
+
+@media only screen and (max-width:768px) {
+	#credit-payment-row .btn-group {
+		width: 100%;
+	}
+}
+
+.creditOptionMarginLeftPaddingTop {
+	padding-top: 5px;
+	margin-left: 49px;
+}
+
+.creditOptionPaddingTop {
+	padding-top: 7px;
+	font-size: 1.2em;
+}
+
+.creditOptionDesc {
+	margin: 10px 0 0 27px;
+	padding-right: 10px;
+	color: rgb(34, 34, 34);
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 15.222222px;
+	line-height: normal;
+	display: none;
+}
+
+.creditOptionCustomizeWidth {
+	margin-left: 0px;
+}
+
+.creditOptionLearnMoreLink {
+	vertical-align: middle;
+	width: 31px;
+	height: 10px;
+	display: inline-block;
+	background: url('/omni/dt/i/iconSprite.png') 0 -137px no-repeat
+}
+
+.creditOptionMarginBottom {
+	margin-bottom: 10px;
+}
+
+.creditOptionMarginTop {
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.creditOptions_header {
+	border-bottom: solid 1px #ccc;
+	padding-bottom: 11px;
+}
+
+#c-creditOptions-radio-text .inlineList>li {
+	display: table-cell;
+	vertical-align: top
+}
+
+/* four items */
+#c-creditOptions-radio-text .inlineList>li.gridwallCreditOptions_Radio:first-child:nth-last-child(4),
+#c-creditOptions-radio-text .inlineList > li.gridwallCreditOptions_Radio:first-child:nth-last-child(4) ~ li {
+	width: 25%;
+}
+
+/* five items */
+#c-creditOptions-radio-text .inlineList>li.gridwallCreditOptions_Radio:first-child:nth-last-child(5),
+#c-creditOptions-radio-text .inlineList > li.gridwallCreditOptions_Radio:first-child:nth-last-child(5) ~ li {
+	width: 22%;
+}
+@media only screen and (max-width: 768px),
+(orientation: portrait) {
+	/* four items */
+	#c-creditOptions-radio-text .inlineList>li.gridwallCreditOptions_Radio:first-child:nth-last-child(4),
+    #c-creditOptions-radio-text .inlineList > li.gridwallCreditOptions_Radio:first-child:nth-last-child(4) ~ li {
+		width: 25%;
+	}
+	/* five items */
+	#c-creditOptions-radio-text .inlineList>li.gridwallCreditOptions_Radio:first-child:nth-last-child(5),
+    #c-creditOptions-radio-text .inlineList > li.gridwallCreditOptions_Radio:first-child:nth-last-child(5) ~ li {
+		width: 20%;
+	}
+    #c-creditOptions-radio-text .contractFilterOptions_label.radioCustom_label .contractFilterOptions {
+		width: 70%;
+	}
+    #c-creditOptions-radio-text .contractFilterOptions_label.radioCustom_label:before {
+		vertical-align: top;
+	}
+}
+
+
+/**************************************************
+                Compare Devices
+**************************************************/
+.compareDevice {
+	position: fixed;
+	bottom: 50px;
+	right: 0;
+	background: #fff;
+	border-right: none;
+	z-index: 10000;
+	box-shadow: 0 0 25px #666;
+	/*display: none;*/
+	border-radius: 5px 0 0 5px;
+}
+
+.compareDeviceTile {
+	display: inline-block;
+	position: relative;
+	margin-right: 18px;
+	width: 82px;
+	height: 82px;
+	text-align: center;
+}
+
+.compareDeviceTile.m-compareBorder {
+	border: 1px solid #ccc;
+}
+
+.compareDeviceTile_deviceImg {
+	width: 78px;
+	height: 80px;
+	border: none;
+	background: #fff;
+	padding: 0;
+}
+
+.compareDeviceTile_removeDevice {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 50%;
+	font-size: 18px;
+	background: #666;
+	cursor: pointer;
+	display: table;
+	width: 24px;
+	height: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.compareDeviceTile_removeDeviceX {
+	display: table-cell;
+	font-size: 17px;
+	vertical-align: middle;
+}
+
+.compareDevice_btnsWrapper {
+	height: 60px;
+	font-family: NeueHaasGroteskTextBold, Arial, Helvetica, sans-serif;
+}
+
+/**************************************************
+	  				Gridwall
+**************************************************/
+.freeShippingBannerHolder{
+	max-height:60px;
+	/*overflow:hidden*/
+}
+.gridwallFilter_wrapper {
+	max-width: 185px;
+}
+
+/* To allow all filter verbiage to fit inside the filter panel*/
+.gridwallFilter_wrapper div.border_CC.onlyBottomBorder {
+	margin-left: -5px !important;
+}
+
+.gridwallHeader {
+	border-bottom: solid 0px #ccc;
+}
+
+.gridwallHeader_ship {
+	position: absolute;
+	right: 0;
+}
+
+.creditOptions_header {
+	border-bottom: solid 1px #ccc;
+	padding-bottom: 11px;
+}
+
+#c-creditOptions-radio-text .inlineList>li,
+	#c-customerOptions-radio-text .inlineList>li {
+	display: table-cell;
+	vertical-align: top
+}
+
+/* four items */
+#c-creditOptions-radio-text .inlineList>li.gridwallCreditOptions_Radio:first-child:nth-last-child(4),
+#c-creditOptions-radio-text .inlineList > li.gridwallCreditOptions_Radio:first-child:nth-last-child(4) ~ li {
+	width: 25%;
+}
+
+#c-customerOptions-radio-text .inlineList > li.gridwallCreditOptions_Radio {
+	width: 25%;
+}
+
+/* five items */
+#c-creditOptions-radio-text .inlineList>li.gridwallCreditOptions_Radio:first-child:nth-last-child(5),
+#c-creditOptions-radio-text .inlineList > li.gridwallCreditOptions_Radio:first-child:nth-last-child(5) ~ li {
+	width: 22%;
+}
+
+@media only screen and (max-width: 768px),
+(orientation: portrait) {
+	/* four items */
+	#c-creditOptions-radio-text .inlineList>li.gridwallCreditOptions_Radio:first-child:nth-last-child(4),
+    #c-creditOptions-radio-text .inlineList > li.gridwallCreditOptions_Radio:first-child:nth-last-child(4) ~ li {
+		width: 25%;
+	}
+    #c-customerOptions-radio-text .inlineList > li.gridwallCreditOptions_Radio {
+		width: 25%;
+	}
+	/* five items */
+	#c-creditOptions-radio-text .inlineList>li.gridwallCreditOptions_Radio:first-child:nth-last-child(5),
+    #c-creditOptions-radio-text .inlineList > li.gridwallCreditOptions_Radio:first-child:nth-last-child(5) ~ li {
+		width: 20%;
+	}
+    #c-creditOptions-radio-text .contractFilterOptions_label.radioCustom_label .contractFilterOptions {
+		width: 70%;
+	}
+    #c-creditOptions-radio-text .contractFilterOptions_label.radioCustom_label:before {
+		vertical-align: top;
+	}
+}
+
+.gridwallCreditOptions_Radio {
+	font-size: 1.5em;
+	font-size: 15px;
+	/*width:206.7px;float:left;*/
+}
+
+.gridwallCreditOPtions_Radio:last-child {
+	padding-right: 0;
+}
+
+.gridwallLinks_link {
+	padding-right: 14px;
+	display: inline-block;
+}
+
+.gridwallLinks_link:last-child {
+	padding-right: 0;
+}
+
+.gridwallLinks_sort {
+	margin-top: -6px;
+}
+
+.gridwallLinks_sortWrapper {
+	border-bottom: solid 1px #000;
+	float: right;
+	position: relative;
+	top: 1px;
+}
+
+.gridwallLinks_sortTitle {
+	font-family: NeueHaasGroteskTextBold, Arial, Helvetica, sans-serif;
+	margin: 2px 4px 0 0;
+}
+
+.gridwallLinks_sort .btn-group {
+	min-width: 150px;
+}
+
+.gridwallLinks_sort .btn {
+	font-family: NeueHaasGroteskText, Arial, Helvetica, sans-serif;
+	border-bottom: none;
+}
+
+.gridwallTile_badge {
+	position:absolute;
+	bottom:18px;
+	right:10px;
+}
+.gridwallTile_badgeImg {
+	width:40px;
+	height:33px;
+}
+.gridwallTile_col {
+	float: left;
+	margin: 0;
+	width: 239.7px;
+}
+
+.gridwallTile_col.m-promoGridwall {
+	width: 235px;
+	margin-bottom: 20px;
+}
+
+.gridwallTile {
+	margin: 0 auto;
+	padding: 15px 15px 20px 20px;
+	cursor: pointer;
+	position: relative;
+}
+
+.gridwallTile:hover {
+	background: #fff;
+	-webkit-box-shadow: 0 10px 8px -1px #c5c5c5;
+	-moz-box-shadow: 0 10px 8px -1px #c5c5c5;
+	box-shadow: 0 10px 8px -1px #c5c5c5;
+}
+
+.gridwallTile_specialOffer {
+	margin-bottom: 27px;
+	height: 80px;
+}
+
+.gridwallTile_specialOffer p {
+	display: inline;
+	position: relative;
+	top: -1px;
+	font-family: NeueHaasGroteskTextBold, Arial, Helvetica, sans-serif;
+	padding-left: 7px;
+}
+
+.gridwallTile_specialOffer p span {
+	font-family: NeueHaasGroteskText, Arial, Helvetica, sans-serif;
+	display: inline;
+}
+
+.gridwallTile_imageContainer {
+	width: 160px;
+	height: 220px;
+	margin: 0 auto;
+}
+
+.gridwallTile_imageContainer.m-fullWidth {
+	width: 200px;
+	height: 220px;
+}
+
+.gridwallTile_image {
+	max-height: 220px;
+	max-width: 160px;
+}
+
+.gridwallTile_image.m-fullWidth {
+	max-height: 200px;
+	max-width: 200px;
+	vertical-align: middle;
+}
+
+.gridwallTile_deviceName {
+	height: 105px;
+	color: #000;
+}
+
+.gridwallTile_deviceName a, .gridwallTile_deviceName a:hover {
+	color: #000;
+	text-decoration:none;
+}
+
+.gridwallTile_deviceName a>span {
+	color: #cd040b;
+	font-size: 1.8rem;
+	font-size: 18px;
+	display: block;
+}
+
+.gridwallTile_pricingMessage {
+	height: 50px;
+	font-family: NeueHaasGroteskTextBold, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	color: #666666;
+}
+
+.gridwallTile_pricingMessage.m-promoGridwallAcc {
+	height: 18px;
+}
+
+.gridwallTile_pricingAdj {
+	margin-right: -5px;
+}
+
+
+
+.gridwallTile_descp {
+	height: 55px;
+	margin-bottom: 18px;
+	font-size: 14px;
+	font-size: 1.4rem;
+	color: #4b4b4b;
+}
+
+.gridwallTile_colorSwatches {
+	height: 44px;
+	margin-bottom: 15px;
+}
+
+.gridwallTile_colorSwatch {
+	float: left;
+	width: 28px;
+	height: 28px;
+	display: block;
+	margin: 12px 2px 2px 0;
+	border: solid 1px #959595;
+}
+
+.gridwallTile_colorSwatch.m-borderedSwatch {
+	border: solid 1px #dadcde;
+}
+
+.gridwallTile_promoTileImage {
+	float: left;
+	width: 50%;
+}
+
+.gridwallTile_promoTileContent {
+	float: left;
+	width: 50%;
+	margin-top: 30px;
+}
+
+.gridwallUpgradeDevice:nth-child(3n+1) {
+	clear: both;
+}
+
+.gridwallUpgradeDevice_text {
+	float: left;
+	margin: 6px 22px 24px 0;
+}
+
+.gridwallFilterFacet {
+	overflow: auto;
+}
+
+.gridwallFilterFacet_tile>input {
+	position: absolute;
+	z-index: -1000;
+	left: -1000px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+.gridwallFilterFacet_tile>label {
+	height: 47px;
+	width: 47px;
+	display: block;
+	float: left;
+	cursor: pointer;
+	margin: 0 4px 4px 0;
+	text-indent: -3000px;
+	border: solid 1px #959595;
+}
+/* Flag based gridwallTile CSS */
+.gridwall-a .gridwallTile {
+	margin: 0 auto;
+	padding: 0 12px 18px 12px;
+	cursor: pointer;
+	position: relative;
+	background: #f6f6f6;
+	min-height: 682px;
+}
+
+.gridwall-a .gridwallTile:hover {
+	background: #fff;
+	-webkit-box-shadow: -10px 10px 8px -1px #c5c5c5;
+	-moz-box-shadow: -10px 10px 8px -1px #c5c5c5;
+	box-shadow: -10px 10px 20px -1px #c5c5c5;
+}
+
+.gridwall-a .gridwallTile_col {
+	float: left;
+	margin: 0;
+	width: 221px;
+	margin: 12px 18px 12px 0;
+	border-bottom: 1px solid #959595;
+}
+
+.gridwall-a .gridwallTile_image.m-fullWidth {
+	max-height: 220px;
+	/*max-width: 200px;
+    vertical-align: middle;*/
+}
+
+.gridwall-a .gridwallTile_specialOffer {
+	margin-bottom: 18px;
+	height: 36px;
+	padding: 12px;
+	box-sizing: content-box;
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+.gridwall-a .gridwallTile_specialOffer p {
+	width: 165px;
+}
+
+.gridwall-a .gridwallTile_deviceName {
+	/*max-height: 72px;*/
+	height: auto;
+	color: #000;
+}
+
+.gridwall-a .gridwallTile_deviceName a>span {
+	color: #cd040b;
+	font-size: 1.8rem;
+	font-size: 18px;
+	display: block;
+	height: auto;
+}
+
+.gridwall-a .gridwallTile_pricingMessage {
+	height: auto;
+	font-family: NeueHaasGroteskTextBold, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	color: #000000;
+	margin-bottom: 6px;
+}
+
+.gridwall-a .gridwallTile_ratings {
+	margin-bottom: 18px;
+}
+
+.gridwallTile_bic_ratings {
+	margin-bottom: -4px !important;
+}
+
+.gridwall-a .gridwallTile_ratings a {
+	color: #4b4b4b;
+	font-family: NeueHaasGroteskTextBold, Arial, Helvetica, sans-serif;
+}
+
+.gridwall-a .gridwallTile_descp {
+	height: 48px;
+	font-size: 10px;
+	font-size: 1rem;
+	color: #4b4b4b;
+	margin-bottom: 0;
+	font-family: NeueHaasGroteskText, Arial, Helvetica, sans-serif;
+	display: block; /* Added for #48001 */
+}
+
+.gridwallDesc {
+	height: 67px !important;
+}
+
+.gridwall-a .gridwallTile_colorSwatches {
+	height: 28px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.gridwall-a .border-sample {
+	border: 2px solid #000;
+}
+
+.gridwall-a .gridwallTile_colorSwatch {
+	display: inline-block;
+	float: none;
+	width: 28px;
+	height: 28px;
+	margin: auto;
+	border: solid 1px #959595;
+	border-radius: 50%;
+}
+
+.gridwall-a .gridwallTile_checkbox {
+	position: absolute;
+	bottom: 18px;
+	font-family: NeueHaasGroteskTextBold, Arial, Helvetica, sans-serif;
+}
+
+.gridwall-a .pagination {
+	padding-top: 30px;
+	padding-bottom: 18px;
+}
+
+.gridwall-a .gridwallTile_colorSwatch.is-selected {
+	border: solid 2px #333;
+}
+/* End Flag based gridwallTile CSS */
+
+/* Flag based gridwallFilter CSS */
+.gridwallFilter-a .checkbox input:checked+label .custom_swatch:after {
+	border: 2px solid #333;
+	border-radius: 25px;
+	content: " ";
+	position: absolute;
+	top: -3px;
+	left: 0px;
+	width: 34px;
+	height: 34px;
+}
+
+.gwMessage_twoYear {
+	top: -15px;
+}
+
+.contractNav {
+	list-style: none;
+	margin: 12px 0 24px;
+}
+
+.contractNav>li.is-active {
+	border-bottom: solid 4px #cd040b;
+	padding-bottom: 12px;
+	color: #000
+}
+
+/* End Flag based gridwallFilter CSS */
+@media only screen and (max-width:908px) {
+	.gridwallHeader {
+		/*height: 170px;*/
+	}
+	.gridwallLinks_link {
+		display: block !important;
+		margin-bottom: 18px;
+	}
+	.gridwallLinks_link:last-child {
+		margin-bottom: 0;
+	}
+	.gridwallLinks_sortWrapper {
+		top: 1px;
+		min-width: 206px;
+	}
+	.col.span_4_of_12.relative.noBottomMargin {
+		width: 34.93%;
+	}
+	.prepaidGWBannerPortraitView{
+		width:90%;
+		float: right;
+	}
+	.prepaidGWBannerPortraitView img{
+		max-width:100%;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.gridwallHeader {
+		/*height: 166px;*/
+	}
+	.gridwallTile_wrapper {
+		margin-left: 60px;
+	}
+	.gridwallTile_ratings {
+		/*float: left; - commented for #48001*/
+		clear: both;
+	}
+	.gridwallUpgradeDevice:nth-child(3n+1) {
+		clear: none;
+	}
+	.gridwallUpgradeDevice:nth-child(2n+1) {
+		clear: both;
+	}
+}
+
+@media only screen and (max-width:645px) {
+	.gridwallHeader_ship {
+		width: 160px;
+	}
+}
+
+/**************************************************
+                    GW Contract filter Options
+**************************************************/
+.contractFilterOptions {
+	margin-top: 5px;
+	display: inline-block;
+	font-family: NeueHaasGroteskTextMedium, Arial, Helvetica, sans-serif;
+}
+
+.contractFilterOptions_label .contractFilterOptions {
+	margin: 0;
+}
+
+.creditRangeFilterOptions {
+	margin: 0px 0px 0px 10px;
+	font-family: NeueHaasGroteskTextMedium, Arial, Helvetica, sans-serif;
+}
+
+.gridwallCredit_Radio li {
+	margin: 6px 0px 0px 0px;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-family: NeueHaasGroteskTextMedium, Arial, Helvetica, sans-serif;
+}
+
+.contractFilterOptions_label {
+	margin: 6px 0px 0px 0px;
+}
+
+.gwFilterOptions li {
+	margin: 6px 0px 0px 0px;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-family: NeueHaasGroteskTextMedium, Arial, Helvetica, sans-serif;
+}
+
+.dispInlineElement{
+	display: inline-block;
+}
+/****************************************
+			Promo Gridwall
+****************************************/
+.promoGridwallAcc_name {
+	height: 80px;
+}
+
+
+
+/* START - Fix for 39022 - Gridwall Free-shipping allignment to right */
+.gridwallHeader .font-icon_truck {
+	width: auto !important;
+}
+/* END - Fix for 39022 - Gridwall Free-shipping allignment to right */
+
+.gridwallHeader.m-pricingTool {
+	border-bottom: none;
+}
+
+.gridwallHeader_contractFilter {
+	top:29px;
+	right:98px;
+}
+
+
+/*Prepaid GW CSS Starts*/
+.gridwall-a .gridwallTile.prepaidGridwallTile {
+	min-height: 650px;
+}
+
+.travelTextMsg {
+	font-size: 13px;
+	font-size: 0.9em;
+}
+
+.colorSwatchFilterTile {
+	background-size: 20px 20px;
+	width: 28px;
+	height: 28px;
+	display: inline-block;
+	border-radius: 25px;
+	border: 1px solid #666666;
+}
+
+.gridwallFilterFacet .checkbox input+label {
+	padding-left: 3px;
+}
+/*Prepaid GW CSS Ends*/
+.gridwall-slide-holder {
+	margin: 18px 0px;
+	overflow: hidden;
+	max-height: 150px;
+	max-width: 700px;
+}
+
+@media only screen and (max-width:768px) {
+	.gridwall-slide-holder {
+		width: 83%;
+		margin-left: 60px;
+	}
+}
+
+/****************************************/
+
+/* GW Live Person Chat                 */
+
+/****************************************/
+.gwLP_ChatWrapper {
+	height: 40px;
+	position: relative;
+	top: 7px;
+}
+
+.gwLP_ChatNowBtn>div {
+	position: relative;
+	top: 5px;
+}
+
+.gwLP_ChatNowBtn>a {
+	float: left;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+	.gwLP_ChatNowBtn {
+		position: relative;
+		left: 70px;
+	}
+	.gwLP_ChatWrapper .lpHelpOrdering {
+		height: 30px;
+	}
+	.gwLP_ChatNowBtn>a {
+		float: none;
+	}
+	.gwLP_CallNowBtn {
+		float: right;
+	}
+}
+
+
+
+/****************************************
+			Progress Bars
+****************************************/
+.progressBar {
+	background-color: #f6f6f6;
+}
+
+.progressBar_wrapper .progressBar {
+	border-top: solid 1px #f2f2f2;
+	border-bottom: solid 1px #ccc;
+}
+
+.progressBar_fiveMarkerEUP {
+	height: 71px;
+	width: 16%;
+	position: relative;
+	font-family: NeueHaasGroteskDisplayBold, Arial, Helvetica, sans-serif;
+	padding: 7px 0 0 20px;
+	color: #000;
+}
+
+/*.progressBar > .progressBar_fiveMarkerEUP:first-child {
+    padding-left: 0;
+}*/
+.progressBar_fiveMarkerEUP:not(.is-last ):after {
+	content: "";
+	display: block;
+	background: url('/omni/dt/i/progSpriteEup.png') -150px 0 no-repeat;
+	width: 26px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.progressBar_fiveMarkerEUP.is-active {
+	color: #cd040b;
+}
+
+.progressBar_fiveMarkerEUP.is-active:after {
+	background-position: 0 0;
+	width: 150px;
+	height: 72px;
+}
+
+.progressBar_fiveMarkerEUP.is-active span {
+	color: #4b4b4b;
+}
+
+.progressBar_fiveMarkerEUP.is-complete,
+.progressBar_fiveMarkerEUP.is-next-complete {
+	background-color: #5b5b5b;
+	color: #fff;
+}
+
+.progressBar_fiveMarkerEUP.is-complete:after {
+	background-position: -16px 0;
+}
+
+.progressBar_fiveMarkerEUP.is-next-complete:after {
+	background-position: 0 0;
+}
+
+.progressBar_fiveMarkerEUP.is-last {
+	box-sizing: border-box;
+	font-size: 10px;
+	font-size: 1.0rem;
+	width: 20%;
+}
+
+.progressBar_fiveMarkerEUP .progressBar_legal {
+	line-height: 1;
+	font-size: 1rem;
+}
+
+.progressBar_fiveMarkerEUP {
+	box-sizing: border-box;
+}
+
+.progressBar_fiveMarkerEUP .progressBar_pastDueInfoWrapper,
+	.progressBar_fiveMarkerEUP .progressBar_pastDueInfoWrapper p.progressBar_legal.finePrint,
+	.progressBar_marker .progressBar_pastDueInfoWrapper {
+	margin-top: -4px;
+	text-align: left;
+	margin-right: 0px;
+	margin-left: 2px;
+	font-size: 10px;
+	line-height: 10px;
+}
+
+.progressBar_fiveMarkerEUP .progressBar_pastDueInfoWrapper p.progressBar_legal.finePrint,
+	.progressBar_marker .progressBar_pastDueInfoWrapper p.progressBar_legal.finePrint
+	{
+	text-align: left;
+	margin: 0px;
+	font-size: 10px;
+	line-height: 10px;
+}
+
+.progressBar_marker .progressBar_pastDueInfoWrapper.m-fitMorePastDueContent
+	{
+	margin-top: -9px;
+	font-size: 9px;
+}
+
+.progressBar_marker.m-fitMoreContent .progressBar_pastDueInfoWrapper.m-fitMorePastDueContent
+	{
+	margin-top: 4px;
+}
+
+.progressBar_marker .progressBar_pastDueInfoWrapper.m-fitMorePastDueContent p.progressBar_legal.finePrint
+	{
+	font-size: 9px;
+}
+
+.progressBar_label.m-config {
+	display: inline-block;
+	width: 50%;
+}
+
+@media ( max-width :983px) {
+	.progressBar_fiveMarkerEUP:nth-child(3) {
+		padding: 7px 0 0 12px;
+	}
+	.progressBar_fiveMarkerEUP:nth-child(5) {
+		padding: 7px 0 0 5px;
+	}
+	.progressBar_pricing {
+		width: 161px;
+	}
+	.progressBar_pricing>li:first-child {
+		width: 0;
+	}
+}
+
+.promotilecontent_desc{color: grey;line-height: 1.8;margin-bottom:10px;font-size: 1.3rem;}
+
+.margin_bottom10{margin-bottom:10px;}
+
+.shownow{color: #000; margin-top: 6px;}

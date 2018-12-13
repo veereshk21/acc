@@ -1,0 +1,24 @@
+{
+  "html": {
+    
+  },
+  "label": {
+    "OD_PLAN_SELECTION_TITLE": "Take your iphone7 with the next level unlimited.",
+    "OD_PLAN_SELECTION_SELECT_BUTTON_TEXT": "Select",
+    "OD_PLAN_SELECTION_COMPARE_TEXT": "Compare to current plan",
+    "OD_PLAN_SELECTION_FEATURE_DETAIL_TEXT": "What's this?",
+    "OD_PLAN_SELECTION_PRIMARY_BUTTON_TEXT": "Keep Current Plan",
+    "OD_PLAN_SELECTION_WARNING_TEXT": "By keeping your current plan, you will no longer receive iphone 7 at discounted price.",
+    "OD_PLAN_SELECTION_WARNING_CANCEL_BUTTON_TEXT": "Keep Plan",
+    "OD_PLAN_SELECTION_WARNING_OK_BUTTON_TEXT": "Change Plan",
+    "OD_PLAN_SELECTION_DETAILS_POPUP_TEXT": "Here are the details.",
+    "OD_COMPARE_PLAN_TITLE": "Here's how your monthly plan costs would change",
+    "OD_COMPARE_PLAN_GOT_IT_BUTTON_TEXT": "Got it",
+    "OD_COMPARE_PLAN_LEARN_MORE_BUTTON_TEXT": "Learn more",
+    "OD_COMPARE_PLAN_TAXES_TEXT": "Does not include surcharges, taxes and fees.",
+    "OD_COMPARE_PLAN_DISCLAIMER_TEXT": "After 22 GB/line/month, we may prioritize your data band .. "
+  },
+  "error": {
+    
+  }
+}

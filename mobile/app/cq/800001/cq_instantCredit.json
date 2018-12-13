@@ -1,0 +1,38 @@
+{
+  "html": {
+    "OD_INSTANT_CREDIT_EMPTY_SPACE": "&nbsp;"
+    },
+  "label": {
+    "OD_INSTANT_CREDIT_TITLE": "To reduce your monthly cost, you can apply your instant credit of ",
+    "OD_INSTANT_CREDIT_TEXT": " towards your down payment",
+    "OD_INSTANT_CREDIT_EXPLANATION_TEXT": "Just a heads up this is only an estimate until we receive and appraise your device. Please remember to return your device within 30 days or you'll lose the credit.",
+    "OD_INSTANT_CREDIT_DUE_AMOUNT": "Amount Due",
+    "OD_INSTANT_CREDIT_APPLY_AMOUNT": "Apply this amount",
+    "OD_INSTANT_CREDIT_APPLY_TOTAL_DUE_AMOUNT": "Apply towards my total due today",
+    "OD_INSTANT_CREDIT_OPTIMAL_PAYMENT_TEXT": "Optional down payment on ",
+    "OD_INSTANT_CREDIT_REMAINING_AMOUNT": "Remaining amount to be paid as an accountcredit*",
+    "OD_INSTANT_CREDIT_BILL_CYCLE": "You'll receive the account credit in 1 or 2 bill cycles.",
+    "OD_INSTANT_CREDIT_NEXT_BTN": "Next",
+    "OD_INSTANT_CREDIT_TRADE_IN_PROMO_PRICE_TEXT": "Based on your device at Cart, this device qualifies for $",
+    "OD_INSTANT_CREDIT_TRADE_IN_PROMO_RECEIPT_TEXT": " promotional value. Credit will be given over 24 months upon receipt of your device.",
+    "OD_INSTANT_CREDIT_DEVICE_ID_TXT": "Device ID:",
+    "OD_INSTANT_CREDIT_ALLOCATION_NOTIFICATION_TXT": "Please update your instant credit allocation",
+    "OD_INSTANT_CREDIT_MARKET_VALUE_TXT": "Instant Credit Market Value ",
+    "OD_INSTANT_CREDIT_ESTIMATED_MARKET_VALUE_TXT": "Your estimated trade-in market value ",
+    "OD_INSTANT_CREDIT_BALANCE_IC": "The balance of your instant credit, ",
+    "OD_INSTANT_CREDIT_ZERO_REMAINING_BALANCE_IC": "Remaining amount ",
+    "OD_INSTANT_CREDIT_PROMOTIONAL_VALUE_TXT": "Promotional Value ",
+    "OD_INSTANT_CREDIT_BALANCE_IC_DUE_TODAY": ", will be applied towards your order due today. Any remaining will then be credited to your account.",
+    "OD_INSTANT_CREDIT_IC_PRICE_ERROR": "You must enter a valid amount, lesser or equal to your total instant credit amount",
+    "OD_INSTANT_CREDIT_OTOP_TITLE_1": "Great news! You qualify for $",
+    "OD_INSTANT_CREDIT_OTOP_TITLE_2": " instant trade-in credit.",
+    "OD_INSTANT_CREDIT_OTOP_SUB_TITLE": "You can use your instant credit to lower your monthly device payment or to offset any applicable items due today.",
+    "OD_INSTANT_CREDIT_OTOP_DESC": "This is just an estimate until we receive and appraise your device. Please return your device within 30 days or you'll lose your credit.",
+    "OD_INSTANT_CREDIT_OTOP_FOOTER_TEXT": "Any remaining ‌instant credit balance will be applied as account credit in 1-2 billing cycles upon receipt of your device.",
+    "OD_INSTANT_CREDIT_OTOP_ENTIRE_CREDIT_1": "Your entire instant credit amount of $",
+    "OD_INSTANT_CREDIT_OTOP_ENTIRE_CREDIT_2": " will be applied to lower your monthly device payment.",
+    "OD_INSTANT_CREDIT_OTOP_OFFSET_CREDIT_1": "Your instant credit amount of $",
+    "OD_INSTANT_CREDIT_OTOP_OFFSET_CREDIT_2": " will be applied to offset items due today, such as accessories and sales taxes.",
+    "OD_INSTANT_CREDIT_OTOP_CONTINUE_CTA": "Next"
+  }
+}

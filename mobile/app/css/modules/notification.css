@@ -1,0 +1,105 @@
+/********************************************************
+ Custom styles for notification bar.
+
+**********************************************************/
+
+.notification {
+  width: 100%;
+  padding:18px;
+  height: 102px;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 1001;
+}
+
+.notification.m-warning {
+  background-color: #0066BB;
+}
+
+.notification.m-info {
+  background-color: #0066BB;
+}
+
+
+.notification_wrap {
+  display: table;
+  width: 100%;
+}
+
+.notification_close {
+  display: table-cell;
+  width: 6%;
+  vertical-align: top;
+  outline:none;
+}
+
+.notification_close::after {
+  content: "\2715";
+}
+
+.notification_iconwrap {
+  display: table-cell;
+  width: 11%;
+  vertical-align: middle;
+  height:60px;
+}
+
+.notification_icon {
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.notification_icon .m-info, .notification_icon .m-warning{
+  align-self: center;
+}
+.notification_icon .m-info::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 16px;
+  border: solid #4169e1;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+
+}
+.notification_icon .m-warning::after {
+  content: '!';
+  position: relative;
+  font-size: 2.2rem;
+  color: #4169e1;
+}
+
+.notification_content {
+  vertical-align: middle;
+  display: table-cell;
+  width: 82%;
+  text-align: left;
+  padding: 10px;
+}
+
+/*** Styles for ReactCSSTransistionGroup on nofitication enter and exit
+
+.notification-enter {
+  height: 0;
+}
+
+.notification-enter.notification-enter-active {
+  height: 102px;
+  transition: height 500ms ease-in;
+}
+
+.notification-leave {
+  height: 102px;
+}
+
+.notification-leave.notification-leave-active {
+  height: 0;
+  transition: height 400ms ease-in;
+}
+**/

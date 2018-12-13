@@ -1,0 +1,12 @@
+{
+  "html": {
+    "DT_OD_ACCOUNT_DEPOSIT_SUBTITLE": "You'll get your deposit back with interest after one year of <br>uninterrupted service as long as your account is in good standing."
+  },
+  "label": {
+    "DT_OD_ACCOUNT_DEPOSIT_BACK_BUTTON": "Back to cart",
+    "DT_OD_ACCOUNT_DEPOSIT_TITLE": "Looks like you'll need to put down a deposit. Don't worry, it's refundable.",
+    "DT_OD_ACCOUNT_DEPOSIT_CONFIRM_BUTTON": "Got it"
+  },
+  "error": {
+  }
+}

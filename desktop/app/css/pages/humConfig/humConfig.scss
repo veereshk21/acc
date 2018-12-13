@@ -1,0 +1,42 @@
+.hum_savedEmailWrap .mSelectWrapper,
+.hum_newEmail .textField {
+    display: inline-block;
+ 
+}
+
+
+.hum_newEmail input, .hum_fieldsWrap  .mSelectWrapper, .hum_emailWrap .mSelectWrapper {
+    background-color: #fff !important;
+}
+.hum_savedEmailWrap .mSelectWrapper.borderStyle > .mSelect{
+       margin-top: 0; 
+}
+
+.hum_emailWrap .radioCustom_label:before,.hum_emailWrap  .radioBtn + label:before{
+    position: absolute;
+    top: 0;
+}
+.hum_emailWrap .mSelectWrapper,.hum_newEmail .textField{
+margin-left: 35px;
+}
+.hum_newEmail .floatNone{
+    float:none!important;
+}  
+.hum_fieldsWrap {
+        width: 23%;
+} 
+.hum_emailWrap select:focus::-ms-value,
+.hum_fieldsWrap select:focus::-ms-value {
+      background-color: inherit; 
+      color:#000;
+}
+.hum_emailWrap .borderStyle.mSelectWrapper > .mSelect,
+.hum_fieldsWrap .borderStyle.mSelectWrapper > .mSelect{
+    padding-bottom:1px;
+}
+.hum_savedEmailWrap.radioCustom_label {
+    display: inline;
+}
+.noChatAndCall {
+    display: none;
+}

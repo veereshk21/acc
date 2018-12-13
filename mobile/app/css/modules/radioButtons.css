@@ -1,0 +1,174 @@
+/***********************************
+	How to implement:
+		<input type="radio" name="myRadioButton" class="radioBtn inlineblock floatLeft" id="myRadioButton"/>
+	Or:
+		<input type="radio" name="priceRadio" class="radioBtn inlineblock floatLeft" id="priceRadio1"/>
+	    <label for="priceRadio1" class="inlineBlock pad24 onlyLeftPad width80">
+	    	<div class="fontTextBold"><strong>Monthly Payment</strong></div>
+	    	<div class="width90">Pay in 24 monthly installments, interest-free.</div>
+	    </label>
+***********************************/
+.radioBtn {
+    position: absolute;
+    display: inline-block;
+    left: -1000px;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    border: 0;
+}
+
+.radioBtn~label{
+    position: relative;
+}
+
+
+
+.radioBtn~label:before{
+    font-family: 'vzwIcons';
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    font-size: 1em;
+    line-height: 48px;
+    border: 1px solid #747676;
+    border-radius: 50%;
+    text-align: center;
+    content: "\e0a6";/* This is to prevent slight movement when toggleing checkbox */
+    color: transparent; /* This is to prevent slight movement when toggleing checkbox */
+    display: none;
+
+}
+
+.radioBtn:checked~label:before{
+    content: "\e0a6";
+    color: #fff;
+    border: none;
+    display: none;
+}
+
+.radioBtn:focus~label:before{
+    outline: none;
+    box-shadow: 0 0 1pt 1pt orange;
+}
+
+.radioBtn~label .radioCircle,
+.radioBtn~label .radioCircleOutline {
+	stroke-dasharray: 166;
+	stroke-width: 2;
+	stroke-miterlimit: 10;
+	stroke: #959595;
+	fill: none;
+}
+
+.radioBtn:checked~label .radioCircle {
+	stroke-dasharray: 166;
+	stroke-dashoffset: 166;
+	stroke-width: 2;
+	stroke-miterlimit: 10;
+	stroke: #cd040b;
+	fill: none;
+	animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+
+.radioBtn~label .radioContainer {
+  display:inline-block;
+  width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	stroke-width: 2;
+	stroke: none;
+	stroke-miterlimit: 10;
+	box-shadow: inset 0px 0px 0px #cd040b;
+
+}
+.radioBtn:checked~label .radioContainer{
+  display:inline-block;
+  width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	stroke-width: 2;
+	stroke: #fff;
+	stroke-miterlimit: 10;
+	box-shadow: inset 0px 0px 0px #cd040b;
+	animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+
+}
+.radioBtn:checked~label .checkmarkCheck {
+	transform-origin: 50% 50%;
+	stroke-dasharray: 48;
+	stroke-dashoffset: 48;
+	animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+	100% {
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes scale {
+	0%, 100% {
+		transform: none;
+	}
+
+	50% {
+		transform: scale3d(1.1, 1.1, 1);
+	}
+}
+
+@keyframes fill {
+	100% {
+		box-shadow: inset 0px 0px 0px 30px #cd040b;
+	}
+}
+.boxSelector {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-height: 85px;
+	background-color: #fff;
+}
+.boxSelector.m-active{
+	background-color: #f6f6f6
+}
+.boxSelector .radioline{
+	stroke-width: 2;
+	stroke-miterlimit: 10;
+	stroke: #ffffff;
+	fill: none;
+}
+
+.boxSelector.m-active .radioline {
+	stroke-width: 3;
+	stroke-miterlimit: 10;
+	stroke: #cd040b;
+	fill: #cd040b;
+}
+.boxSelector .boxContianer {
+  display: block;
+  width: 100%;
+	height: 5px;
+	stroke-width: 2;
+	stroke: none;
+	stroke-miterlimit: 10;
+	fill: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;;
+
+}
+.boxSelector.m-active .boxContianer{
+  display:block;
+  width: 100%;
+	height: 5px;
+	stroke: #cd040b;
+	stroke-miterlimit: 10;
+	box-shadow: inset 0px 0px 0px #cd040b;
+	animation: fill .001s ease-in-out .001s forwards;
+
+}
